@@ -82,6 +82,9 @@ select{width:100%;padding:10px;border:1px solid var(--line);border-radius:9px;ba
 .badge{display:inline-block;font-size:.78rem;font-weight:800;border-radius:999px;padding:4px 9px;margin-left:8px;vertical-align:middle}.official-badge{background:#eee8d5;border:1px solid #b89b4a}.new-badge{background:#e8f0ff;border:1px solid #6f8fd6}.ai-btn{margin-top:12px}.ai-box{margin-top:12px;padding:14px;border-radius:12px;border:1px solid #b9c5df;background:#f7f9ff}.ai-title{font-weight:800;margin-bottom:6px}.hidden{display:none}.hero{padding:28px 0 10px}.hero h1{margin:.2em 0}.
 
 .ai-section{padding:9px 0;border-top:1px solid #dfe5ef}.ai-section:first-of-type{border-top:0}.ai-label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:900;color:#68758a;margin-bottom:4px}.correct-box{background:#f1faf3;border-radius:9px;padding:10px;border:1px solid #c8e0cd;margin-top:8px}.rule-box{background:#fffdf1;border-radius:9px;padding:10px;border:1px solid #e4dca8;margin-top:8px}.ai-example{margin-top:12px;padding:13px;border-radius:10px;background:#eef4ff;border:1px solid #b9cbe8}.ai-example .ai-label{color:#385c91}.example-en{font-size:16px;font-weight:850;line-height:1.45;margin:6px 0 8px}.example-en{font-size:15px;font-weight:800;margin:5px 0 7px}.final-score{margin:16px auto 12px;text-align:center;padding:16px 12px;border-radius:14px;border:2px solid var(--line);background:#fff}.final-score .label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--muted)}.final-score .number{font-size:42px;font-weight:950;line-height:1.05;margin:4px 0}.final-score .outcome{font-size:20px;font-weight:950;letter-spacing:.04em}.final-score.pass{border-color:var(--ok)}.final-score.fail{border-color:var(--bad)}
+.creator-watermark{position:fixed;right:12px;bottom:10px;z-index:5;pointer-events:none;font-size:10px;font-weight:800;letter-spacing:.05em;color:var(--green);opacity:.28;background:rgba(255,255,255,.65);padding:4px 7px;border-radius:999px;border:1px solid rgba(33,79,51,.16);backdrop-filter:blur(4px)}
+.ai-anomaly{margin-top:10px;padding:9px 10px;border-radius:9px;background:#fff7e6;border:1px solid #ead49b;color:#765b12;font-size:12px}
+
 
 .menu-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
 .menu-panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);min-width:0}
@@ -118,7 +121,7 @@ select{width:100%;padding:10px;border:1px solid var(--line);border-radius:9px;ba
     <div><div class="brand-title">Guardia Civil · Inglés</div><div class="sub">Preparación · Inglés</div></div>
   </div>
 </header>
-<div id="app"></div>
+<div id="app"></div><div class="creator-watermark">Designed &amp; built by Lucas</div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -154,7 +157,6 @@ function rememberTrainingFailures(questions,answers){
     }
   });
   localStorage.setItem(FAILURES_KEY,JSON.stringify(bank));
-  if(currentUser)syncFailuresCloud();
 }
 function resolveFailureTest(questions,answers){
   const correctKeys=new Set();
@@ -162,7 +164,6 @@ function resolveFailureTest(questions,answers){
   if(!correctKeys.size)return;
   const remaining=failureBank().filter(q=>!correctKeys.has(qKey(q)));
   localStorage.setItem(FAILURES_KEY,JSON.stringify(remaining));
-  if(currentUser)syncFailuresCloud();
 }
 function saveHistory(x){const h=history();h.push(x);while(h.length>50)h.shift();localStorage.setItem(HISTORY_KEY,JSON.stringify(h));}
 function authModal(){
@@ -184,7 +185,7 @@ async function submitAuth(kind){
  }else{closeAuth();await handleUser(result.data.user);}
 }
 function showAuth(){if(document.getElementById('authModal'))return;authModal();}
-async function signOut(){await supabaseClient.auth.signOut();currentUser=null;localStorage.removeItem(HISTORY_KEY);localStorage.removeItem(FAILURES_KEY);home();}
+async function signOut(){await supabaseClient.auth.signOut({scope:'local'});currentUser=null;localStorage.removeItem(HISTORY_KEY);localStorage.removeItem(FAILURES_KEY);home();}
 async function handleUser(user){
  currentUser=user||null;
  if(!currentUser)return;
@@ -280,7 +281,7 @@ app.innerHTML=`<main>${authPanel()}
 </section>
 </div>
 <section class="card" style="margin-top:16px"><h2>Mis estadísticas</h2><div id="statsHome"></div><div class="row"><button class="secondary" onclick="showHistory()">Ver historial</button><button class="secondary" onclick="clearStats()">Borrar estadísticas</button></div></section>
-<section class="card"><h2>Protección del banco oficial</h2><p><b>${OFICIALES.length}</b> preguntas oficiales identificadas como <b>OFICIAL</b>. Las ${GENERADAS.length} nuevas son otro banco y nunca sustituyen ni alteran las oficiales.</p></section>
+
 </main>`;setDifficulty(state.difficulty);renderHomeStats();renderFailureStatus();}
 function renderFailureStatus(){
   const el=document.getElementById('failureStatus'),btn=document.getElementById('failureBtn');
@@ -369,8 +370,44 @@ return `<div class="ai-box">
 <div class="ai-example"><div class="ai-label">💡 Ejemplo práctico</div><div class="example-en">${esc(example)}</div><div class="small">Este ejemplo utiliza la misma estructura gramatical que la pregunta.</div></div>
 </div>`;
 }
+function officialRule(q){
+ const t=(q.pregunta+' '+Object.values(q.opciones||{}).join(' ')).toLowerCase();
+ if(/\bunless\b|\bif\b/.test(t))return {name:'First conditional / condición real',rule:'Después de if/unless para una condición real usamos presente simple en la cláusula de condición; el futuro va en la principal.',example:'I will call you if I have time.'};
+ if(/\b(tag|,\s*\?)/.test(t)||/\?$/.test(q.pregunta)&&/\b(has|have|did|does|is|are|was|were|will|can|should|do|does|don't|doesn't|haven't|hasn't)\b/.test(t))return {name:'Question tags',rule:'La question tag repite el auxiliar de la oración principal y cambia de polaridad: afirmativa → negativa, negativa → afirmativa.',example:"Martin has heard the news, hasn't he?"};
+ if(/\b(were|was)\b/.test(t)&&/\bing\b/.test(t))return {name:'Past continuous + past simple',rule:'El past continuous describe una acción en progreso y el past simple marca el hecho puntual que la interrumpe o sucede durante ella.',example:'What were you doing when the phone rang?'};
+ if(/\b(has|have)\b/.test(t)&&(/\bsince\b|\bfor\b|\bever\b|\byet\b|\balready\b/.test(t)))return {name:'Present perfect',rule:'Has/have + participio se usa para acciones conectadas con el presente, experiencias o situaciones que comenzaron en el pasado y continúan.',example:'I have lived here since 2020.'};
+ if(/\b(was|were|is|are|be|been|will be)\b/.test(t)&&/\b(design|paint|promot|sell|make|write|build|invite|call|arrest|deliver|choose|give|take|send)\w*\b/.test(t))return {name:'Passive voice',rule:'La pasiva se forma con una forma de be + participio pasado. El tiempo verbal lo marca be, no el participio.',example:'The report was written yesterday.'};
+ if(/\bavoid\b|\bfinish\b|\benjoy\b|\bmind\b/.test(t)&&/\bto\b|\bing\b/.test(t))return {name:'Gerund after certain verbs',rule:'Algunos verbos, como avoid, enjoy, finish y mind, van seguidos de gerundio (-ing), no de infinitivo con to.',example:'She avoided answering the question.'};
+ if(/\bwant\b|\bneed\b|\bdecide\b|\brefuse\b|\bpromise\b|\bhope\b/.test(t)&&/\bto\b/.test(t))return {name:'Infinitive with to',rule:'Muchos verbos de intención, decisión, necesidad o negativa se construyen con to + infinitivo.',example:'They decided to leave early.'};
+ if(/\b(who|whom|whose|which|that)\b/.test(t))return {name:'Relative pronouns',rule:'Who se refiere normalmente a personas como sujeto; whom a personas como objeto en registro formal; which a cosas y whose expresa posesión. That puede usarse en muchas relativas definidas.',example:'She is the officer who helped me.'};
+ if(/\b(near|under|over|in|on|at|from|to|by|since|during|between|among|of)\b/.test(t))return {name:'Prepositions',rule:'Las preposiciones dependen de la expresión y de la relación de lugar, tiempo o régimen verbal. Conviene aprender las combinaciones habituales como unidades.',example:'The keys are on the table.'};
+ if(/\b(much|many|few|little|people|person|information|advice|news)\b/.test(t))return {name:'Countable and uncountable nouns',rule:'Many/few se usan con nombres contables en plural; much/little con incontables. Algunas palabras como information, advice y news son incontables.',example:'There are many people here, but there is little information.'};
+ if(/\b(furthest|farthest|farther|further|better|best|worse|worst|more|most|less|least)\b/.test(t))return {name:'Comparatives and superlatives',rule:'El comparativo compara dos elementos y el superlativo señala el grado máximo dentro de un grupo. Hay formas irregulares que hay que memorizar.',example:'This is the furthest point we can reach.'};
+ if(/\b(a|an|the)\b/.test(t))return {name:'Articles',rule:'A/an introduce un elemento singular no especificado; the se usa cuando el referente está identificado o es específico.',example:'The dolphin is a mammal.'};
+ if(/\b(reported speech|told me|said)\b/.test(t))return {name:'Reported speech',rule:'Al pasar una afirmación al estilo indirecto, el pronombre y, cuando corresponde, el tiempo verbal se ajustan al contexto.',example:'He said he was tired.'};
+ if(/\b(can|could|should|must|might|may|would)\b/.test(t))return {name:'Modal verbs',rule:'Después de un modal usamos el infinitivo sin to: can go, should study, must leave.',example:'You should check the report.'};
+ if(/\b(who|what|where|when|why|how)\b/.test(t)&&/\?/.test(q.pregunta))return {name:'Question formation',rule:'En preguntas con auxiliar, el auxiliar precede al sujeto y el verbo principal permanece en su forma correspondiente.',example:'Where did you go yesterday?'};
+ return {name:'Estructura gramatical',rule:'La opción correcta es la que respeta simultáneamente la concordancia, el tiempo verbal y la construcción que exige la expresión de la frase.',example:'Always check the verb form and the subject before choosing an option.'};
+}
+function officialAnomaly(q){
+ const vals=Object.values(q.opciones||{});
+ const issues=[];
+ if(vals.length!==4)issues.push('La pregunta no tiene exactamente cuatro opciones.');
+ if(new Set(vals.map(v=>String(v).trim().toLowerCase())).size!==vals.length)issues.push('Hay dos opciones idénticas o prácticamente duplicadas.');
+ if(!q.respuesta_correcta||!q.opciones?.[q.respuesta_correcta])issues.push('Falta una respuesta oficial válida.');
+ return issues;
+}
+function explainOfficial(q,a){
+ const chosen=a?q.opciones[a]:'en blanco',correct=q.opciones[q.respuesta_correcta],info=officialRule(q),issues=officialAnomaly(q);
+ return `<div class="ai-box"><div class="ai-title">🤖 Profesor IA · Te lo explico</div>
+ <div class="ai-section"><div class="ai-label">Tu respuesta</div><div>${a?esc(a.toUpperCase()+') '+chosen):'En blanco'}</div></div>
+ <div class="ai-section correct-box"><div class="ai-label">✅ Respuesta correcta</div><div><b>${esc(q.respuesta_correcta.toUpperCase()+') '+correct)}</b></div></div>
+ <div class="ai-section rule-box"><div class="ai-label">📚 Regla que tienes que recordar</div><div><b>${esc(info.name)}</b></div><p>${esc(info.rule)}</p></div>
+ <div class="ai-example"><div class="ai-label">💡 Ejemplo práctico</div><div class="example-en">${esc(info.example)}</div><div class="small">Ejemplo creado para reforzar la misma estructura gramatical.</div></div>
+ ${issues.length?`<div class="ai-anomaly"><b>⚠️ Posible anomalía detectada:</b> ${issues.map(esc).join(' ')}</div>`:''}</div>`;
+}
 function reviewCurrent(){if(window.__lastResult)reviewAll(window.__lastResult);}
-function reviewAll(r){const box=document.getElementById('review');const items=r.questions.map((q,i)=>({q,i,a:r.answers[i],ok:r.answers[i]===q.respuesta_correcta}));items.sort((x,y)=>(x.ok?1:0)-(y.ok?1:0)||x.i-y.i);box.innerHTML=`<div class="review-title"><h3>Revisión</h3><div class="review-sub">Primero tus fallos y después el resto de preguntas.</div></div>${items.map(({q,i,a,ok})=>{const cls=!a?'blank':ok?'ok':'bad';return `<div class="item ${cls}"><div class="qmeta">Pregunta ${i+1} de ${r.total} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div style="margin-top:8px">Tu respuesta: <span class="${!a?'':ok?'correct':'wrong'}"><b>${a?esc(a.toUpperCase()+' — '+q.opciones[a]):'En blanco'}</b></span></div><div>Respuesta correcta: <span class="correct"><b>${esc(q.respuesta_correcta.toUpperCase()+' — '+q.opciones[q.respuesta_correcta])}</b></span></div>${q.tipo==='generada'&&!ok?`<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo</button><div class="hidden">${explainGenerated(q,a)}</div>`:''}</div>`}).join('')}`;}
+function reviewAll(r){const box=document.getElementById('review');const items=r.questions.map((q,i)=>({q,i,a:r.answers[i],ok:r.answers[i]===q.respuesta_correcta}));items.sort((x,y)=>(x.ok?1:0)-(y.ok?1:0)||x.i-y.i);box.innerHTML=`<div class="review-title"><h3>Revisión</h3><div class="review-sub">Primero tus fallos y después el resto de preguntas.</div></div>${items.map(({q,i,a,ok})=>{const cls=!a?'blank':ok?'ok':'bad';return `<div class="item ${cls}"><div class="qmeta">Pregunta ${i+1} de ${r.total} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div style="margin-top:8px">Tu respuesta: <span class="${!a?'':ok?'correct':'wrong'}"><b>${a?esc(a.toUpperCase()+' — '+q.opciones[a]):'En blanco'}</b></span></div><div>Respuesta correcta: <span class="correct"><b>${esc(q.respuesta_correcta.toUpperCase()+' — '+q.opciones[q.respuesta_correcta])}</b></span></div>${!ok?`<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo</button><div class="hidden">${q.tipo==='generada'?explainGenerated(q,a):explainOfficial(q,a)}</div>`:''}</div>`}).join('')}`;}
 function showHistory(){const h=history();app.innerHTML=`<main><section class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Mis estadísticas</h2><button class="secondary" onclick="home()">Volver</button></div>${h.length?'<p class="small">Pulsa cualquier intento para volver a abrirlo y revisar tus respuestas y errores.</p>'+h.map((x,i)=>{const pass=x.score>=x.total*.4,d=new Date(x.date);return `<div class="history-row" onclick="reviewSaved(${i})"><div><b>${esc(x.label)}</b><div class="small">${d.toLocaleDateString('es-ES')} · ${d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'})}</div></div><div class="history-score ${pass?'pass':'fail'}">${x.score.toFixed(2)} · ${pass?'APTO':'NO APTO'}</div></div>`}).reverse().join(''):'<p>No hay tests guardados todavía.</p>'}</section></main>`;}
 function reviewSaved(index){const h=history(),r=h[index];if(!r)return;state.questions=r.questions||[];state.answers=r.answers||{};state.mode=r.mode;renderResult(r);reviewAll(r);}
 function clearStats(){if(confirm('¿Borrar todas las estadísticas guardadas en este navegador?')){localStorage.removeItem(HISTORY_KEY);localStorage.removeItem('gcEnglishStats');home();}}
@@ -394,6 +431,8 @@ if(!vals.every(v=>v.includes(' / ')))throw new Error('Opciones de doble hueco in
 }
 }
 validateGeneratedBank();
+const officialAnomalies=OFICIALES.flatMap(q=>officialAnomaly(q).length?[{id:q.id,issues:officialAnomaly(q)}]:[]);
+if(officialAnomalies.length)console.warn('Revisión del banco oficial:',officialAnomalies);
 (async function initAuth(){
   const {data}=await supabaseClient.auth.getSession();
   if(data.session&&data.session.user){await handleUser(data.session.user);}else home();

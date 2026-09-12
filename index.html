@@ -232,9 +232,7 @@ for(const q of GENERADAS){
 const vals=Object.values(q.opciones||{});
 if(vals.length!==4||new Set(vals).size!==4||!q.respuesta_correcta||!q.opciones[q.respuesta_correcta])throw new Error('Banco inválido: '+q.id);
 if(!q.ejemplo||!q.regla||!q.explicacion)throw new Error('Pregunta sin explicación completa: '+q.id);
-const key=q.pregunta+'
-'+vals.join('
-');
+const key=q.pregunta+'\n'+vals.join('\n');
 if(seen.has(key))throw new Error('Pregunta duplicada: '+q.id);
 seen.add(key);
 if((q.tema||'').toLowerCase().includes('conditional')){

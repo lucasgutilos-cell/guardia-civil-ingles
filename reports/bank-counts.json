@@ -1,0 +1,38 @@
+[
+  {
+    "bank": "englishOfficial",
+    "before": 401,
+    "after": 401,
+    "eligible": 372
+  },
+  {
+    "bank": "englishTraining",
+    "before": 1744,
+    "after": 1744,
+    "eligible": 860
+  },
+  {
+    "bank": "orthographyOfficial",
+    "before": 120,
+    "after": 120,
+    "eligible": 120
+  },
+  {
+    "bank": "grammarOfficial",
+    "before": 140,
+    "after": 140,
+    "eligible": 140
+  },
+  {
+    "bank": "orthographyTraining",
+    "before": 500,
+    "after": 500,
+    "eligible": 500
+  },
+  {
+    "bank": "grammarTraining",
+    "before": 500,
+    "after": 500,
+    "eligible": 500
+  }
+]

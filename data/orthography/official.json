@@ -1,0 +1,4975 @@
+{
+  "oficial": [
+    {
+      "tipo": "ortografia",
+      "examen": "2026",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "La belleza del paisaje no logró exacerbar su ánimo, pues adivinó que la basta llanura sería un refugio seguro.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-1-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "belleza",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "exacerbar",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "adivinó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "basta",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Cargó la pesada cruz con abilidad, gimoteando bajo la intensa lluvia; si no hubiera sido por su fé, habría sido absorbido por la desesperación.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-1-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "abilidad",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "gimoteando",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "fé",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "absorbido",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El director hizo hincapié en no sustituir la pieza, ya que causaría gran alvoroto y supondría un gasto superfluo.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-1-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hincapié",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "sustituir",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "alvoroto",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "superfluo",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El detective presentó una prueba fehaciente para rebelar el misterio, tras atrapar al culpable con un documento fidedigno.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-1-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "prueba",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "fehaciente",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "rebelar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "fidedigno",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El deshalojo de la vivienda cubierta por la enrredadera fue un proceso excéntrico que duró un escesivo número de meses.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-1-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "deshalojo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "enrredadera",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "excéntrico",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "escesivo",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "La previsión tan halagüeña del economista sobre el mercado surgió espontáneamente tras conocer la floreciente industria.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-1-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Los pajariyos comían y reboloteaban alborotados.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-3-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "pajariyos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "comían",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "reboloteaban",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "alborotados",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Él no vió el traje que yo traje.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-3-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Él",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "vió",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "traje",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "traje",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "La justicia exoneró a ese hombre abyecto que cometió echos avominables.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-3-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "justicia",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "abyecto",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "echos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "avominables",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El jabalí husmeaba con el ocico entre los arbustos.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-3-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "jabalí",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "husmeaba",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "ocico",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "arbustos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Desde la Antigüedad esisten estudios de historiografía y teología.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-3-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Antigüedad",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "esisten",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "historiografía",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "teología",
+              "respuesta": "B"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Los veteranos habían yegado raúdos y veloces.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-3-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2003 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Cojí los huevos de la huevera y los debolví a la huevería.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Cojí",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "huevos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "debolví",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "huevería",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Tuvimos que jirar para evitar un campo de girasoles. Por lo general, siempre cae la jente ahí.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "jirar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "girasoles",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "general",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "jente",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Ya te dige que, aunque tu idea sobre la mobilidad no me atrajera mucho, me gustava.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "dige",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "mobilidad",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "atrajera",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "gustava",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Vuceando hasta el fondo hallaron un viejo buque hundido muy benerado en su época.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Vuceando",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "viejo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "hundido",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "benerado",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Logran bienvivir de cierto vienestar y practicar la veneficencia es de almas nobles.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "bienvivir",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "vienestar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "veneficencia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "nobles",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "El Bizconde en el extranjero estranaba estraordinariamente las comidas.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Bizconde",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "extranjero",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "estranaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "estraordinariamente",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Para lograr un ingerto hay que ser ingenioso, por eso tienes un jardín que es un verjel.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "ingerto",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "ingenioso",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "jardín",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "verjel",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Conmigo no es necesario que finjas, esa señora era expontánea, pero estravagantante.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Conmigo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "finjas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "expontánea",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "estravagantante",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "En invierno, las ovejas vajan a los valles.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "invierno",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "ovejas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "vajan",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "valles",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "El pan se había quedado rebenido, blando y encojido.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-5-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "había",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "rebenido",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "blando",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "encojido",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2018 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "El punto álgido de la humectación marcó un hito lazerante.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "álgido",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "humectación",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "hito",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "lazerante",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El desvaporizador desbencijado desbaneció el desvarío.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "desvaporizador",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "desbencijado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "desbaneció",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "desvarío",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El istriónico genovés falló de forma hinefable.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "istriónico",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "genovés",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "falló",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "hinefable",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Excrutaba el jerente el hexcreable aprendizaje.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Excrutaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "jerente",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hexcreable",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "aprendizaje",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El litijio en el suburvio le subllugó hasta sucunvir.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "litijio",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "suburvio",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "subllugó",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "sucunvir",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "La birulenta evullición afectó al visceral birtuoso.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "birulenta",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "evullición",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "visceral",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "birtuoso",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Llantaba la yegua tras a ver deambulado.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Llantaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "yegua",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "a ver",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "deambulado",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Apercivió el inconexo ostigamiento con onomatopeyas.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Apercivió",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "inconexo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "ostigamiento",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "onomatopeyas",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Se habituó a la benebolente idiosincrasia de su cónyugue.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "habituó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "benebolente",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "idiosincrasia",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "cónyugue",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "Ablandativo era el brebaje aboquiyado y abombado.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-6-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Ablandativo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "brebaje",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "aboquiyado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "abombado",
+              "respuesta": "B"
+            }
+          ]
+        }
+      ],
+      "reservas": [],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2018 - Modelo 2A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Al hacalambrarse convulsionó el avigarrado funambulista.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hacalambrarse",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "convulsionó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "avigarrado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "funambulista",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "La debaluacción de la deboción devastó al debaneador.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "debaluacción",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "deboción",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "devastó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "debaneador",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El faxsimil adllacente tenía emblemáticos gentilicios.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "faxsimil",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "adllacente",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "emblemáticos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "gentilicios",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "La alitosis del tullido era un pretexto ovbio.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "alitosis",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "tullido",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "pretexto",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "ovbio",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El ugier hufano hubicó su húlcera.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "ugier",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hufano",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hubicó",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "húlcera",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "Bituperó al vivaracho abituallador de grájeas.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Bituperó",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "vivaracho",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "abituallador",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "grájeas",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Haber si alaga con convicción al ribal.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Haber",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "si",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "alaga",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "ribal",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Aplaudió la arenga haxiológica del aflijido regente.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "arenga",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "haxiológica",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "aflijido",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "regente",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Mostró con vehemencia su dibergencia con el haxioma sobre la hambruna.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "vehemencia",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "dibergencia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "haxioma",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "hambruna",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "El habotagamiento del abobado habochornó al abocardado.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-7-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "habotagamiento",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "abobado",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "habochornó",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "abocardado",
+              "respuesta": "B"
+            }
+          ]
+        }
+      ],
+      "reservas": [],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2022 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Tras superar su adición a los opíaceos y a la cocaina rehízo su vida.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-8-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "adición",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "opíaceos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "cocaina",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "rehízo",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Los lejionarios se acogen a su liturjia de una forma prodigiosa.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-8-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "lejionarios",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "acogen",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "liturjia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "prodigiosa",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Le reconvinieron por su carácter extremadamente huraño.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-8-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "reconvinieron",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "carácter",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "extremadamente",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "huraño",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El ventrílocuo se untó un hungüento en los lavios.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-8-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "ventrílocuo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "untó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "hungüento",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "lavios",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Sorvía lentamente su té mientras leía la noticia de la absolución de su visnieto.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-8-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Sorvía",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "té",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "absolución",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "visnieto",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2023 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Se urgaba en los hematomas que le havía producido la heroína.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-9-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "urgaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hematomas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "havía",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "heroína",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Estuvo callegeando por hangostos pasajes.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-9-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Estuvo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "callegeando",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hangostos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "pasajes",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Incluso los pacientes más belijerantes parecen abducidos o himnotizados por los psiquiatras.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-9-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "belijerantes",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "abducidos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "himnotizados",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "psiquiatras",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Me da igual el dinero que tú le des a él.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-9-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "da",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "tú",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "des",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "él",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Primero le extrajeron una muela y tuvo una afección bucal. Luego se le inflamaron las cuerdas bocales.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-9-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "extrajeron",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "afección",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "bucal",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "bocales",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Desde aquí se atisba una extravagante indumentaria.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-9-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2023 - Modelo 2A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Momentaneamente se sentía apavullado y aturdido.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-11-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Momentaneamente",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "sentía",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "apavullado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "aturdido",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El sexagenario habitaba en una chavola inmunda.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-11-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "sexagenario",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "habitaba",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "chavola",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "inmunda",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "La mayoría de los condenados fuéron amnistiados o esculpados.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-11-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "mayoría",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "fuéron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "amnistiados",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "esculpados",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Cobijaos en el refujio, que os vais a costipar.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-11-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Cobijaos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "refujio",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "vais",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "costipar",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Yo no me habría vurlado de los indigenas que hicieron budú.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-11-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "habría",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "vurlado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "indigenas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "budú",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Está siempre en la inopia con sus utopías.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-11-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2024 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "La abilitación de seguridad es una condicion sine qua non para azquirir el permiso.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-13-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "abilitación",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "condicion",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "sine qua non",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "azquirir",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El cozinero echó agua irviendo a la olla.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-13-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "cozinero",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "echó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "irviendo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "olla",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El olograma representó una esperiencia virtual nunca vista.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-13-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "olograma",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "esperiencia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "virtual",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "vista",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El estranjero anduvo duvitativo por la elección de las nuevas asignaturas.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-13-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "estranjero",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "anduvo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "duvitativo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "elección",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Las hueyas de los mamíferos eran más profundas que las de los ovíparos.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-13-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hueyas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "mamíferos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "más",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "ovíparos",
+              "respuesta": "B"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Los jóvenes pidieron una hamburguesa y un bistec con mucha mayonesa.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-13-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2024 - Modelo 2A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "En esta region solemos husar el estándar europeo.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-15-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "region",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "husar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "estándar",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "europeo",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El zócalo de la zelda estaba roto y enbarrado de las pisadas.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-15-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "zócalo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "zelda",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "enbarrado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "pisadas",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El ortelano ha sembrado ceboyas y zanahorias en invierno.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-15-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "ortelano",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "ceboyas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "zanahorias",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "invierno",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El asta del animal, agudo e hiriente, se clavó en el costado y se desmalló.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-15-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "asta",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "hiriente",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "clavó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "desmalló",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Ayer el autobus atropeyó a dos peatones a las seis de la mañana.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-15-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Ayer",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "autobus",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "atropeyó",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "seis",
+              "respuesta": "B"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Los vehículos deben guardarse en el garage para una mejor conservación.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-15-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2024 - Modelo 3A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "El arbol está echo de hojas enrrojecidas y amarillentas.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-17-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "arbol",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "echo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hojas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "enrrojecidas",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El viceconde era solvente economicamente para afrontar las reclamaciones.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-17-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "viceconde",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "era",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "solvente",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "economicamente",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "El barco vicolor estava atascado en la playa por una averia.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-17-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "vicolor",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "estava",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "playa",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "averia",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Todos dedugimos que al honbre sexagenario no le gustaba el jarabe.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-17-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "dedugimos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "honbre sexagenario",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "gustaba",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "jarabe",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El costipado le izo tomar muchos antibióticos pese a su oposicion.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-17-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "costipado",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "izo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "antibióticos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "oposicion",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "El ginete se degoyó con la alambrada de espino.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-17-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2019 - Modelo 1B",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "El esplendoroso brial sobrecojió al correjidor.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "esplendoroso",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "brial",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "sobrecojió",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "correjidor",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "El gimoteo del hereje fue la hapoteosis del hevento.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "gimoteo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "hereje",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "hapoteosis",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "hevento",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Hedía el vasayo al deshasir el yelmo.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Hedía",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "vasayo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "deshasir",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "yelmo",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "La agaya es una escrecencia del alcornoque causada por infecciones.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "agaya",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "escrecencia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "alcornoque",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "infecciones",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Deanvular por el herial embroyaba la excursión.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Deanvular",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "herial",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "embroyaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "excursión",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "Acalló y perturbó el quegido de la devla.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Acalló",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "perturbó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "quegido",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "devla",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Ataviarse con esclabina hatezada estaba en voga.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Ataviarse",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "esclabina",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hatazada",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "voga",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Haber si hacarreás la exquisita horchata.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Haber",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hacarreás",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "exquisita",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "horchata",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Era exuberante el bulvo del tallo del genjibre.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "exuberante",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "bulvo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "tallo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "genjibre",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "La hierática bóbeda se erguía magestuosa.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-19-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hierática",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "bóbeda",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "erguía",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "magestuosa",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2020 - Modelo 1B",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Les dige que trajesen treinta y un invitados y vinieron veintiuno.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "dige",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "trajesen",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "treinta y un",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "veintiuno",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Anelo que sigais viéndoos periódicamente.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Anelo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "sigais",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "viéndoos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "periódicamente",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Los jendarmes estaban cojiendo la matrícula e inspeccionando las carabanas de los orihundos de otros países.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "jendarmes",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "cojiendo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "carabanas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "orihundos",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Los jerifaltes no previeron los orrendos efectos del hambre y por eso no proveyeron de víveres a la población.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "jerifaltes",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "previeron",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "orrendos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "proveyeron",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Juan no se detuvo asta que consiguió alcanzar la cima totalmente exausto.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "detuvo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "asta",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "consiguió",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "exausto",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "Sustrageron todas las alhajas ocultas en una cabidad existente en el desván.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Sustrageron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "alhajas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "cabidad",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "desván",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "El año pasado ya se os comminaba a que almacenaseis los residuos correctamente para no causar una contaminación de esta embergadura.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "comminaba",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "almacenaseis",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "residuos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "embergadura",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "El leguleyo revisaba exacerbado todo el acerbo de normas comunitarias.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "leguleyo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "exacerbado",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "acerbo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "comunitarias",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Hubo que improbisar el aprobisionamiento de verduras, biandas y demás avituallamiento.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "improbisar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "aprobisionamiento",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "biandas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "avituallamiento",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "La hazada, la hoz y la gúadaña tenían mucha errumbre.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-20-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hazada",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hoz",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "gúadaña",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "errumbre",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Había una oquedad en la parte esterna del aljibe.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-20-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2020 - Modelo 2A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Cuando se distrajeron se colaron a hurtadillas en el agape y cogieron un sitio.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "distrajeron",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "hurtadillas",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "agape",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "cogieron",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "Os digimos que hicieseis lo que más os satisfaciera y creísteis que eso era lo correcto.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "digimos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hicieseis",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "satisfaciera",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "creísteis",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "Necesitaríais autenticar los datos que se recivieron anteayer.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Necesitaríais",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "autenticar",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "recivieron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "anteayer",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Estoy harto de decirte que no socaves su moral y les permitas vestir sus estrafios atuendos.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "harto",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "socaves",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "estrafios",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "atuendos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El altivo funcionario envistió contra los holgazanes que permanecieron impávidos.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "altivo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "envistió",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "holgazanes",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "impávidos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "Debeis ir al punto en el que se producieron las exumaciones de los restos cadavéricos.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Debeis",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "producieron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "exumaciones",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "cadavéricos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Es obvio que lo condugeron hasta Nicaragúa y lo echaron al mar.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "obvio",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "condugeron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "Nicaragúa",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "echaron",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Ese hecho tan controvertido me ha hecho cavilar.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "hecho",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "controvertido",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "hecho",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "cavilar",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Afrontó esánime el trájico suceso y con una hencomiable entereza que recordaba sus antiguas azañas.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "esánime",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "trájico",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hencomiable",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "azañas",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "La playa estaba infestada de pececiyos moribundos que nadaban herraticos.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-21-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "infestada",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "pececiyos",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "moribundos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "herraticos",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Ay que reconocer que la yema de huevo esta esquisita.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-21-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2021 - Modelo 1A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Se a ordenado la incoación de un expediente por coaccionar a la víctima.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "a",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "incoación",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "coaccionar",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "víctima",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "He rehusado usar la cerragería de hacero.",
+          "respuestas": [
+            "B",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "rehusado",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "usar",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "cerragería",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "hacero",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "¿Porqué vienes sólo? Te dijimos que trageses un acompañante.",
+          "respuestas": [
+            "M",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "¿Porqué",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "sólo",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "dijimos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "trageses",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "Cada individuo tiene sus fovias, sus manías y sus anhelos.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "individuo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "fovias",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "manías",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "anhelos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "Los espectadores obserbaban espectantes la funcion.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "espectadores",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "obserbaban",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "espectantes",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "funcion",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "La terápia que recomienda este terapéuta no es la que nos recomendasteis.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "terápia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "recomienda",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "terapéuta",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "recomendasteis",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Cojá la gabardina, el paragüas y las votas, y se marchó.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Cojá",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "gabardina",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "paragüas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "votas",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "Atribulleron las hueyas a los reenes que huyeron.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Atribulleron",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "hueyas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "reenes",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "huyeron",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Infringió varios preceptos de la normativa vigente.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Infringió",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "preceptos",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "normativa",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "vigente",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "El movimiento sísmico provocó numerosos vaibenes en la hatalaya.",
+          "respuestas": [
+            "M",
+            "B",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-22-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "sísmico",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "provocó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "vaibenes",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "hatalaya",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "No basta con vencer, también tenéis que convencer.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-22-1"
+        }
+      ],
+      "banco": "oficial"
+    },
+    {
+      "tipo": "ortografia",
+      "examen": "2021 - Modelo 2A",
+      "preguntas": [
+        {
+          "numero": 1,
+          "frase": "Cojed ésas erramientas y marchaos.",
+          "respuestas": [
+            "M",
+            "M",
+            "M",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-1",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Cojed",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 2,
+              "texto": "ésas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "erramientas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "marchaos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "frase": "La extraordinaria inflación provocó un efecto devastador.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-2",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "extraordinaria",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "inflación",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "provocó",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "devastador",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "frase": "La bulimia y la anorecsia están relazionadas con la injesta de alimentos.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-3",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "bulimia",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "anorecsia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "relazionadas",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "injesta",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "frase": "El vigésimo punto prohibe verter agua hirbiendo.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-4",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "vigésimo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "prohibe",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "verter",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "hirbiendo",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "frase": "El abanderado sintió verguenza al enarvolar una bandera extrangera.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-5",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "abanderado",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "verguenza",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "enarvolar",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "extrangera",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "frase": "La autopsia rebeló las graves lesiones que le habían infligido.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-6",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "autopsia",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "rebeló",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "graves",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "infligido",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "frase": "Hallaron la hosamenta de una hiena en una oquedad.",
+          "respuestas": [
+            "B",
+            "M",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-7",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "Hallaron",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "hosamenta",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "hiena",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "oquedad",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "frase": "El reo necesita un testigo que avale su versión de los hechos.",
+          "respuestas": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-8",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "reo",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "avale",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 3,
+              "texto": "versión",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 4,
+              "texto": "hechos",
+              "respuesta": "B"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "frase": "Los convoyes llegaron finalménte a una ámplia esplanada.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-9",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "convoyes",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "finalménte",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "ámplia",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "esplanada",
+              "respuesta": "M"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "frase": "Tras echarle una ojeada a la documentacion, vi que la enviásteis sin reyenar.",
+          "respuestas": [
+            "B",
+            "M",
+            "M",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": false,
+          "categoria": "OFICIAL",
+          "id": "oficial-23-10",
+          "elementos_destacados": [
+            {
+              "posicion": 1,
+              "texto": "ojeada",
+              "respuesta": "B"
+            },
+            {
+              "posicion": 2,
+              "texto": "documentacion",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 3,
+              "texto": "enviásteis",
+              "respuesta": "M"
+            },
+            {
+              "posicion": 4,
+              "texto": "reyenar",
+              "respuesta": "M"
+            }
+          ]
+        }
+      ],
+      "reservas": [
+        {
+          "numero": 1,
+          "frase": "Ay que reconocer que la yema de huevo está esquisita.",
+          "respuestas": [
+            "M",
+            "B",
+            "B",
+            "M"
+          ],
+          "es_oficial": true,
+          "es_reserva": true,
+          "categoria": "RESERVA",
+          "id": "reserva-23-1"
+        }
+      ],
+      "banco": "oficial"
+    }
+  ],
+  "reservas": [
+    {
+      "numero": 1,
+      "frase": "La previsión tan halagüeña del economista sobre el mercado surgió espontáneamente tras conocer la floreciente industria.",
+      "respuestas": [
+        "B",
+        "M",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-1-1",
+      "examen": "2026",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 21,
+      "frase": "Quienquiera que haya sido el responsable deberá asumir las consecuencias.",
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-2-1",
+      "respuesta": "B",
+      "examen": "2026",
+      "tipo": "gramatica_individual"
+    },
+    {
+      "numero": 22,
+      "frase": "En los últimos meses han habido numerosas quejas respecto al nuevo horario.",
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-2-2",
+      "respuesta": "M",
+      "examen": "2026",
+      "tipo": "gramatica_individual"
+    },
+    {
+      "numero": 23,
+      "frase": "Se buscan a los responsables del altercado en las inmediaciones del parque.",
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-2-3",
+      "respuesta": "M",
+      "examen": "2026",
+      "tipo": "gramatica_individual"
+    },
+    {
+      "numero": 24,
+      "frase": "El juez dictaminó la sentencia definitiva antes de que expirara el plazo procesal.",
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-2-4",
+      "respuesta": "B",
+      "examen": "2026",
+      "tipo": "gramatica_individual"
+    },
+    {
+      "numero": 1,
+      "frase": "Los veteranos habían yegado raúdos y veloces.",
+      "respuestas": [
+        "B",
+        "M",
+        "M",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-3-1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 21,
+      "frase": "Juan camina muy lenta mente.",
+      "respuestas": [
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-4-1",
+      "respuesta": "M",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 22,
+      "frase": "Has de hacer caso a lo que dice tu padre.",
+      "respuestas": [
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-4-2",
+      "respuesta": "B",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 23,
+      "frase": "Cualquier persona que venga será bien recibida.",
+      "respuestas": [
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-4-3",
+      "respuesta": "B",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 24,
+      "frase": "Si preferís marcharos, marchaos.",
+      "respuestas": [
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-4-4",
+      "respuesta": "B",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "Desde aquí se atisba una extravagante indumentaria.",
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-9-1",
+      "examen": "2023 - Modelo 1A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Señale las opciones incorrectas: a) Se me ha caído al suelo. b) Los animales parecen que van a alborotarse. c) El gimnasio está mucho más cerca que la piscina. d) ¿A qué hora llegarán?",
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-10-1",
+      "examen": "2023 - Modelo 1A",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "Está siempre en la inopia con sus utopías.",
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-11-1",
+      "examen": "2023 - Modelo 2A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Señale las opciones incorrectas: a) Dejémonos de tonterías. b) Los informes deben ser lo más completos posibles. c) No creo que hayan llegado, puesto que no los oigo. d) ¿Qué edad tienes?",
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-12-1",
+      "examen": "2023 - Modelo 2A",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "Los jóvenes pidieron una hamburguesa y un bistec con mucha mayonesa.",
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-13-1",
+      "examen": "2024 - Modelo 1A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Señale las opciones incorrectas: a) Insistió que no hablara con el detenido. b) Quedémonos aquí. c) Creo que no voy a poder soportarlo. d) Ayer llegastes tarde otra vez.",
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-14-1",
+      "examen": "2024 - Modelo 1A",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "Los vehículos deben guardarse en el garage para una mejor conservación.",
+      "respuestas": [
+        "B",
+        "B",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-15-1",
+      "examen": "2024 - Modelo 2A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Señale las opciones incorrectas: a) Intenté de que vinieras antes. b) No sé dónde está el bolígrafo. c) El haberlo hecho así es un problema. d) Ayer comistes arroz.",
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-16-1",
+      "examen": "2024 - Modelo 2A",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "El ginete se degoyó con la alambrada de espino.",
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-17-1",
+      "examen": "2024 - Modelo 3A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Señale las opciones incorrectas: a) Las preguntas del periodista fueron rebuscado y mal intencionado. b) Me gusta más el de la izquierda que el de la derecha. c) Se fue de viaje aun cuando le había dicho que no necesitaba hacerlo. d) Esa medida se ha acordado en el pleno del ayuntamiento.",
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-18-1",
+      "examen": "2024 - Modelo 3A",
+      "tipo": "gramatica"
+    },
+    {
+      "numero": 1,
+      "frase": "Había una oquedad en la parte esterna del aljibe.",
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-20-1",
+      "examen": "2020 - Modelo 1B",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Ay que reconocer que la yema de huevo esta esquisita.",
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-21-1",
+      "examen": "2020 - Modelo 2A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "No basta con vencer, también tenéis que convencer.",
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-22-1",
+      "examen": "2021 - Modelo 1A",
+      "tipo": "ortografia"
+    },
+    {
+      "numero": 1,
+      "frase": "Ay que reconocer que la yema de huevo está esquisita.",
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": true,
+      "categoria": "RESERVA",
+      "id": "reserva-23-1",
+      "examen": "2021 - Modelo 2A",
+      "tipo": "ortografia"
+    }
+  ]
+}

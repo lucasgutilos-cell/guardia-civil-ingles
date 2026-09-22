@@ -1,0 +1,25 @@
+{
+  "environment": "Playwright 1.62.1 disponible localmente, Microsoft Edge headless, Windows",
+  "productionServices": false,
+  "route": "http://127.0.0.1:4184/guardia-civil-ingles/",
+  "viewports": ["390x844", "1440x900"],
+  "tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "skipped": 0,
+  "durationMs": 15938.317,
+  "source": "Salida final guardada en reports/e2e-tests.txt, node --test tests/app.e2e.mjs",
+  "coverage": [
+    "Carga diferida, oficial 20 preguntas / 900 segundos, blancos, puntuación, revisión",
+    "Abandono sin consumo y mezcla insuficiente sin persistencia parcial",
+    "Recarga de respuestas/posición/deadline y expiración única",
+    "Tamaños, modos y dificultades; históricos sin oficiales sueltas",
+    "Ortografía/gramática: simulacro, entrenamiento, recarga, rollback, revisión",
+    "Fallos: umbral 20 distintos, dominio elimina un fallo, estadísticas",
+    "Login mock, merge local, borrados selectivos y archivo al logout",
+    "Foco de modal, Escape, teclado, eliminación de handlers inline",
+    "Service worker y ejecución offline bajo subruta de Pages",
+    "Escritorio: fallo de red, intento local conservado y reintento sin duplicar"
+  ],
+  "limits": ["No valida RLS real", "No valida disponibilidad pública", "No ejecutado en Chromium de CI, Safari ni Firefox"]
+}

@@ -1,0 +1,13 @@
+{
+  "total": 1244,
+  "reviewed": 1244,
+  "pendingEditorialReading": 0,
+  "sourceVerified": 0,
+  "statuses": {
+    "reviewed-unusable": 609,
+    "reviewed-ambiguous": 275,
+    "editorial-reviewed": 360
+  },
+  "changedKeys": 198,
+  "sourceReviewRequired": 884
+}

@@ -1,0 +1,18 @@
+✔ mobile load is lazy; official 20 / 15 min, score, blank, numbers and review (3997.4468ms)
+✔ abandon leaves cycles byte-for-byte unchanged, including mixed failure path (509.4749ms)
+✔ reload restores answers, position and deadline; expiry submits once (738.3425ms)
+✔ all English intensive sizes and difficulties, historical excludes loose official (6130.8597ms)
+✔ academic official, training, reload, rollback and history review (1069.1911ms)
+✔ failure bank unlocks at 20 distinct questions and mastery removes one (663.6125ms)
+✔ mock login preserves/merges local data; selective failure sync and logout archive (640.8739ms)
+✔ modal focus, Escape, keyboard shortcuts and XSS-safe bank rendering (496.4225ms)
+✔ install assets and offline module test work under Pages subpath (567.8896ms)
+✔ desktop network failure retains local attempt and reconnect uploads once (666.9337ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15938.317

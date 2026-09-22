@@ -1,0 +1,4621 @@
+[
+  {
+    "id": "oficial-6-17",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "d",
+    "current": "b",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Make an effort y do well son las colocaciones requeridas; made / made no funciona.",
+    "confidence": "high",
+    "question": "Christine _____ an effort so she _____ well in the test.",
+    "options": {
+      "a": "make / does",
+      "b": "made / did",
+      "c": "did / made",
+      "d": "made / made"
+    }
+  },
+  {
+    "id": "oficial-10-8",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "d",
+    "current": "c",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Después de does se usa leave, no leaves.",
+    "confidence": "high",
+    "question": "Harry, what time _____?",
+    "options": {
+      "a": "your flight leaves",
+      "b": "does your flight leaving",
+      "c": "does your flight leave",
+      "d": "does your flight leaves"
+    }
+  },
+  {
+    "id": "oficial-10-9",
+    "sourceType": "official",
+    "status": "ambiguous",
+    "previous": "c",
+    "current": "b",
+    "validAnswers": [
+      "b",
+      "d"
+    ],
+    "excluded": true,
+    "neutralized": false,
+    "note": "Who y that funcionan como sujetos de una relativa especificativa de personas; whom no.",
+    "confidence": "high",
+    "question": "She gives advice to teenagers _____ feel stress during exams.",
+    "options": {
+      "a": "which",
+      "b": "who",
+      "c": "whom",
+      "d": "that"
+    }
+  },
+  {
+    "id": "oficial-10-11",
+    "sourceType": "official",
+    "status": "ambiguous",
+    "previous": "d",
+    "current": "a",
+    "validAnswers": [
+      "a",
+      "b"
+    ],
+    "excluded": true,
+    "neutralized": false,
+    "note": "More friendly than y not as friendly as son comparaciones gramaticales.",
+    "confidence": "high",
+    "question": "In my opinion, Margaret _____ Julia.",
+    "options": {
+      "a": "is more friendly than",
+      "b": "is not as friendly as",
+      "c": "is not as friendship as",
+      "d": "is not as friendly than"
+    }
+  },
+  {
+    "id": "oficial-11-1",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "c",
+    "current": "a",
+    "excluded": false,
+    "neutralized": false,
+    "note": "My nephew requiere exercises; do exercise no concuerda con sujeto singular.",
+    "confidence": "high",
+    "question": "Choose the correct option:",
+    "options": {
+      "a": "My nephew hardly ever exercises.",
+      "b": "My nephew hardly ever exercise.",
+      "c": "My nephew do exercise hardly ever.",
+      "d": "My nephew exercise hardly ever."
+    }
+  },
+  {
+    "id": "oficial-11-6",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "a",
+    "current": "d",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Sit at the table y lie on the floor; in / in no describe estas posiciones.",
+    "confidence": "high",
+    "question": "She wasn't sitting _____ the table, she was lying _____ the floor.",
+    "options": {
+      "a": "in / in",
+      "b": "in / at",
+      "c": "next at / at",
+      "d": "at / on"
+    }
+  },
+  {
+    "id": "oficial-11-7",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "c",
+    "current": "a",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Existencia futura: there will be, no there will being.",
+    "confidence": "high",
+    "question": "Experts say _____ a vaccine for the COVID-19 pandemic in the next months.",
+    "options": {
+      "a": "there will be",
+      "b": "there will can be",
+      "c": "there will being",
+      "d": "there will been"
+    }
+  },
+  {
+    "id": "oficial-13-9",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "d",
+    "current": "c",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Can + play; could not se contrae como couldn’t.",
+    "confidence": "high",
+    "question": "Nowadays I _____ the violin, but I _____ when I was younger.",
+    "options": {
+      "a": "can / not could",
+      "b": "can to play / no could",
+      "c": "can play / couldn’t",
+      "d": "can played / couldn’t"
+    }
+  },
+  {
+    "id": "oficial-13-15",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "b",
+    "current": "c",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Well y hardly son adverbios: el equipo jugó bien aunque apenas trabajó. Bad no es el adverbio estándar badly.",
+    "confidence": "high",
+    "question": "The team played _____. All the players worked _____.",
+    "options": {
+      "a": "good / hard",
+      "b": "bad / hard",
+      "c": "well / hardly",
+      "d": "very good / lot"
+    }
+  },
+  {
+    "id": "oficial-14-6",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "a",
+    "current": "b",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Pasado irregular got up; did not + have.",
+    "confidence": "high",
+    "question": "I _____ at 7.30, but I _____ breakfast.",
+    "options": {
+      "a": "getted up / didn’t had",
+      "b": "got up / didn’t have",
+      "c": "got up / don’t had",
+      "d": "get up / didn’t to have"
+    }
+  },
+  {
+    "id": "oficial-14-7",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "b",
+    "current": "a",
+    "excluded": false,
+    "neutralized": false,
+    "note": "A little water (incontable), a few apples (contable); sin of ante estos sustantivos.",
+    "confidence": "high",
+    "question": "There is _____ water in my bottle, and there are _____ apples in the basket.",
+    "options": {
+      "a": "a little / a few",
+      "b": "a little of / a few of",
+      "c": "a few / a little",
+      "d": "a lot / a lot"
+    }
+  },
+  {
+    "id": "oficial-18-11",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "b",
+    "current": "a",
+    "excluded": false,
+    "neutralized": false,
+    "note": "El enunciado ya contiene to come: doesn’t need to come. Needn’t to come es incorrecto.",
+    "confidence": "high",
+    "question": "Tell your friend he _____ to come tomorrow.",
+    "options": {
+      "a": "doesn't need",
+      "b": "needn't",
+      "c": "need",
+      "d": "don't need"
+    }
+  },
+  {
+    "id": "oficial-19-18",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "a",
+    "current": "c",
+    "excluded": false,
+    "neutralized": false,
+    "note": "Después de will: have to + get; will must y will have get son incorrectos.",
+    "confidence": "high",
+    "question": "If you want to come with me, you will _____ get up very early.",
+    "options": {
+      "a": "have",
+      "b": "must",
+      "c": "have to",
+      "d": "had to"
+    }
+  },
+  {
+    "id": "oficial-19-29",
+    "sourceType": "official",
+    "status": "reviewed",
+    "previous": "d",
+    "current": "c",
+    "excluded": false,
+    "neutralized": false,
+    "note": "El superlativo válido entre las opciones es the furthest.",
+    "confidence": "high",
+    "question": "What is _____ distance you have travelled from home?",
+    "options": {
+      "a": "the farest",
+      "b": "the fartherest",
+      "c": "the furthest",
+      "d": "the furtest"
+    }
+  },
+  {
+    "id": "stanley-02-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «from» completa el hueco conservado. Be concuerda con el sujeto; la negación se forma con not después del verbo.",
+    "confidence": "high",
+    "question": "He is English. He is _____ Cambridge.",
+    "options": {
+      "a": "from",
+      "b": "on",
+      "c": "in",
+      "d": "a"
+    }
+  },
+  {
+    "id": "stanley-02-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «American» completa el hueco conservado. Be concuerda con el sujeto; la negación se forma con not después del verbo.",
+    "confidence": "high",
+    "question": "He is from the U.S.A. He is _____.",
+    "options": {
+      "a": "English",
+      "b": "U.S.A.",
+      "c": "British",
+      "d": "American"
+    }
+  },
+  {
+    "id": "stanley-02-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Are» completa el hueco conservado. Be concuerda con el sujeto; la negación se forma con not después del verbo.",
+    "confidence": "high",
+    "question": "The pyramids _____ in Egypt.",
+    "options": {
+      "a": "Is",
+      "b": "Are",
+      "c": "Am",
+      "d": "In"
+    }
+  },
+  {
+    "id": "stanley-02-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «English» completa el hueco conservado. Be concuerda con el sujeto; la negación se forma con not después del verbo.",
+    "confidence": "high",
+    "question": "He is from Oxford. He is _____.",
+    "options": {
+      "a": "American",
+      "b": "English",
+      "c": "French",
+      "d": "Canadian"
+    }
+  },
+  {
+    "id": "stanley-05-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «there are» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "Are there many windows in the house? Yes, ... many.",
+    "options": {
+      "a": "there are",
+      "b": "they are",
+      "c": "is there",
+      "d": "are there"
+    }
+  },
+  {
+    "id": "stanley-05-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "Mary, .... you got many books ?",
+    "options": {
+      "a": "are",
+      "b": "is",
+      "c": "has",
+      "d": "have"
+    }
+  },
+  {
+    "id": "stanley-06-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «there is» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "'Are there many people?' 'No, .. only one person.'",
+    "options": {
+      "a": "there is",
+      "b": "there are",
+      "c": "there isn't",
+      "d": "there aren't"
+    }
+  },
+  {
+    "id": "stanley-06-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «are» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "'Is there a lamp on the wall?' 'Well, there .... two lamps.'",
+    "options": {
+      "a": "is",
+      "b": "have",
+      "c": "has",
+      "d": "are"
+    }
+  },
+  {
+    "id": "stanley-06-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «aren't» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "There .... many things in the house.",
+    "options": {
+      "a": "isn't",
+      "b": "aren't",
+      "c": "haven't",
+      "d": "is"
+    }
+  },
+  {
+    "id": "stanley-06-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «aren't» completa el hueco conservado. There is se usa con singular/incontable y there are con plural; much y many distinguen incontable y contable.",
+    "confidence": "high",
+    "question": "'Are there many tables?' 'No, there .... many.'",
+    "options": {
+      "a": "isn't",
+      "b": "are",
+      "c": "is",
+      "d": "aren't"
+    }
+  },
+  {
+    "id": "stanley-07-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «some» completa el hueco conservado. Some/any dependen del sentido y polaridad. A/an se usan ante singular contable según el sonido inicial.",
+    "confidence": "high",
+    "question": "Mr Smith is having a cup of tea and ... bread.",
+    "options": {
+      "a": "any",
+      "b": "some",
+      "c": "a",
+      "d": "an"
+    }
+  },
+  {
+    "id": "stanley-07-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «some» completa el hueco conservado. Some/any dependen del sentido y polaridad. A/an se usan ante singular contable según el sonido inicial.",
+    "confidence": "high",
+    "question": "'Are there many girls in this class?' 'Yes, there are ....'",
+    "options": {
+      "a": "any",
+      "b": "some",
+      "c": "an",
+      "d": "much"
+    }
+  },
+  {
+    "id": "stanley-07-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «some» completa el hueco conservado. Some/any dependen del sentido y polaridad. A/an se usan ante singular contable según el sonido inicial.",
+    "confidence": "high",
+    "question": "'Are there any good papers in this country?' 'Yes, there are ...'",
+    "options": {
+      "a": "an",
+      "b": "any",
+      "c": "some",
+      "d": "much"
+    }
+  },
+  {
+    "id": "stanley-09-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «many» completa el hueco conservado. Had es el pasado de have. Man, woman y child forman men, women y children; people tiene normalmente concordancia plural.",
+    "confidence": "high",
+    "question": "There are .... people in this town.",
+    "options": {
+      "a": "much",
+      "b": "a",
+      "c": "any",
+      "d": "many"
+    }
+  },
+  {
+    "id": "stanley-09-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «are» completa el hueco conservado. Had es el pasado de have. Man, woman y child forman men, women y children; people tiene normalmente concordancia plural.",
+    "confidence": "high",
+    "question": "There .... some women in the garden.",
+    "options": {
+      "a": "is",
+      "b": "have",
+      "c": "are",
+      "d": "had"
+    }
+  },
+  {
+    "id": "stanley-09-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «men» completa el hueco conservado. Had es el pasado de have. Man, woman y child forman men, women y children; people tiene normalmente concordancia plural.",
+    "confidence": "high",
+    "question": "Those .... are drinking beer.",
+    "options": {
+      "a": "man",
+      "b": "mens",
+      "c": "mans",
+      "d": "men"
+    }
+  },
+  {
+    "id": "stanley-10-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had» completa el hueco conservado. Had es el pasado de have. Man, woman y child forman men, women y children; people tiene normalmente concordancia plural.",
+    "confidence": "high",
+    "question": "The first king of Nepal .... 18 children.",
+    "options": {
+      "a": "have",
+      "b": "had",
+      "c": "has",
+      "d": "are"
+    }
+  },
+  {
+    "id": "stanley-11-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was» completa el hueco conservado. El pasado de be concuerda en was/were. This/that son singulares y these/those plurales.",
+    "confidence": "high",
+    "question": "It .... very hot last night.",
+    "options": {
+      "a": "is",
+      "b": "had",
+      "c": "have",
+      "d": "was"
+    }
+  },
+  {
+    "id": "stanley-12-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Were» completa el hueco conservado. El pasado de be concuerda en was/were. This/that son singulares y these/those plurales.",
+    "confidence": "high",
+    "question": "... the girls happy yesterday?",
+    "options": {
+      "a": "Are",
+      "b": "Were",
+      "c": "Was",
+      "d": "Had"
+    }
+  },
+  {
+    "id": "stanley-12-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «those» completa el hueco conservado. El pasado de be concuerda en was/were. This/that son singulares y these/those plurales.",
+    "confidence": "high",
+    "question": "These people live in .... houses over there.",
+    "options": {
+      "a": "that",
+      "b": "this",
+      "c": "these",
+      "d": "those"
+    }
+  },
+  {
+    "id": "stanley-13-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «were» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "There .... ten boys playing football.",
+    "options": {
+      "a": "was",
+      "b": "were",
+      "c": "had",
+      "d": "have"
+    }
+  },
+  {
+    "id": "stanley-13-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "What .... there on the radio?",
+    "options": {
+      "a": "were",
+      "b": "was",
+      "c": "had",
+      "d": "have"
+    }
+  },
+  {
+    "id": "stanley-13-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «wasn't» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "There .... much milk in the jar.",
+    "options": {
+      "a": "hadn't",
+      "b": "haven't",
+      "c": "wasn't",
+      "d": "weren't"
+    }
+  },
+  {
+    "id": "stanley-14-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «wasn't» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "There .... any butter in the fridge.",
+    "options": {
+      "a": "weren't",
+      "b": "wasn't",
+      "c": "was",
+      "d": "were"
+    }
+  },
+  {
+    "id": "stanley-14-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «wasn't» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "No, there .... any milk.",
+    "options": {
+      "a": "weren't",
+      "b": "wasn't",
+      "c": "hadn't",
+      "d": "hasn't"
+    }
+  },
+  {
+    "id": "stanley-14-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was» completa el hueco conservado. There was expresa existencia singular pasada y there were existencia plural pasada.",
+    "confidence": "high",
+    "question": "What .... there on the table?",
+    "options": {
+      "a": "had",
+      "b": "were",
+      "c": "was",
+      "d": "have"
+    }
+  },
+  {
+    "id": "stanley-15-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «are playing» completa el hueco conservado. El presente simple expresa hábitos y lleva -s en tercera persona singular; las preguntas requieren el auxiliar adecuado.",
+    "confidence": "high",
+    "question": "Those boys .... football now.",
+    "options": {
+      "a": "play",
+      "b": "are playing",
+      "c": "plays",
+      "d": "playing"
+    }
+  },
+  {
+    "id": "stanley-15-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «drink» completa el hueco conservado. El presente simple expresa hábitos y lleva -s en tercera persona singular; las preguntas requieren el auxiliar adecuado.",
+    "confidence": "high",
+    "question": "We never .... water with meals.",
+    "options": {
+      "a": "drinking",
+      "b": "drink",
+      "c": "drinks",
+      "d": "are drinking"
+    }
+  },
+  {
+    "id": "stanley-16-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have» completa el hueco conservado. El presente simple expresa hábitos y lleva -s en tercera persona singular; las preguntas requieren el auxiliar adecuado.",
+    "confidence": "high",
+    "question": "We never .... tea in the morning.",
+    "options": {
+      "a": "are having",
+      "b": "have",
+      "c": "having",
+      "d": "has"
+    }
+  },
+  {
+    "id": "stanley-16-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «very» completa el hueco conservado. El presente simple expresa hábitos y lleva -s en tercera persona singular; las preguntas requieren el auxiliar adecuado.",
+    "confidence": "high",
+    "question": "It's not .... hot today.",
+    "options": {
+      "a": "very",
+      "b": "much",
+      "c": "some",
+      "d": "any"
+    }
+  },
+  {
+    "id": "stanley-17-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «do/have» completa el hueco conservado. Do/does y don’t/doesn’t concuerdan con el sujeto; el verbo siguiente va en infinitivo sin to.",
+    "confidence": "high",
+    "question": "What .... they usually.... for dinner?",
+    "options": {
+      "a": "do/has",
+      "b": "are/have",
+      "c": "does/have",
+      "d": "do/have"
+    }
+  },
+  {
+    "id": "stanley-18-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «do/do» completa el hueco conservado. Do/does y don’t/doesn’t concuerdan con el sujeto; el verbo siguiente va en infinitivo sin to.",
+    "confidence": "high",
+    "question": "What .... you .... in the mornings?",
+    "options": {
+      "a": "do/does",
+      "b": "does/do",
+      "c": "does/does",
+      "d": "do/do"
+    }
+  },
+  {
+    "id": "stanley-18-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «do/come» completa el hueco conservado. Do/does y don’t/doesn’t concuerdan con el sujeto; el verbo siguiente va en infinitivo sin to.",
+    "confidence": "high",
+    "question": "When .... they .... home in the evening?",
+    "options": {
+      "a": "does/come",
+      "b": "do/comes",
+      "c": "do/come",
+      "d": "does/comes"
+    }
+  },
+  {
+    "id": "stanley-21-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the girls' balls» completa el hueco conservado. El genitivo posesivo se forma con ’s o apóstrofo tras plural en -s; distinguir poseedor singular y plural.",
+    "confidence": "high",
+    "question": "Those green balls are ...",
+    "options": {
+      "a": "the girls's balls",
+      "b": "the girls'the balls",
+      "c": "girls' the balls",
+      "d": "the girls' balls"
+    }
+  },
+  {
+    "id": "stanley-21-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Lina's car» completa el hueco conservado. El genitivo posesivo se forma con ’s o apóstrofo tras plural en -s; distinguir poseedor singular y plural.",
+    "confidence": "high",
+    "question": "This is ....",
+    "options": {
+      "a": "the Lina's car",
+      "c": "Lina car",
+      "d": "Lina's the car",
+      "b": "Lina's car"
+    }
+  },
+  {
+    "id": "stanley-21-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Ken's bike» completa el hueco conservado. El genitivo posesivo se forma con ’s o apóstrofo tras plural en -s; distinguir poseedor singular y plural.",
+    "confidence": "high",
+    "question": "'Is that ....?' 'No, it isn't.'",
+    "options": {
+      "a": "the Ken's bike?",
+      "b": "Ken's the bike",
+      "c": "Ken bike",
+      "d": "Ken's bike"
+    }
+  },
+  {
+    "id": "stanley-23-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «is/going» completa el hueco conservado. Be going to exige am/is/are + going to + infinitivo; la negación va después de be.",
+    "confidence": "high",
+    "question": "When .... she .... to come to see us?",
+    "options": {
+      "a": "-/is",
+      "b": "is/going",
+      "c": "does/go",
+      "d": "does going"
+    }
+  },
+  {
+    "id": "stanley-24-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «am not going» completa el hueco conservado. Be going to exige am/is/are + going to + infinitivo; la negación va después de be.",
+    "confidence": "high",
+    "question": "I _____ to get up this morning.",
+    "options": {
+      "a": "am not go",
+      "b": "am not going",
+      "c": "don't",
+      "d": "am going not"
+    }
+  },
+  {
+    "id": "stanley-26-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «at» completa el hueco conservado. Las preposiciones dependen de la relación espacial/temporal; sin contexto pueden existir varias lecturas.",
+    "confidence": "high",
+    "question": "All fishermen are .... sea.",
+    "options": {
+      "a": "on",
+      "b": "in",
+      "c": "at",
+      "d": "into"
+    }
+  },
+  {
+    "id": "stanley-27-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «at» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "The train has arrived ... the station on time.",
+    "options": {
+      "a": "on",
+      "b": "in",
+      "c": "at",
+      "d": "—"
+    }
+  },
+  {
+    "id": "stanley-27-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «taken» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "Has the child .... the medicine?",
+    "options": {
+      "a": "take",
+      "b": "taken",
+      "c": "took",
+      "d": "taking"
+    }
+  },
+  {
+    "id": "stanley-27-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «fried» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "I have already .... the meat.",
+    "options": {
+      "a": "fry",
+      "b": "fried",
+      "c": "fryed",
+      "d": "fryd"
+    }
+  },
+  {
+    "id": "stanley-27-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «in» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "They have arrived .... England today.",
+    "options": {
+      "a": "on",
+      "b": "at",
+      "c": "in",
+      "d": "-"
+    }
+  },
+  {
+    "id": "stanley-27-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «went» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "She .... to Madrid by plane.",
+    "options": {
+      "a": "go",
+      "b": "goed",
+      "c": "went",
+      "d": "god"
+    }
+  },
+  {
+    "id": "stanley-27-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «wrote» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "He .... a letter to his friend.",
+    "options": {
+      "a": "write",
+      "b": "writed",
+      "c": "written",
+      "d": "wrote"
+    }
+  },
+  {
+    "id": "stanley-27-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «spoke» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "We . . . . to her yesterday.",
+    "options": {
+      "a": "speak",
+      "b": "spoke",
+      "c": "spoken",
+      "d": "speaked"
+    }
+  },
+  {
+    "id": "stanley-28-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «at» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "He arrived .... the meeting just in time.",
+    "options": {
+      "a": "in",
+      "b": "on",
+      "c": "—",
+      "d": "at"
+    }
+  },
+  {
+    "id": "stanley-28-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «—» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "Have you seen him? No, he hasn't arrived .... home yet.",
+    "options": {
+      "a": "—",
+      "b": "in",
+      "c": "on",
+      "d": "at"
+    }
+  },
+  {
+    "id": "stanley-28-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «took» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "The little girl ... the wrong bus.",
+    "options": {
+      "a": "take",
+      "b": "took",
+      "c": "taken",
+      "d": "taking"
+    }
+  },
+  {
+    "id": "stanley-28-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «gave» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "She .... me yesterday's newspaper.",
+    "options": {
+      "a": "give",
+      "b": "gave",
+      "c": "given",
+      "d": "gived"
+    }
+  },
+  {
+    "id": "stanley-28-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «bought» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "He .... a loaf of bread.",
+    "options": {
+      "a": "buy",
+      "b": "buyed",
+      "c": "bought",
+      "d": "buyd"
+    }
+  },
+  {
+    "id": "stanley-28-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «put» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "The little girl .... the glass on the table.",
+    "options": {
+      "a": "puted",
+      "b": "putted",
+      "c": "puten",
+      "d": "put"
+    }
+  },
+  {
+    "id": "stanley-28-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «stopped» completa el hueco conservado. El pasado de be concuerda en was/were; otros verbos pueden requerir una forma irregular.",
+    "confidence": "high",
+    "question": "He .... to buy the newspaper.",
+    "options": {
+      "a": "stop",
+      "b": "stopped",
+      "c": "sloped",
+      "d": "stoppen"
+    }
+  },
+  {
+    "id": "stanley-29-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «go» completa el hueco conservado. Después de did/did not se utiliza el infinitivo sin to, no una segunda forma de pasado.",
+    "confidence": "high",
+    "question": "Did you .... to the cinema?",
+    "options": {
+      "a": "went",
+      "b": "go",
+      "c": "going",
+      "d": "to go"
+    }
+  },
+  {
+    "id": "stanley-29-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «fall» completa el hueco conservado. Después de did/did not se utiliza el infinitivo sin to, no una segunda forma de pasado.",
+    "confidence": "high",
+    "question": "Did the old woman .... in the street?",
+    "options": {
+      "a": "falling",
+      "b": "to fall",
+      "c": "fell",
+      "d": "fall"
+    }
+  },
+  {
+    "id": "stanley-31-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «working» completa el hueco conservado. Para expresar una hora deben conocerse minutos y hora completa. Tras una preposición se usa gerundio cuando sigue una acción verbal.",
+    "confidence": "high",
+    "question": "I feel tired after .... all day.",
+    "options": {
+      "a": "to work",
+      "b": "to working",
+      "c": "working",
+      "d": "of work"
+    }
+  },
+  {
+    "id": "stanley-31-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «on» completa el hueco conservado. Para expresar una hora deben conocerse minutos y hora completa. Tras una preposición se usa gerundio cuando sigue una acción verbal.",
+    "confidence": "high",
+    "question": "He insisted .... doing it.",
+    "options": {
+      "a": "in",
+      "b": "on",
+      "c": "at",
+      "d": "to"
+    }
+  },
+  {
+    "id": "stanley-32-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «buying» completa el hueco conservado. Para expresar una hora deben conocerse minutos y hora completa. Tras una preposición se usa gerundio cuando sigue una acción verbal.",
+    "confidence": "high",
+    "question": "I'm not interested in .... it.",
+    "options": {
+      "a": "to buy",
+      "b": "buy",
+      "c": "to buying",
+      "d": "buying"
+    }
+  },
+  {
+    "id": "stanley-32-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «going» completa el hueco conservado. Para expresar una hora deben conocerse minutos y hora completa. Tras una preposición se usa gerundio cuando sigue una acción verbal.",
+    "confidence": "high",
+    "question": "She hates .... to the dentist.",
+    "options": {
+      "a": "she goes",
+      "b": "to going",
+      "c": "going",
+      "d": "go"
+    }
+  },
+  {
+    "id": "stanley-33-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «by» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "We'll go .... bicycle.",
+    "options": {
+      "a": "by",
+      "b": "in",
+      "c": "on",
+      "d": "at"
+    }
+  },
+  {
+    "id": "stanley-33-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «by» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "They came .... plane.",
+    "options": {
+      "a": "in",
+      "b": "on",
+      "c": "at",
+      "d": "by"
+    }
+  },
+  {
+    "id": "stanley-33-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «by» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "They are going .... coach.",
+    "options": {
+      "a": "in",
+      "b": "at",
+      "c": "on",
+      "d": "by"
+    }
+  },
+  {
+    "id": "stanley-34-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «on» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "I think they are coming .... foot.",
+    "options": {
+      "a": "at",
+      "b": "a",
+      "c": "in",
+      "d": "on"
+    }
+  },
+  {
+    "id": "stanley-34-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «by» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "I'll probably go ... taxi.",
+    "options": {
+      "a": "on",
+      "b": "in",
+      "c": "at",
+      "d": "by"
+    }
+  },
+  {
+    "id": "stanley-34-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «by/on» completa el hueco conservado. Will y shall llevan infinitivo sin to; las preguntas invierten modal y sujeto.",
+    "confidence": "high",
+    "question": "Shall we go .... bicycle or .... foot?",
+    "options": {
+      "a": "on/on",
+      "b": "on/by",
+      "c": "by/by",
+      "d": "by/on"
+    }
+  },
+  {
+    "id": "stanley-35-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «making» completa el hueco conservado. Do y make forman colocaciones: do homework/housework y make an effort/a noise.",
+    "confidence": "high",
+    "question": "He is .... a lot of money.",
+    "options": {
+      "a": "doing",
+      "b": "having",
+      "c": "making",
+      "d": "made"
+    }
+  },
+  {
+    "id": "stanley-35-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «doing» completa el hueco conservado. Do y make forman colocaciones: do homework/housework y make an effort/a noise.",
+    "confidence": "high",
+    "question": "She is .... the housework.",
+    "options": {
+      "a": "making",
+      "b": "having",
+      "c": "doing",
+      "d": "to do"
+    }
+  },
+  {
+    "id": "stanley-36-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «doing» completa el hueco conservado. Do y make forman colocaciones: do homework/housework y make an effort/a noise.",
+    "confidence": "high",
+    "question": "She has been .... the shopping all morning.",
+    "options": {
+      "a": "do",
+      "b": "doing",
+      "c": "made",
+      "d": "making"
+    }
+  },
+  {
+    "id": "stanley-37-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «hope so» completa el hueco conservado. El imperativo usa infinitivo sin to; su negación usa don’t. El sujeto you puede ser enfático.",
+    "confidence": "high",
+    "question": "'Will your sister come for Christmas?' 'I ....'",
+    "options": {
+      "a": "hope that yes",
+      "b": "hope yes",
+      "c": "think that yes",
+      "d": "hope so"
+    }
+  },
+  {
+    "id": "stanley-37-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «so» completa el hueco conservado. El imperativo usa infinitivo sin to; su negación usa don’t. El sujeto you puede ser enfático.",
+    "confidence": "high",
+    "question": "'Do you think the weather will be good?' 'I think ....'",
+    "options": {
+      "a": "that yes",
+      "b": "yes",
+      "c": "so",
+      "d": "if"
+    }
+  },
+  {
+    "id": "stanley-39-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «tell» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "Why don't you .... me about it?",
+    "options": {
+      "a": "say",
+      "b": "tell",
+      "c": "said",
+      "d": "told"
+    }
+  },
+  {
+    "id": "stanley-39-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «say» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "What did your teacher .... about it?",
+    "options": {
+      "a": "tell",
+      "b": "say",
+      "c": "told",
+      "d": "said"
+    }
+  },
+  {
+    "id": "stanley-39-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «said» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "She .... that it's going to rain today.",
+    "options": {
+      "a": "tell",
+      "b": "say",
+      "c": "said",
+      "d": "told"
+    }
+  },
+  {
+    "id": "stanley-39-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «said» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "They .... that it was too late.",
+    "options": {
+      "a": "say",
+      "b": "told",
+      "c": "said",
+      "d": "tell"
+    }
+  },
+  {
+    "id": "stanley-39-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «tell» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "The boys didn't ... me anything.",
+    "options": {
+      "a": "say",
+      "b": "tell",
+      "c": "said",
+      "d": "told"
+    }
+  },
+  {
+    "id": "stanley-39-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «tell» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "Did they .... you what to do?",
+    "options": {
+      "a": "told",
+      "b": "say",
+      "c": "tell",
+      "d": "said"
+    }
+  },
+  {
+    "id": "stanley-39-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Told» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "She .... me that.",
+    "options": {
+      "a": "Tell",
+      "b": "Told",
+      "c": "Say",
+      "d": "Said"
+    }
+  },
+  {
+    "id": "stanley-40-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «told» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "The teacher .... him the answer.",
+    "options": {
+      "a": "tell",
+      "b": "say",
+      "c": "told",
+      "d": "said"
+    }
+  },
+  {
+    "id": "stanley-40-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «say» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "What did they .... about the weather?",
+    "options": {
+      "a": "tell",
+      "b": "say",
+      "c": "told",
+      "d": "said"
+    }
+  },
+  {
+    "id": "stanley-40-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «said» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "He .... that he'll arrive in the morning.",
+    "options": {
+      "a": "tell",
+      "b": "say",
+      "c": "told",
+      "d": "said"
+    }
+  },
+  {
+    "id": "stanley-40-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «tell» completa el hueco conservado. Tell suele llevar destinatario; say no lo exige. So modifica adjetivos; so many/much distinguen contables e incontables.",
+    "confidence": "high",
+    "question": "He didn't .... us anything.",
+    "options": {
+      "a": "say",
+      "b": "told",
+      "c": "said",
+      "d": "tell"
+    }
+  },
+  {
+    "id": "stanley-43-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was typing» completa el hueco conservado. El pasado continuo presenta una acción en curso; el simple un hecho completo. When no impone por sí solo una única combinación.",
+    "confidence": "high",
+    "question": "She .... letters when the phone rang.",
+    "options": {
+      "a": "type",
+      "b": "typing",
+      "c": "types",
+      "d": "was typing"
+    }
+  },
+  {
+    "id": "stanley-44-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «were going to export» completa el hueco conservado. El pasado continuo presenta una acción en curso; el simple un hecho completo. When no impone por sí solo una única combinación.",
+    "confidence": "high",
+    "question": "They ... them, but , the prices fell.",
+    "options": {
+      "a": "are going to export",
+      "b": "exporting",
+      "c": "export",
+      "d": "were going to export"
+    }
+  },
+  {
+    "id": "stanley-45-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «couldn't» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "He spoke too fast. I .... understand anything.",
+    "options": {
+      "a": "couldn't",
+      "b": "can",
+      "c": "were able",
+      "d": "won't be able"
+    }
+  },
+  {
+    "id": "stanley-45-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «couldn't» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "I looked for the pub everywhere but I.... find it.",
+    "options": {
+      "a": "didn't can",
+      "b": "didn't could",
+      "c": "couldn't",
+      "d": "wasn't able"
+    }
+  },
+  {
+    "id": "stanley-45-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «could» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "When I was five I ... swim.",
+    "options": {
+      "a": "can",
+      "b": "will be able to",
+      "c": "could",
+      "d": "was able"
+    }
+  },
+  {
+    "id": "stanley-45-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «can you» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "How many languages .... speak?",
+    "options": {
+      "a": "will you be able",
+      "b": "do you can",
+      "c": "are you able",
+      "d": "can you"
+    }
+  },
+  {
+    "id": "stanley-46-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will you be able» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "Jeremy, .... to come next week?",
+    "options": {
+      "a": "can you",
+      "b": "could",
+      "c": "will be able",
+      "d": "will you be able"
+    }
+  },
+  {
+    "id": "stanley-46-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «couldn't» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "I .... feel anything after the operation last week.",
+    "options": {
+      "a": "can't",
+      "b": "couldn't",
+      "c": "wasn't able",
+      "d": "won't be able"
+    }
+  },
+  {
+    "id": "stanley-46-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «can't» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "I'm sorry but I ... come with you.",
+    "options": {
+      "a": "don't can",
+      "b": "won't be able",
+      "c": "can't",
+      "d": "didn't could"
+    }
+  },
+  {
+    "id": "stanley-46-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will you be able» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "Diana, ... to do this tomorrow?",
+    "options": {
+      "a": "could you",
+      "b": "will you be able",
+      "c": "can you",
+      "d": "will you can"
+    }
+  },
+  {
+    "id": "stanley-46-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «were able» completa el hueco conservado. Can/could llevan infinitivo sin to; be able requiere to. Could puede expresar capacidad pasada o petición cortés.",
+    "confidence": "high",
+    "question": "We .... to escape from the fire.",
+    "options": {
+      "a": "could",
+      "b": "will can",
+      "c": "did can",
+      "d": "were able"
+    }
+  },
+  {
+    "id": "stanley-47-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have you been» completa el hueco conservado. El present perfect se forma con have/has y participio; since indica punto inicial y for duración.",
+    "confidence": "high",
+    "question": "What .... doing all this time?",
+    "options": {
+      "a": "have been you",
+      "b": "did you do",
+      "c": "you have been",
+      "d": "have you been"
+    }
+  },
+  {
+    "id": "stanley-47-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «haven't been» completa el hueco conservado. El present perfect se forma con have/has y participio; since indica punto inicial y for duración.",
+    "confidence": "high",
+    "question": "I .... to the gym for months.",
+    "options": {
+      "a": "haven't be",
+      "b": "haven't been",
+      "c": "didn't be",
+      "d": "don't be"
+    }
+  },
+  {
+    "id": "stanley-47-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «eaten» completa el hueco conservado. El present perfect se forma con have/has y participio; since indica punto inicial y for duración.",
+    "confidence": "high",
+    "question": "Have you ever eaten caviar? No, I've never ... any.",
+    "options": {
+      "a": "eating",
+      "b": "eat",
+      "c": "ate",
+      "d": "eaten"
+    }
+  },
+  {
+    "id": "stanley-47-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «driven» completa el hueco conservado. El present perfect se forma con have/has y participio; since indica punto inicial y for duración.",
+    "confidence": "high",
+    "question": "Have you ever driven a car? No, I've never ... one.",
+    "options": {
+      "a": "drive",
+      "b": "driven",
+      "c": "drove",
+      "d": "driving"
+    }
+  },
+  {
+    "id": "stanley-49-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «which» completa el hueco conservado. Who/whom remiten a personas, which a cosas, whose a posesión y what incorpora el antecedente.",
+    "confidence": "high",
+    "question": "Look at those men, .... one is it?",
+    "options": {
+      "a": "what",
+      "b": "who",
+      "c": "that",
+      "d": "which"
+    }
+  },
+  {
+    "id": "stanley-50-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «What» completa el hueco conservado. Who/whom remiten a personas, which a cosas, whose a posesión y what incorpora el antecedente.",
+    "confidence": "high",
+    "question": "I don't agree with .... you said.",
+    "options": {
+      "a": "What",
+      "b": "Whose",
+      "c": "Which",
+      "d": "Whom"
+    }
+  },
+  {
+    "id": "stanley-50-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «What» completa el hueco conservado. Who/whom remiten a personas, which a cosas, whose a posesión y what incorpora el antecedente.",
+    "confidence": "high",
+    "question": "Did you hear .... she said to me?",
+    "options": {
+      "a": "Whose",
+      "b": "What",
+      "c": "Who",
+      "d": "Which"
+    }
+  },
+  {
+    "id": "stanley-51-04",
+    "sourceType": "imported-training",
+    "status": "reviewed-ambiguous",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "a",
+      "b"
+    ],
+    "excluded": true,
+    "neutralized": true,
+    "note": "El contexto no garantiza una única respuesta; las alternativas indicadas son candidatas para cotejo, no una plantilla de corrección. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "medium",
+    "question": "This cake is very good. Yes, it’s a _____.",
+    "options": {
+      "a": "cake of chocolate",
+      "b": "chocolate cake",
+      "c": "chocolate pie",
+      "d": "cake chocolate"
+    }
+  },
+  {
+    "id": "stanley-51-07",
+    "sourceType": "imported-training",
+    "status": "reviewed-ambiguous",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "a",
+      "b"
+    ],
+    "excluded": true,
+    "neutralized": true,
+    "note": "El contexto no garantiza una única respuesta; las alternativas indicadas son candidatas para cotejo, no una plantilla de corrección. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "medium",
+    "question": "That’s a nice table! Yes, it’s a _____.",
+    "options": {
+      "a": "table of plastic",
+      "b": "plastic table",
+      "c": "table plastic",
+      "d": "plastical table"
+    }
+  },
+  {
+    "id": "stanley-51-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «silver chain» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This chain is made of silver. It is a ...",
+    "options": {
+      "a": "chain silver",
+      "b": "silver chain",
+      "c": "silvery chain",
+      "d": "silver's chain"
+    }
+  },
+  {
+    "id": "stanley-51-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one which» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This train is .... always arrives on time.",
+    "options": {
+      "a": "the one which",
+      "b": "that",
+      "c": "the one who",
+      "d": "which"
+    }
+  },
+  {
+    "id": "stanley-52-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «water bottle» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This bottle is only for water. Yes, it is a ....",
+    "options": {
+      "a": "water's bottle",
+      "b": "bottle water",
+      "c": "water bottle",
+      "d": "bottle's water"
+    }
+  },
+  {
+    "id": "stanley-52-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one that» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "That country is .... you are going to visit, isn't it?",
+    "options": {
+      "a": "that",
+      "b": "which",
+      "c": "the one that",
+      "d": "that who"
+    }
+  },
+  {
+    "id": "stanley-52-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one that» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This computer is .... I want to buy.",
+    "options": {
+      "a": "the one that",
+      "b": "which",
+      "c": "the one who",
+      "d": "that"
+    }
+  },
+  {
+    "id": "stanley-52-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one which» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This plane is .... comes from New York.",
+    "options": {
+      "a": "the one who",
+      "b": "the one which",
+      "c": "that wich",
+      "d": "the one"
+    }
+  },
+  {
+    "id": "stanley-52-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one which» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "This factory is .... makes tools.",
+    "options": {
+      "a": "which",
+      "b": "the one who",
+      "c": "that",
+      "d": "the one which"
+    }
+  },
+  {
+    "id": "stanley-52-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one who» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "Your friend Tom is ... wanted to come.",
+    "options": {
+      "a": "the one who",
+      "b": "the one which",
+      "c": "which",
+      "d": "whom"
+    }
+  },
+  {
+    "id": "stanley-52-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the one who» completa el hueco conservado. The one(s) selecciona referente singular/plural; la relativa necesita sujeto u objeto según el hueco. Los compuestos nominales tienen un orden léxico.",
+    "confidence": "high",
+    "question": "My sister Mary is .... is coming with us.",
+    "options": {
+      "a": "the one which",
+      "b": "who",
+      "c": "the one who",
+      "d": "whom"
+    }
+  },
+  {
+    "id": "stanley-53-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had closed» completa el hueco conservado. El past perfect usa had + participio para un hecho anterior a otra referencia pasada.",
+    "confidence": "high",
+    "question": "When I arrived the pub was no longer open. It .... down.",
+    "options": {
+      "a": "has closed",
+      "b": "has close",
+      "c": "had close",
+      "d": "had closed"
+    }
+  },
+  {
+    "id": "stanley-53-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had never driven» completa el hueco conservado. El past perfect usa had + participio para un hecho anterior a otra referencia pasada.",
+    "confidence": "high",
+    "question": "She was nervous because she .... before.",
+    "options": {
+      "a": "has never driven",
+      "b": "had driven never",
+      "c": "had never driven",
+      "d": "had never drove"
+    }
+  },
+  {
+    "id": "stanley-54-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «hadn't seen» completa el hueco conservado. El past perfect usa had + participio para un hecho anterior a otra referencia pasada.",
+    "confidence": "high",
+    "question": "I was happy to see her again. I.... her for a long time.",
+    "options": {
+      "a": "haven't seen",
+      "b": "hadn't seen",
+      "c": "haven't see",
+      "d": "hadn't see"
+    }
+  },
+  {
+    "id": "stanley-54-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had never been» completa el hueco conservado. El past perfect usa had + participio para un hecho anterior a otra referencia pasada.",
+    "confidence": "high",
+    "question": "We went on holiday to Portugal. We .... there before.",
+    "options": {
+      "a": "had never be",
+      "b": "have never been",
+      "c": "have never be",
+      "d": "had never been"
+    }
+  },
+  {
+    "id": "stanley-55-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will have been» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "By 10 o'clock they .... walking for 24 hours.",
+    "options": {
+      "a": "will be",
+      "b": "will have",
+      "c": "will have been",
+      "d": "have been"
+    }
+  },
+  {
+    "id": "stanley-55-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will have drunk» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "If you drink like this, by midnight you .... a gallon of beer!",
+    "options": {
+      "a": "will drink",
+      "b": "will have drink",
+      "c": "will have drunk",
+      "d": "have drunk"
+    }
+  },
+  {
+    "id": "stanley-56-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have taken» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "By the time the doctor comes she will ... all the temperatures.",
+    "options": {
+      "a": "have took",
+      "b": "have taken",
+      "c": "be taken",
+      "d": "be took"
+    }
+  },
+  {
+    "id": "stanley-56-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have cooked» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "Do you think your mother will ... dinner by now?",
+    "options": {
+      "a": "have cook",
+      "b": "has cook",
+      "c": "have cooked",
+      "d": "has cooked"
+    }
+  },
+  {
+    "id": "stanley-56-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have used up» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "By the end ofthe century we will.... most of the oxygen.",
+    "options": {
+      "a": "had used up",
+      "b": "have used up",
+      "c": "have use up",
+      "d": "had use up"
+    }
+  },
+  {
+    "id": "stanley-56-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have spent» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "By the end of the month I'll... all my money.",
+    "options": {
+      "a": "have spend",
+      "b": "have spent",
+      "c": "had spent",
+      "d": "had spend"
+    }
+  },
+  {
+    "id": "stanley-56-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have caught» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "By the end of the year I'll .... four or five colds.",
+    "options": {
+      "a": "have catched",
+      "b": "have caught",
+      "c": "had caught",
+      "d": "had catched"
+    }
+  },
+  {
+    "id": "stanley-56-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have written» completa el hueco conservado. Will have + participio expresa futuro perfecto; will have been + -ing expresa duración hasta una referencia futura. By no exige siempre futuro perfecto.",
+    "confidence": "high",
+    "question": "I'll .... the article before midnight.",
+    "options": {
+      "a": "have wrote",
+      "b": "have write",
+      "c": "have written",
+      "d": "had written"
+    }
+  },
+  {
+    "id": "stanley-57-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the longest» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This word is .... one in our language.",
+    "options": {
+      "a": "longer than",
+      "b": "the longest",
+      "c": "the longer one",
+      "d": "longest than"
+    }
+  },
+  {
+    "id": "stanley-57-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «prettier» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "That girl is pretty. She is .... than her sister.",
+    "options": {
+      "a": "more pretty",
+      "b": "more prettier",
+      "c": "prettiest",
+      "d": "prettier"
+    }
+  },
+  {
+    "id": "stanley-57-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «most difficult» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This lesson is the ...",
+    "options": {
+      "a": "difficulter",
+      "b": "most difficult",
+      "c": "more difficult",
+      "d": "difficultest"
+    }
+  },
+  {
+    "id": "stanley-57-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the largest» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This classroom is .... in the school.",
+    "options": {
+      "a": "larger",
+      "b": "the largest",
+      "c": "the larger",
+      "d": "the most large"
+    }
+  },
+  {
+    "id": "stanley-57-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «taller» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This boy is .... than his brother.",
+    "options": {
+      "a": "tallest",
+      "b": "taller",
+      "c": "the tallest",
+      "d": "the taller"
+    }
+  },
+  {
+    "id": "stanley-57-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «bigger» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This town is much .... than we expected.",
+    "options": {
+      "a": "biggest",
+      "b": "the bigger",
+      "c": "the biggest",
+      "d": "bigger"
+    }
+  },
+  {
+    "id": "stanley-57-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «thinner» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This book is .... than yours.",
+    "options": {
+      "a": "thinnest",
+      "b": "thinner",
+      "c": "the thinner",
+      "d": "as thin"
+    }
+  },
+  {
+    "id": "stanley-57-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «most comfortable» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "These chairs are the ....",
+    "options": {
+      "a": "more comfortable",
+      "b": "most comfortable",
+      "c": "comfortabler",
+      "d": "comfortablest"
+    }
+  },
+  {
+    "id": "stanley-58-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «smaller» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This packet is too big. I want a .... one.",
+    "options": {
+      "a": "smallest",
+      "b": "smaller",
+      "c": "more small",
+      "d": "most small"
+    }
+  },
+  {
+    "id": "stanley-58-04",
+    "sourceType": "imported-training",
+    "status": "reviewed-ambiguous",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b",
+      "c"
+    ],
+    "excluded": true,
+    "neutralized": true,
+    "note": "El contexto no garantiza una única respuesta; las alternativas indicadas son candidatas para cotejo, no una plantilla de corrección. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "medium",
+    "question": "It’s a pity you live so far away. I wish you lived _____.",
+    "options": {
+      "a": "nearest",
+      "b": "nearer",
+      "c": "more near",
+      "d": "most near"
+    }
+  },
+  {
+    "id": "stanley-58-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «more expensive» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "The meal was very cheap. I expected it to be ....",
+    "options": {
+      "a": "expensivest",
+      "b": "expensiver",
+      "c": "more expensive",
+      "d": "most expensive"
+    }
+  },
+  {
+    "id": "stanley-58-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «as tall» completa el hueco conservado. El comparativo exige -er o more según el adjetivo; el superlativo -est o most. Than y as delimitan la comparación.",
+    "confidence": "high",
+    "question": "This man is .... as that one.",
+    "options": {
+      "a": "so tall",
+      "b": "not tall",
+      "c": "as tall",
+      "d": "as taller"
+    }
+  },
+  {
+    "id": "stanley-59-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «must» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "Come on boys! We .... score a goal!",
+    "options": {
+      "a": "must to",
+      "b": "must that",
+      "c": "have",
+      "d": "must"
+    }
+  },
+  {
+    "id": "stanley-59-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «must» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "It's very late, I .... go now.",
+    "options": {
+      "a": "have that",
+      "b": "must",
+      "c": "must to",
+      "d": "have"
+    }
+  },
+  {
+    "id": "stanley-59-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «mustn't» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "You .... tell anybody what I said.",
+    "options": {
+      "a": "mustn't to",
+      "b": "mustn't",
+      "c": "don't have",
+      "d": "haven't"
+    }
+  },
+  {
+    "id": "stanley-60-03",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "She has to leave early! What time does she .... leave?",
+    "options": {
+      "a": "have",
+      "b": "have to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "She wasn't feeling well. She .... leave early.",
+    "options": {
+      "a": "has to",
+      "b": "had to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "Your father may _____ go away next week.",
+    "options": {
+      "a": "has to",
+      "b": "have to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «have to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "Will you .... do military service?",
+    "options": {
+      "a": "has to",
+      "b": "have to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "Last weekend she .... stay at home.",
+    "options": {
+      "a": "has to",
+      "b": "had to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «must» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "You .... work much harder if you want to pass your exam.",
+    "options": {
+      "a": "have",
+      "b": "has to",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «had to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "They couldn't repair it. They .... take it to the garage.",
+    "options": {
+      "a": "have to",
+      "b": "had",
+      "c": "must",
+      "d": "had to"
+    }
+  },
+  {
+    "id": "stanley-60-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «must» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "You can take it home but you .... pay now.",
+    "options": {
+      "a": "have",
+      "b": "will have",
+      "c": "must",
+      "d": "must to"
+    }
+  },
+  {
+    "id": "stanley-60-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «must» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "To eat fast is bad for you. You .... eat more slowly..",
+    "options": {
+      "a": "must to",
+      "b": "have",
+      "c": "must",
+      "d": "will have"
+    }
+  },
+  {
+    "id": "stanley-60-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will have to» completa el hueco conservado. Must lleva infinitivo sin to; have to admite had to y will have to. Mustn’t prohíbe; don’t have to expresa falta de obligación.",
+    "confidence": "high",
+    "question": "We .... leave early if we want to get there in time.",
+    "options": {
+      "a": "must to",
+      "b": "get there",
+      "c": "will have",
+      "d": "will have to"
+    }
+  },
+  {
+    "id": "stanley-61-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «would go» completa el hueco conservado. La hipótesis con pasado admite would/could y otros modales según el sentido; should también aparece en registros formales.",
+    "confidence": "high",
+    "question": "If I could I .... to Madrid.",
+    "options": {
+      "a": "would to go",
+      "b": "would go",
+      "c": "will go",
+      "d": "must"
+    }
+  },
+  {
+    "id": "stanley-61-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Would» completa el hueco conservado. La hipótesis con pasado admite would/could y otros modales según el sentido; should también aparece en registros formales.",
+    "confidence": "high",
+    "question": "'.... you like to come?' 'I'd love to.'",
+    "options": {
+      "a": "Do",
+      "b": "Will",
+      "c": "Would",
+      "d": "Shall"
+    }
+  },
+  {
+    "id": "stanley-63-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was scored» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "Bronson scored a goal. Yes, a goal.... by Bronson.",
+    "options": {
+      "a": "is scored",
+      "b": "scored",
+      "c": "will be scored",
+      "d": "was scored"
+    }
+  },
+  {
+    "id": "stanley-63-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «be done» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "This exercise will .... at home by the boys.",
+    "options": {
+      "a": "be doing",
+      "b": "do",
+      "c": "have done",
+      "d": "be done"
+    }
+  },
+  {
+    "id": "stanley-63-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «translated» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "Mr Johnson .... this book.",
+    "options": {
+      "a": "is translated",
+      "b": "translated by",
+      "c": "translated",
+      "d": "was translated by"
+    }
+  },
+  {
+    "id": "stanley-63-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «are said» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "Many things .... in this house.",
+    "options": {
+      "a": "is said",
+      "b": "are said",
+      "c": "they say",
+      "d": "they are said"
+    }
+  },
+  {
+    "id": "stanley-63-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was built» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "This mansion .... in 1750.",
+    "options": {
+      "a": "is built",
+      "b": "was built",
+      "c": "will be built",
+      "d": "builded"
+    }
+  },
+  {
+    "id": "stanley-63-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «buy» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "They will .... this car soon.",
+    "options": {
+      "a": "be bought",
+      "b": "buying",
+      "c": "buy",
+      "d": "is bought"
+    }
+  },
+  {
+    "id": "stanley-63-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «be bought» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "This car will ... soon.",
+    "options": {
+      "a": "be bought",
+      "b": "be buying",
+      "c": "buy",
+      "d": "is bought"
+    }
+  },
+  {
+    "id": "stanley-64-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will drink» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "The baby .... the milk.",
+    "options": {
+      "a": "is going to be drunk",
+      "b": "will drink",
+      "c": "will be drunk by",
+      "d": "is drunk by"
+    }
+  },
+  {
+    "id": "stanley-64-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was caused by» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "The fire .... an electrical fault.",
+    "options": {
+      "a": "is caused",
+      "b": "caused by",
+      "c": "was caused by",
+      "d": "was caused for"
+    }
+  },
+  {
+    "id": "stanley-64-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "d",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «be killed by» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "That dog is going to .... a car one of these days.",
+    "options": {
+      "a": "be killed by",
+      "b": "be killed for",
+      "c": "have killed by",
+      "d": "is killed by"
+    }
+  },
+  {
+    "id": "stanley-64-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «been thrown» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "The ball has .... by that player.",
+    "options": {
+      "a": "thrown",
+      "b": "be throw",
+      "c": "throws",
+      "d": "been thrown"
+    }
+  },
+  {
+    "id": "stanley-64-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «will lead» completa el hueco conservado. La pasiva usa be + participio; by introduce agente y for puede introducir beneficiario. El tiempo depende del contexto.",
+    "confidence": "high",
+    "question": "He's a leader, he .... the others.",
+    "options": {
+      "a": "was led",
+      "b": "is led",
+      "c": "will be led",
+      "d": "will lead"
+    }
+  },
+  {
+    "id": "stanley-65-04",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «worse than» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "Your exercises are .... Peter's!",
+    "options": {
+      "a": "baddest",
+      "b": "worse than",
+      "c": "the worst",
+      "d": "the most bad"
+    }
+  },
+  {
+    "id": "stanley-65-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «so healthy as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This man is not .... that one.",
+    "options": {
+      "a": "as healthy so",
+      "b": "so healthy",
+      "c": "so healthy as",
+      "d": "so healthy so"
+    }
+  },
+  {
+    "id": "stanley-65-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «as good as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "Those hotels won't be .... this one.",
+    "options": {
+      "a": "so good than",
+      "b": "as good as",
+      "c": "so good so",
+      "d": "as good so"
+    }
+  },
+  {
+    "id": "stanley-65-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «the best» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This is .... hotel I've ever stayed at.",
+    "options": {
+      "a": "the better",
+      "b": "the best",
+      "c": "better than",
+      "d": "best than"
+    }
+  },
+  {
+    "id": "stanley-65-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «farther» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "I can't walk much .... I'm afraid.",
+    "options": {
+      "a": "farthest",
+      "b": "farther",
+      "c": "more far",
+      "d": "most far"
+    }
+  },
+  {
+    "id": "stanley-65-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «as slow as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This train is not .... that one.",
+    "options": {
+      "a": "as slower as",
+      "b": "as slow as",
+      "c": "so slower as",
+      "d": "as slow than"
+    }
+  },
+  {
+    "id": "stanley-66-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «as rich as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This man is .... his brother.",
+    "options": {
+      "a": "as rich so",
+      "b": "so rich so",
+      "c": "as rich as",
+      "d": "so rich as"
+    }
+  },
+  {
+    "id": "stanley-66-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «as young as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "That girl isn't .... she looks.",
+    "options": {
+      "a": "as young so",
+      "b": "as young as",
+      "c": "so young so",
+      "d": "as younger as"
+    }
+  },
+  {
+    "id": "stanley-66-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «worse than» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "Our car is much .... yours.",
+    "options": {
+      "a": "worst",
+      "b": "worse as",
+      "c": "as worse as",
+      "d": "worse than"
+    }
+  },
+  {
+    "id": "stanley-66-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «much worse» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This is bad but yours is ....",
+    "options": {
+      "a": "much worst",
+      "b": "more worse",
+      "c": "much worse",
+      "d": "more worst"
+    }
+  },
+  {
+    "id": "stanley-66-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «nearer than» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "The Post Office was .... we thought.",
+    "options": {
+      "a": "near that",
+      "b": "nearest",
+      "c": "nearer than",
+      "d": "more near than"
+    }
+  },
+  {
+    "id": "stanley-66-16",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «better than» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "My exercise is much .... yours.",
+    "options": {
+      "a": "best than",
+      "b": "more good as",
+      "c": "better than",
+      "d": "the best as"
+    }
+  },
+  {
+    "id": "stanley-66-17",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «so old as» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "This house isn't .... that castle.",
+    "options": {
+      "a": "as old than",
+      "b": "so old as",
+      "c": "so old than",
+      "d": "as older as"
+    }
+  },
+  {
+    "id": "stanley-66-18",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «much better» completa el hueco conservado. Good/bad forman better/best y worse/worst; igualdad usa as…as y desigualdad negativa también so…as.",
+    "confidence": "high",
+    "question": "You certainly look ... today.",
+    "options": {
+      "a": "much best",
+      "b": "more better",
+      "c": "more best",
+      "d": "much better"
+    }
+  },
+  {
+    "id": "stanley-67-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «let's not» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Now, .... forget that we've got to win today!",
+    "options": {
+      "a": "let's no",
+      "b": "let's not",
+      "c": "don't let we",
+      "d": "don't we"
+    }
+  },
+  {
+    "id": "stanley-67-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «let's» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "You have to fill in the forms. Well, .... fill them in!",
+    "options": {
+      "a": "we let's",
+      "b": "let's",
+      "c": "let's we",
+      "d": "we let us"
+    }
+  },
+  {
+    "id": "stanley-67-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «don't speak» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Here comes Jean, .... to her!",
+    "options": {
+      "a": "speak not",
+      "b": "don't let you speak",
+      "c": "don't speak",
+      "d": "don't speak you"
+    }
+  },
+  {
+    "id": "stanley-68-01",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «let us» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Sheila, .... go to the cinema tonight!",
+    "options": {
+      "a": "let we",
+      "b": "let us",
+      "c": "we let",
+      "d": "we let's"
+    }
+  },
+  {
+    "id": "stanley-68-02",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «let's not» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Mum, .... go to the shops today!",
+    "options": {
+      "a": "don't we",
+      "b": "let's not",
+      "c": "let's no",
+      "d": "don't let we"
+    }
+  },
+  {
+    "id": "stanley-68-08",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «Let's not» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Olivia is already doing it. OK, .... do it!",
+    "options": {
+      "a": "Let we",
+      "b": "Let's not",
+      "c": "Let we not",
+      "d": "Don't let we"
+    }
+  },
+  {
+    "id": "stanley-68-11",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «let her» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "She is going to try on the sweater. OK, .... try it on!",
+    "options": {
+      "a": "let she",
+      "b": "let her",
+      "c": "tell her",
+      "d": "tell she"
+    }
+  },
+  {
+    "id": "stanley-68-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «play» completa el hueco conservado. Let lleva pronombre objeto e infinitivo sin to; tell exige to ante el infinitivo. Let’s propone una acción conjunta.",
+    "confidence": "high",
+    "question": "Children, .... in the garden, not in the house!",
+    "options": {
+      "a": "let you play",
+      "b": "play you",
+      "c": "you let play",
+      "d": "play"
+    }
+  },
+  {
+    "id": "stanley-69-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «does» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "She doesn't live here, .... she?",
+    "options": {
+      "a": "doesn't",
+      "b": "will",
+      "c": "does",
+      "d": "did"
+    }
+  },
+  {
+    "id": "stanley-69-09",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "b",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «were» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "You weren't at the meeting, .... you?",
+    "options": {
+      "a": "were",
+      "b": "are",
+      "c": "have",
+      "d": "do"
+    }
+  },
+  {
+    "id": "stanley-69-10",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «does» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "He doesn't come every day, .... he?",
+    "options": {
+      "a": "has",
+      "b": "does",
+      "c": "do",
+      "d": "is"
+    }
+  },
+  {
+    "id": "stanley-69-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «could» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "You couldn't come tomorrow, ... you?",
+    "options": {
+      "a": "could",
+      "b": "couldn't",
+      "c": "did",
+      "d": "were"
+    }
+  },
+  {
+    "id": "stanley-69-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «isn't» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "There's a lot of coffee, ... there?",
+    "options": {
+      "a": "aren't",
+      "b": "isn't",
+      "c": "hasn't",
+      "d": "doesn't"
+    }
+  },
+  {
+    "id": "stanley-69-20",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "a",
+    "candidate": "a",
+    "candidateAnswers": [
+      "a"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «was» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "She wasn't very old, .... she?",
+    "options": {
+      "a": "was",
+      "b": "wasn't",
+      "c": "is",
+      "d": "does"
+    }
+  },
+  {
+    "id": "stanley-70-05",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «has» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "She hasn't done it yet, .... she?",
+    "options": {
+      "a": "are",
+      "b": "hasn't",
+      "c": "has",
+      "d": "does"
+    }
+  },
+  {
+    "id": "stanley-70-19",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "c",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «is» completa el hueco conservado. Los tags reutilizan auxiliar y pronombre del sujeto. La lectura confirmatoria invierte polaridad; existen tags de la misma polaridad con otro sentido.",
+    "confidence": "high",
+    "question": "She isn't very clever, .... she?",
+    "options": {
+      "a": "doesn't",
+      "b": "isn't",
+      "c": "does",
+      "d": "is"
+    }
+  },
+  {
+    "id": "stanley-71-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «for» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "I've been studying English .... 20 years.",
+    "options": {
+      "a": "during",
+      "b": "since",
+      "c": "for",
+      "d": "already"
+    }
+  },
+  {
+    "id": "stanley-71-14",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «already» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "Let's go to bed. It's ....very late.",
+    "options": {
+      "a": "yet",
+      "b": "already",
+      "c": "since",
+      "d": "for"
+    }
+  },
+  {
+    "id": "stanley-71-15",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «yet» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "Sorry, I haven't finished ....",
+    "options": {
+      "a": "still",
+      "b": "already",
+      "c": "yet",
+      "d": "for"
+    }
+  },
+  {
+    "id": "stanley-72-06",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "d",
+    "candidate": "d",
+    "candidateAnswers": [
+      "d"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «during» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "I don't like staying there .... the night.",
+    "options": {
+      "a": "still",
+      "b": "yet",
+      "c": "at",
+      "d": "during"
+    }
+  },
+  {
+    "id": "stanley-72-07",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «yet» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "Mark, haven't you got up ....?",
+    "options": {
+      "a": "still",
+      "b": "yet",
+      "c": "at",
+      "d": "since"
+    }
+  },
+  {
+    "id": "stanley-72-12",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "b",
+    "candidate": "b",
+    "candidateAnswers": [
+      "b"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «during» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "She fell asleep .... the film.",
+    "options": {
+      "a": "still",
+      "b": "during",
+      "c": "for",
+      "d": "since"
+    }
+  },
+  {
+    "id": "stanley-72-13",
+    "sourceType": "imported-training",
+    "status": "editorial-reviewed",
+    "previous": "a",
+    "current": "c",
+    "candidate": "c",
+    "candidateAnswers": [
+      "c"
+    ],
+    "excluded": false,
+    "neutralized": false,
+    "note": "La opción «yet» completa el hueco conservado. For expresa duración, since punto inicial y during un periodo. Still, already y yet dependen del sentido y la posición.",
+    "confidence": "high",
+    "question": "Thomas, haven't you finished your homework ...?",
+    "options": {
+      "a": "still",
+      "b": "during",
+      "c": "yet",
+      "d": "since"
+    }
+  }
+]

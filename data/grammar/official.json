@@ -1,0 +1,2146 @@
+{
+  "oficial": [
+    {
+      "id": "oficial-2-1",
+      "examen": "2026",
+      "numero": 1,
+      "frase": "Durante el concierto de anoche hubieron demasiados fallos en el sistema de sonido.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-2",
+      "examen": "2026",
+      "numero": 2,
+      "frase": "Se lo entregué en mano a los interesados ayer por la mañana.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-3",
+      "examen": "2026",
+      "numero": 3,
+      "frase": "A mi compañera de departamento le vi salir apresuradamente del edificio.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-4",
+      "examen": "2026",
+      "numero": 4,
+      "frase": "El comité evaluador opina de que la propuesta debería ser rechazada.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-5",
+      "examen": "2026",
+      "numero": 5,
+      "frase": "Es muy probable que las temperaturas desciendan bruscamente mañana.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-6",
+      "examen": "2026",
+      "numero": 6,
+      "frase": "El candidato no satisfació las expectativas del tribunal de selección.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-7",
+      "examen": "2026",
+      "numero": 7,
+      "frase": "Contra más estudio este complejo temario, menos dudas me surgen.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-8",
+      "examen": "2026",
+      "numero": 8,
+      "frase": "El vehículo policial se estacionó justo detrás de mí.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-9",
+      "examen": "2026",
+      "numero": 9,
+      "frase": "El sospechoso se sentó delante suyo durante todo el interrogatorio.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-10",
+      "examen": "2026",
+      "numero": 10,
+      "frase": "El peregrino andó varios kilómetros bajo el sol abrasador sin descanso.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-11",
+      "examen": "2026",
+      "numero": 11,
+      "frase": "Me alegro enormemente de que hayas superado la prueba teórica.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-12",
+      "examen": "2026",
+      "numero": 12,
+      "frase": "Estoy totalmente convencido que lograremos aprobar el examen este año.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-13",
+      "examen": "2026",
+      "numero": 13,
+      "frase": "Si tendría más tiempo libre, prepararía la oposición con mucha más calma.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-14",
+      "examen": "2026",
+      "numero": 14,
+      "frase": "En aquel momento de confusión no me di cuenta de la gravedad del asunto.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-15",
+      "examen": "2026",
+      "numero": 15,
+      "frase": "El testigo no preveyó que debía firmar la declaración oficial",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-16",
+      "examen": "2026",
+      "numero": 16,
+      "frase": "A los nuevos empleados se les proporcionó todo el material necesario.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-17",
+      "examen": "2026",
+      "numero": 17,
+      "frase": "Habíamos muchos opositores esperando la publicación de las notas.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-18",
+      "examen": "2026",
+      "numero": 18,
+      "frase": "Se prevén fuertes ráfagas de viento en la zona costera durante el fin de semana.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-19",
+      "examen": "2026",
+      "numero": 19,
+      "frase": "¡Callar de una vez y escuchar atentamente las instrucciones del examinador!",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-2-20",
+      "examen": "2026",
+      "numero": 20,
+      "frase": "El edificio a quien le renovaron la fachada el mes pasado quedó espectacular.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "origen": "individual"
+    },
+    {
+      "id": "oficial-4-1-op1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "Si lo hubieras hecho antes, te habría ido mejor.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-1-op2",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "No quiero que me se entienda mal.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-1-op3",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "Insistió que lo había hecho él.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-1-op4",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "Se han apropiado de su casa.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-2-op1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "Ponte al lado mía.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-2-op2",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "Esa opción es la más mejor.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-2-op3",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "No le reprochaba lo que hizo, sino que no hubiese llamado para avisar.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-2-op4",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "Se atuvieron a su derecho a no declarar.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-3-op1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "Alegrémonos por la buena noticia.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-3-op2",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "Tienes el documento impreso sobre tu mesa.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-3-op3",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "Ese trabajo supone un sobreesfuerzo para el personal.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-3-op4",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "Me entristece lo que me estás contando.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-4-op1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Aun que llegues tarde, avísame, por favor.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-4-op2",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "¿Quién te ha dicho eso?",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-4-op3",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "Cuantas más personas vengan mejor.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-4-op4",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "Anoche lleguemos a las diez.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-5-op1",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "No veo a esos chicos capaz de hacer ese trabajo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-5-op2",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "Tengo un amigo cuya madre ha fallecido.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-5-op3",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "Por favor, digámosle la verdad a Juan.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-4-5-op4",
+      "examen": "2025 - Hijos de Guardia (Modelos A/B)",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "Su padre no le regañó a pesar de que llegó muy tarde.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-1-op1",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "Ana no cree que la entiendan.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-1-op2",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "Está en el piso doceavo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-1-op3",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "El detenido es adicto de la cocaína.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-1-op4",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "La orca macho es muy peligroso.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-2-op1",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "No ha aparecido el arma con la que cometió el crimen.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-2-op2",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "Siguió luchando aun cuando lo tenía todo perdido.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-2-op3",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "Se enfadó con sigo mismo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-2-op4",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "Lo miró de arriba abajo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-3-op1",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "Juan llegó muy tarde. Sin encambio, Ana estaba aquí a las diez.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-3-op2",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "Voy a el supermercado.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-3-op3",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "Los hechos ocurrieron en aquella época.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-3-op4",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "Cógete de mi brazo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-4-op1",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Su actuación se considera cuasidelito.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-4-op2",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "Aún me queda dinero.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-4-op3",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "Ahora mismo estoy muy agusto.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-4-op4",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "Yo soy de los que apoyo siempre al débil.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-5-op1",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "Anoche me estaba divirtiendo mucho justo antes de irme.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-5-op2",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "¿Cuantas horas trabajas al día?",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-5-op3",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "Abrázame fuerte.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-10-5-op4",
+      "examen": "2023 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "Comió mucho, tánto que se puso malo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-1-op1",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "Quedaron décimosterceros.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-1-op2",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "Lo hizo sin que su jefa tenía conocimiento de ello.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-1-op3",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "De haberlo sabido antes te lo habría dicho.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-1-op4",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "Llegué muy tarde, asíque me fui.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-2-op1",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "Basta conque lo traigas antes de las diez.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-2-op2",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "Viene de la ciudad de El Escorial.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-2-op3",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "Juan sabe quién lo ha hecho.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-2-op4",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "El coche circulaba cuestarriba.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-3-op1",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "La elefante hembra es muy grande.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-3-op2",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "Déjame en paz.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-3-op3",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "Se buscan a los culpables.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-3-op4",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "Se me olvidó en muchas ocasiones.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-4-op1",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Te daré mil euros acambio de tu silencio.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-4-op2",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "Ese líquido es semi transparente.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-4-op3",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "¿A tí te gusta el vino?",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-4-op4",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "La víctima estaba tan afectada que no se atrevía si quiera a recordar los hechos.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-5-op1",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "Dí me lo que tengo que hacer.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-5-op2",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "Cuantimás dinero tengas más feliz serás.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-5-op3",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "Los espectadores contuvieron sus lágrimas.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-12-5-op4",
+      "examen": "2023 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "No me iré sin que tú me des permiso.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-1-op1",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "Seguiré adelante con la condición que tú también lo hagas.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-1-op2",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "Los contrincantes se golpeaban entresí.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-1-op3",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "El objeto se localizó en esta área concreta.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-1-op4",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "La primera y la segunda son buenas soluciones.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-2-op1",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "Habría que tener en cuenta muchas cosas.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-2-op2",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "Busqué las llaves donde siempre las dejo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-2-op3",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "No creo que vengan hoy.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-2-op4",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "Los profesores ponieron el examen encima de la mesa.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-3-op1",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "Tengo la certeza de que vendrá.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-3-op2",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "Vamos haber si llega a tiempo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-3-op3",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "No sabemos qué hacer.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-3-op4",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "Cerca de la mitad de los trabajadores eran inmigrantes.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-4-op1",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Estaba acercándose mucho, cuando se precipitó al vacío.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-4-op2",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "Esa novela es muy de su gusto.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-4-op3",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "Si tenéis frio, cerraríamos la ventana.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-4-op4",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "Coger eso del suelo, por favor.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-5-op1",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "Cuando mejor estábamos, nos tuvimos que ir.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-5-op2",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "Está previsto que hayan muchas lluvias.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-5-op3",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "Le compré un ramo de flores a mi hija.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-14-5-op4",
+      "examen": "2024 - Modelo 1A",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "Me obligaron a hacerlo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-1-op1",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "Se estaban divirtiendo mucho.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-1-op2",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "Hay dos personas asesinadas. Se tratan de dos mujeres de 25 y 26 años.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-1-op3",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "Que baje quien quiera.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-1-op4",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "Eso se lo tengo que decir a Ana.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-2-op1",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "La primera opción es la más mejor.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-2-op2",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "Nos han explicado muy bien cómo llegar.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-2-op3",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "La mayor parte de la gente irá el domingo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-2-op4",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "Los detenidos conducieron bajo los efectos del alcohol.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-3-op1",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "Llegará antes de que anochezca.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-3-op2",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "El coche llevo mucho tiempo sin usarle.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-3-op3",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "Quejandote siempre no conseguirás nada.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-3-op4",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "Tenemos que poner ese cuadro más abajo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-4-op1",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Aun tienes el arma cargado.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-4-op2",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "Tú no te lo mereces.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-4-op3",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "Todos los padres quieren que sus hijos tienen suerte en la vida.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-4-op4",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "Los meteorólogos predijeron mal tiempo para el fin de semana.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-5-op1",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "Quedo a la espera que me concretes el horario.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-5-op2",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "Los jugadores y el árbitro saltó juntos al campo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-5-op3",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "En ese local se hacen arreglos de ropa.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-16-5-op4",
+      "examen": "2024 - Modelo 2A",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "Cuanta más gente venga, mejor.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-1-op1",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 1,
+      "opcion": "a",
+      "frase": "La abad del convento salió de la biblioteca principal para recibirnos.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-1-op2",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 1,
+      "opcion": "b",
+      "frase": "El ordenador del centro de datos no tiene actualizado el antivirus.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-1-op3",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 1,
+      "opcion": "c",
+      "frase": "Este señor es el alcalde del municipio.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-1-op4",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 1,
+      "opcion": "d",
+      "frase": "El mes de mayo no tiene treinta días.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-2-op1",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 2,
+      "opcion": "a",
+      "frase": "Tanto la joven como el anciano parecen sospechosos.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-2-op2",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 2,
+      "opcion": "b",
+      "frase": "La policía también se incautó de un helicóptero.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-2-op3",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 2,
+      "opcion": "c",
+      "frase": "Mi lápiz negro escribe mal, pero el de Juan escribe muy bien.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-2-op4",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 2,
+      "opcion": "d",
+      "frase": "Los coches oficiales disponen de faros antinieblas.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-3-op1",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 3,
+      "opcion": "a",
+      "frase": "El sueldo es de mil quinientos euros al mes, más pagas extraordinarias.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-3-op2",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 3,
+      "opcion": "b",
+      "frase": "La escuadrilla está compuesta de cinco aeronaves.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-3-op3",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 3,
+      "opcion": "c",
+      "frase": "El primer y segundo cuarto del partido fue más intenso en ataque.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-3-op4",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 3,
+      "opcion": "d",
+      "frase": "¡Mira que eres despistado!",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-4-op1",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 4,
+      "opcion": "a",
+      "frase": "Anoche lleguemos muy tarde.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-4-op2",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 4,
+      "opcion": "b",
+      "frase": "Tenéis que entreteneros con algo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-4-op3",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 4,
+      "opcion": "c",
+      "frase": "Dime cuanto te debo.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-4-op4",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 4,
+      "opcion": "d",
+      "frase": "Entre el público había, sobre todo, muchos jóvenes.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-5-op1",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 5,
+      "opcion": "a",
+      "frase": "Esta casa no es como aquellas otras.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-5-op2",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 5,
+      "opcion": "b",
+      "frase": "A tu hija tienes que darla más dinero.",
+      "respuesta": "M",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-5-op3",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 5,
+      "opcion": "c",
+      "frase": "Coged vuestras cosas y venid conmigo.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    },
+    {
+      "id": "oficial-18-5-op4",
+      "examen": "2024 - Modelo 3A",
+      "numero_fuente": 5,
+      "opcion": "d",
+      "frase": "Me trata como si no me conociera.",
+      "respuesta": "B",
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL"
+    }
+  ],
+  "fuente_original": [
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Si lo hubieras hecho antes, te habría ido mejor.",
+        "No quiero que me se entienda mal.",
+        "Insistió que lo había hecho él.",
+        "Se han apropiado de su casa."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-4-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Ponte al lado mía.",
+        "Esa opción es la más mejor.",
+        "No le reprochaba lo que hizo, sino que no hubiese llamado para avisar.",
+        "Se atuvieron a su derecho a no declarar."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-4-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Alegrémonos por la buena noticia.",
+        "Tienes el documento impreso sobre tu mesa.",
+        "Ese trabajo supone un sobreesfuerzo para el personal.",
+        "Me entristece lo que me estás contando."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-4-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Aun que llegues tarde, avísame, por favor.",
+        "¿Quién te ha dicho eso?",
+        "Cuantas más personas vengan mejor.",
+        "Anoche lleguemos a las diez."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-4-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "No veo a esos chicos capaz de hacer ese trabajo.",
+        "Tengo un amigo cuya madre ha fallecido.",
+        "Por favor, digámosle la verdad a Juan.",
+        "Su padre no le regañó a pesar de que llegó muy tarde."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-4-5"
+    },
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Ana no cree que la entiendan.",
+        "Está en el piso doceavo.",
+        "El detenido es adicto de la cocaína.",
+        "La orca macho es muy peligroso."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "M",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-10-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "No ha aparecido el arma con la que cometió el crimen.",
+        "Siguió luchando aun cuando lo tenía todo perdido.",
+        "Se enfadó con sigo mismo.",
+        "Lo miró de arriba abajo."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-10-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Juan llegó muy tarde. Sin encambio, Ana estaba aquí a las diez.",
+        "Voy a el supermercado.",
+        "Los hechos ocurrieron en aquella época.",
+        "Cógete de mi brazo."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-10-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Su actuación se considera cuasidelito.",
+        "Aún me queda dinero.",
+        "Ahora mismo estoy muy agusto.",
+        "Yo soy de los que apoyo siempre al débil."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "M",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-10-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Anoche me estaba divirtiendo mucho justo antes de irme.",
+        "¿Cuantas horas trabajas al día?",
+        "Abrázame fuerte.",
+        "Comió mucho, tanto que se puso malo."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-10-5"
+    },
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Quedaron décimosterceros.",
+        "Lo hizo sin que su jefa tenía conocimiento de ello.",
+        "De haberlo sabido antes te lo habría dicho.",
+        "Llegué muy tarde, asíque me fui."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-12-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Basta conque lo traigas antes de las diez.",
+        "Viene de la ciudad de El Escorial.",
+        "Juan sabe quién lo ha hecho.",
+        "El coche circulaba cuestarriba."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-12-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "La elefante hembra es muy grande.",
+        "Déjame en paz.",
+        "Se buscan a los culpables.",
+        "Se me olvidó en muchas ocasiones."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-12-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Te daré mil euros acambio de tu silencio.",
+        "Ese líquido es semi transparente.",
+        "¿A tí te gusta el vino?",
+        "La víctima estaba tan afectada que no se atrevía si quiera a recordar los hechos."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "M",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-12-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Dí me lo que tengo que hacer.",
+        "Cuantimás dinero tengas más feliz serás.",
+        "Los espectadores contuvieron sus lágrimas.",
+        "No me iré sin que tú me des permiso."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-12-5"
+    },
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Seguiré adelante con la condición que tú también lo hagas.",
+        "Los contrincantes se golpeaban entresí.",
+        "El objeto se localizó en esta área concreta.",
+        "La primera y la segunda son buenas soluciones."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-14-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Habría que tener en cuenta muchas cosas.",
+        "Busqué las llaves donde siempre las dejo.",
+        "No creo que vengan hoy.",
+        "Los profesores ponieron el examen encima de la mesa."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-14-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Tengo la certeza de que vendrá.",
+        "Vamos haber si llega a tiempo.",
+        "No sabemos qué hacer.",
+        "Cerca de la mitad de los trabajadores eran inmigrantes."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-14-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Estaba acercándose mucho, cuando se precipitó al vacío.",
+        "Esa novela es muy de su gusto.",
+        "Si tenéis frio, cerraríamos la ventana.",
+        "Coger eso del suelo, por favor."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "M",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-14-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Cuando mejor estábamos, nos tuvimos que ir.",
+        "Está previsto que hayan muchas lluvias.",
+        "Le compré un ramo de flores a mi hija.",
+        "Me obligaron a hacerlo."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-14-5"
+    },
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Se estaban divirtiendo mucho.",
+        "Hay dos personas asesinadas. Se tratan de dos mujeres de 25 y 26 años.",
+        "Que baje quien quiera.",
+        "Eso se lo tengo que decir a Ana."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-16-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "La primera opción es la más mejor.",
+        "Nos han explicado muy bien cómo llegar.",
+        "La mayor parte de la gente irá el domingo.",
+        "Los detenidos conducieron bajo los efectos del alcohol."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-16-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Llegará antes de que anochezca.",
+        "El coche llevo mucho tiempo sin usarle.",
+        "Quejandote siempre no conseguirás nada.",
+        "Tenemos que poner ese cuadro más abajo."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-16-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Aun tienes el arma cargado.",
+        "Tú no te lo mereces.",
+        "Todos los padres quieren que sus hijos tienen suerte en la vida.",
+        "Los meteorólogos predijeron mal tiempo para el fin de semana."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-16-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Quedo a la espera que me concretes el horario.",
+        "Los jugadores y el árbitro saltó juntos al campo.",
+        "En ese local se hacen arreglos de ropa.",
+        "Cuanta más gente venga, mejor."
+      ],
+      "respuestas": [
+        "M",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-16-5"
+    },
+    {
+      "numero": 1,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "La abad del convento salió de la biblioteca principal para recibirnos.",
+        "El ordenador del centro de datos no tiene actualizado el antivirus.",
+        "Este señor es el alcalde del municipio.",
+        "El mes de mayo no tiene treinta días."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-18-1"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Tanto la joven como el anciano parecen sospechosos.",
+        "La policía también se incautó de un helicóptero.",
+        "Mi lápiz negro escribe mal, pero el de Juan escribe muy bien.",
+        "Los coches oficiales disponen de faros antinieblas."
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "B",
+        "M"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-18-2"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "El sueldo es de mil quinientos euros al mes, más pagas extraordinarias.",
+        "La escuadrilla está compuesta de cinco aeronaves.",
+        "El primer y segundo cuarto del partido fue más intenso en ataque.",
+        "¡Mira que eres despistado!"
+      ],
+      "respuestas": [
+        "B",
+        "B",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-18-3"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Anoche lleguemos muy tarde.",
+        "Tenéis que entreteneros con algo.",
+        "Dime cuanto te debo.",
+        "Entre el público había, sobre todo, muchos jóvenes."
+      ],
+      "respuestas": [
+        "M",
+        "B",
+        "M",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-18-4"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Señale las opciones incorrectas",
+      "opciones": [
+        "Esta casa no es como aquellas otras.",
+        "A tu hija tienes que darla más dinero.",
+        "Coged vuestras cosas y venid conmigo.",
+        "Me trata como si no me conociera."
+      ],
+      "respuestas": [
+        "B",
+        "M",
+        "B",
+        "B"
+      ],
+      "es_oficial": true,
+      "es_reserva": false,
+      "categoria": "OFICIAL",
+      "id": "oficial-18-5"
+    }
+  ]
+}

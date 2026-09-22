@@ -1,0 +1,68 @@
+[
+  {
+    "legacyId": "stanley-28-10",
+    "id": "stanley-28-10-variant-2",
+    "pregunta": "'",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-31-01",
+    "id": "stanley-31-01-variant-2",
+    "pregunta": "45 is",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-31-06",
+    "id": "stanley-31-06-variant-2",
+    "pregunta": "50 is",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-31-10",
+    "id": "stanley-31-10-variant-2",
+    "pregunta": "He is interested in languages.",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-31-10",
+    "id": "stanley-31-10-variant-3",
+    "pregunta": "05 is",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-31-12",
+    "id": "stanley-31-12-variant-2",
+    "pregunta": "55 is",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-32-02",
+    "id": "stanley-32-02-variant-2",
+    "pregunta": "50 is ....",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-32-05",
+    "id": "stanley-32-05-variant-2",
+    "pregunta": "I can't translate it without .... a dictionary.",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-32-05",
+    "id": "stanley-32-05-variant-3",
+    "pregunta": "20 is",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-32-12",
+    "id": "stanley-32-12-variant-2",
+    "pregunta": "He went to school without breakfast.",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  },
+  {
+    "legacyId": "stanley-55-02",
+    "id": "stanley-55-02-variant-2",
+    "pregunta": "I .... by then.",
+    "reason": "Colisión de ID ya presente en bed694d. Se conserva la primera entrada y se asigna sufijo estable a las demás; no se elimina ninguna pregunta."
+  }
+]

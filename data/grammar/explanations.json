@@ -1,0 +1,842 @@
+{
+  "Durante el concierto de anoche hubieron demasiados fallos en el sistema de sonido.": {
+    "correct": "Durante el concierto de anoche hubo demasiados fallos en el sistema de sonido.",
+    "rule": "Haber impersonal",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Durante el concierto de anoche hubo demasiados fallos en el sistema de sonido.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Durante el concierto de anoche hubo demasiados fallos en el sistema de sonido.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "A mi compañera de departamento le vi salir apresuradamente del edificio.": {
+    "correct": "A mi compañera de departamento la vi salir apresuradamente del edificio.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «A mi compañera de departamento la vi salir apresuradamente del edificio.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «A mi compañera de departamento la vi salir apresuradamente del edificio.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El comité evaluador opina de que la propuesta debería ser rechazada.": {
+    "correct": "El comité evaluador opina que la propuesta debería ser rechazada.",
+    "rule": "Dequeísmo",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El comité evaluador opina que la propuesta debería ser rechazada.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El comité evaluador opina que la propuesta debería ser rechazada.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El candidato no satisfació las expectativas del tribunal de selección.": {
+    "correct": "El candidato no satisfizo las expectativas del tribunal de selección.",
+    "rule": "Conjugación de satisfacer",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El candidato no satisfizo las expectativas del tribunal de selección.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El candidato no satisfizo las expectativas del tribunal de selección.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Contra más estudio este complejo temario, menos dudas me surgen.": {
+    "correct": "Cuanto más estudio este complejo temario, menos dudas me surgen.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Cuanto más estudio este complejo temario, menos dudas me surgen.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Cuanto más estudio este complejo temario, menos dudas me surgen.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El vehículo policial se estacionó justo detrás de mí.": {
+    "correct": "[corrección específica en la explicación]",
+    "rule": "Pronombre personal",
+    "why": "«Mí» está correctamente escrito después de la preposición «de». Si el alumno lo marca como incorrecto, el error está en su respuesta, no en la frase.",
+    "tip": "Repite mentalmente la forma correcta: «[corrección específica en la explicación]» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El sospechoso se sentó delante suyo durante todo el interrogatorio.": {
+    "correct": "El sospechoso se sentó delante de él durante todo el interrogatorio.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El sospechoso se sentó delante de él durante todo el interrogatorio.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El sospechoso se sentó delante de él durante todo el interrogatorio.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El peregrino andó varios kilómetros bajo el sol abrasador sin descanso.": {
+    "correct": "El peregrino anduvo varios kilómetros bajo el sol abrasador sin descanso.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El peregrino anduvo varios kilómetros bajo el sol abrasador sin descanso.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El peregrino anduvo varios kilómetros bajo el sol abrasador sin descanso.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Estoy totalmente convencido que lograremos aprobar el examen este año.": {
+    "correct": "Estoy totalmente convencido de que lograremos aprobar el examen este año.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Estoy totalmente convencido de que lograremos aprobar el examen este año.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Estoy totalmente convencido de que lograremos aprobar el examen este año.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Si tendría más tiempo libre, prepararía la oposición con mucha más calma.": {
+    "correct": "Si tuviera más tiempo libre, prepararía la oposición con mucha más calma.",
+    "rule": "Condicional en la prótasis",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Si tuviera más tiempo libre, prepararía la oposición con mucha más calma.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Si tuviera más tiempo libre, prepararía la oposición con mucha más calma.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El testigo no preveyó que debía firmar la declaración oficial": {
+    "correct": "El testigo no previó que debía firmar la declaración oficial",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El testigo no previó que debía firmar la declaración oficial». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El testigo no previó que debía firmar la declaración oficial» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Habíamos muchos opositores esperando la publicación de las notas.": {
+    "correct": "Había muchos opositores esperando la publicación de las notas.",
+    "rule": "Haber impersonal",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Había muchos opositores esperando la publicación de las notas.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Había muchos opositores esperando la publicación de las notas.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "¡Callar de una vez y escuchar atentamente las instrucciones del examinador!": {
+    "correct": "¡Callad de una vez y escuchad atentamente las instrucciones del examinador!",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «¡Callad de una vez y escuchad atentamente las instrucciones del examinador!». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «¡Callad de una vez y escuchad atentamente las instrucciones del examinador!» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El edificio a quien le renovaron la fachada el mes pasado quedó espectacular.": {
+    "correct": "El edificio al que le renovaron la fachada el mes pasado quedó espectacular.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El edificio al que le renovaron la fachada el mes pasado quedó espectacular.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El edificio al que le renovaron la fachada el mes pasado quedó espectacular.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "No quiero que me se entienda mal.": {
+    "correct": "No quiero que se me entienda mal.",
+    "rule": "Orden de pronombres",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «No quiero que se me entienda mal.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «No quiero que se me entienda mal.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Insistió que lo había hecho él.": {
+    "correct": "Insistió en que lo había hecho él.",
+    "rule": "Régimen de insistir",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Insistió en que lo había hecho él.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Insistió en que lo había hecho él.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Ponte al lado mía.": {
+    "correct": "Ponte al lado de mí.",
+    "rule": "Concordancia del posesivo",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Ponte al lado de mí.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Ponte al lado de mí.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Esa opción es la más mejor.": {
+    "correct": "Esa opción es la mejor.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Esa opción es la mejor.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Esa opción es la mejor.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Aun que llegues tarde, avísame, por favor.": {
+    "correct": "Aunque llegues tarde, avísame, por favor.",
+    "rule": "Conjunción aunque",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Aunque llegues tarde, avísame, por favor.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Aunque llegues tarde, avísame, por favor.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Cuantas más personas vengan mejor.": {
+    "correct": "Cuantas más personas vengan, mejor.",
+    "rule": "Construcción correlativa y puntuación",
+    "why": "La construcción correcta es «Cuantas más personas vengan, mejor». La coma separa la proposición comparativa correlativa de su consecuencia.",
+    "tip": "Repite mentalmente la forma correcta: «Cuantas más personas vengan, mejor.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Anoche lleguemos a las diez.": {
+    "correct": "Anoche llegamos a las diez.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Anoche llegamos a las diez.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Anoche llegamos a las diez.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "No veo a esos chicos capaz de hacer ese trabajo.": {
+    "correct": "No veo a esos chicos capaces de hacer ese trabajo.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «No veo a esos chicos capaces de hacer ese trabajo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «No veo a esos chicos capaces de hacer ese trabajo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Está en el piso doceavo.": {
+    "correct": "Está en el piso duodécimo.",
+    "rule": "Numerales ordinales",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Está en el piso duodécimo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Está en el piso duodécimo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El detenido es adicto de la cocaína.": {
+    "correct": "El detenido es adicto a la cocaína.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El detenido es adicto a la cocaína.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El detenido es adicto a la cocaína.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "La orca macho es muy peligroso.": {
+    "correct": "La orca macho es muy peligrosa.",
+    "rule": "Concordancia de género",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «La orca macho es muy peligrosa.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «La orca macho es muy peligrosa.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Se enfadó con sigo mismo.": {
+    "correct": "Se enfadó consigo mismo.",
+    "rule": "Pronombre consigo",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Se enfadó consigo mismo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Se enfadó consigo mismo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Juan llegó muy tarde. Sin encambio, Ana estaba aquí a las diez.": {
+    "correct": "Juan llegó muy tarde. Sin embargo, Ana estaba aquí a las diez.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Juan llegó muy tarde. Sin embargo, Ana estaba aquí a las diez.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Juan llegó muy tarde. Sin embargo, Ana estaba aquí a las diez.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Voy a el supermercado.": {
+    "correct": "Voy al supermercado.",
+    "rule": "Contracción al",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Voy al supermercado.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Voy al supermercado.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Ahora mismo estoy muy agusto.": {
+    "correct": "Ahora mismo estoy muy a gusto.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Ahora mismo estoy muy a gusto.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Ahora mismo estoy muy a gusto.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Yo soy de los que apoyo siempre al débil.": {
+    "correct": "Yo soy de los que apoyan siempre al débil.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Yo soy de los que apoyan siempre al débil.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Yo soy de los que apoyan siempre al débil.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "¿Cuantas horas trabajas al día?": {
+    "correct": "¿Cuántas horas trabajas al día?",
+    "rule": "Tilde en interrogativos",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «¿Cuántas horas trabajas al día?». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «¿Cuántas horas trabajas al día?» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Comió mucho, tánto que se puso malo.": {
+    "correct": "Comió mucho, tanto que se puso malo.",
+    "rule": "Tilde en «tanto»",
+    "why": "En esta construcción «tanto» es un cuantificador y no lleva tilde. La grafía «tánto» es incorrecta.",
+    "tip": "Repite mentalmente la forma correcta: «Comió mucho, tanto que se puso malo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Quedaron décimosterceros.": {
+    "correct": "Quedaron decimoterceros.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Quedaron decimoterceros.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Quedaron decimoterceros.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Lo hizo sin que su jefa tenía conocimiento de ello.": {
+    "correct": "Lo hizo sin que su jefa tuviera conocimiento de ello.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Lo hizo sin que su jefa tuviera conocimiento de ello.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Lo hizo sin que su jefa tuviera conocimiento de ello.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Llegué muy tarde, asíque me fui.": {
+    "correct": "Llegué muy tarde, así que me fui.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Llegué muy tarde, así que me fui.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Llegué muy tarde, así que me fui.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Basta conque lo traigas antes de las diez.": {
+    "correct": "Basta con que lo traigas antes de las diez.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Basta con que lo traigas antes de las diez.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Basta con que lo traigas antes de las diez.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El coche circulaba cuestarriba.": {
+    "correct": "El coche circulaba cuesta arriba.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El coche circulaba cuesta arriba.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El coche circulaba cuesta arriba.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "La elefante hembra es muy grande.": {
+    "correct": "El elefante hembra es muy grande.",
+    "rule": "Género de elefante",
+    "why": "En la norma culta se prefiere «el elefante hembra» o «la elefanta». La combinación «la elefante» no es la forma normativa que se busca aquí.",
+    "tip": "Repite mentalmente la forma correcta: «El elefante hembra es muy grande.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Se buscan a los culpables.": {
+    "correct": "Se buscan los culpables.",
+    "rule": "Pasiva refleja",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Se buscan los culpables.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Se buscan los culpables.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Te daré mil euros acambio de tu silencio.": {
+    "correct": "Te daré mil euros a cambio de tu silencio.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Te daré mil euros a cambio de tu silencio.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Te daré mil euros a cambio de tu silencio.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Ese líquido es semi transparente.": {
+    "correct": "Ese líquido es semitransparente.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Ese líquido es semitransparente.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Ese líquido es semitransparente.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "¿A tí te gusta el vino?": {
+    "correct": "¿A ti te gusta el vino?",
+    "rule": "Tilde en ti",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «¿A ti te gusta el vino?». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «¿A ti te gusta el vino?» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "La víctima estaba tan afectada que no se atrevía si quiera a recordar los hechos.": {
+    "correct": "La víctima estaba tan afectada que no se atrevía siquiera a recordar los hechos.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «La víctima estaba tan afectada que no se atrevía siquiera a recordar los hechos.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «La víctima estaba tan afectada que no se atrevía siquiera a recordar los hechos.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Dí me lo que tengo que hacer.": {
+    "correct": "Dímelo que tengo que hacer.",
+    "rule": "Imperativo con pronombres",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Dímelo que tengo que hacer.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Dímelo que tengo que hacer.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Cuantimás dinero tengas más feliz serás.": {
+    "correct": "Cuanto más dinero tengas más feliz serás.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Cuanto más dinero tengas más feliz serás.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Cuanto más dinero tengas más feliz serás.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Seguiré adelante con la condición que tú también lo hagas.": {
+    "correct": "Seguiré adelante con la condición de que tú también lo hagas.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Seguiré adelante con la condición de que tú también lo hagas.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Seguiré adelante con la condición de que tú también lo hagas.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Los contrincantes se golpeaban entresí.": {
+    "correct": "Los contrincantes se golpeaban entre sí.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Los contrincantes se golpeaban entre sí.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Los contrincantes se golpeaban entre sí.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Los profesores ponieron el examen encima de la mesa.": {
+    "correct": "Los profesores pusieron el examen encima de la mesa.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Los profesores pusieron el examen encima de la mesa.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Los profesores pusieron el examen encima de la mesa.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Vamos haber si llega a tiempo.": {
+    "correct": "Vamos a ver si llega a tiempo.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Vamos a ver si llega a tiempo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Vamos a ver si llega a tiempo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Si tenéis frio, cerraríamos la ventana.": {
+    "correct": "Si tenéis frío, cerraremos la ventana.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Si tenéis frío, cerraremos la ventana.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Si tenéis frío, cerraremos la ventana.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Coger eso del suelo, por favor.": {
+    "correct": "Coged eso del suelo, por favor.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Coged eso del suelo, por favor.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Coged eso del suelo, por favor.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Está previsto que hayan muchas lluvias.": {
+    "correct": "Está previsto que haya muchas lluvias.",
+    "rule": "Haber impersonal",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Está previsto que haya muchas lluvias.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Está previsto que haya muchas lluvias.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Hay dos personas asesinadas. Se tratan de dos mujeres de 25 y 26 años.": {
+    "correct": "Hay dos personas asesinadas. Se trata de dos mujeres de 25 y 26 años.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Hay dos personas asesinadas. Se trata de dos mujeres de 25 y 26 años.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Hay dos personas asesinadas. Se trata de dos mujeres de 25 y 26 años.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "La primera opción es la más mejor.": {
+    "correct": "La primera opción es la mejor.",
+    "rule": "Comparativo",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «La primera opción es la mejor.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «La primera opción es la mejor.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Los detenidos conducieron bajo los efectos del alcohol.": {
+    "correct": "Los detenidos condujeron bajo los efectos del alcohol.",
+    "rule": "Pretérito de conducir",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Los detenidos condujeron bajo los efectos del alcohol.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Los detenidos condujeron bajo los efectos del alcohol.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El coche llevo mucho tiempo sin usarle.": {
+    "correct": "El coche lleva mucho tiempo sin usarlo.",
+    "rule": "Pronombre de complemento directo",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El coche lleva mucho tiempo sin usarlo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El coche lleva mucho tiempo sin usarlo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Quejandote siempre no conseguirás nada.": {
+    "correct": "Quejándote siempre no conseguirás nada.",
+    "rule": "Tilde en gerundio con pronombre",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Quejándote siempre no conseguirás nada.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Quejándote siempre no conseguirás nada.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Aun tienes el arma cargado.": {
+    "correct": "Aún tienes el arma cargada.",
+    "rule": "Tilde en aún y concordancia",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Aún tienes el arma cargada.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Aún tienes el arma cargada.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Todos los padres quieren que sus hijos tienen suerte en la vida.": {
+    "correct": "Todos los padres quieren que sus hijos tengan suerte en la vida.",
+    "rule": "Subjuntivo con querer que",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Todos los padres quieren que sus hijos tengan suerte en la vida.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Todos los padres quieren que sus hijos tengan suerte en la vida.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Quedo a la espera que me concretes el horario.": {
+    "correct": "Quedo a la espera de que me concretes el horario.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Quedo a la espera de que me concretes el horario.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Quedo a la espera de que me concretes el horario.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Los jugadores y el árbitro saltó juntos al campo.": {
+    "correct": "Los jugadores y el árbitro saltaron juntos al campo.",
+    "rule": "Concordancia de sujeto compuesto",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Los jugadores y el árbitro saltaron juntos al campo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Los jugadores y el árbitro saltaron juntos al campo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "La abad del convento salió de la biblioteca principal para recibirnos.": {
+    "correct": "La abadesa del convento salió de la biblioteca principal para recibirnos.",
+    "rule": "Género de abad",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «La abadesa del convento salió de la biblioteca principal para recibirnos.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «La abadesa del convento salió de la biblioteca principal para recibirnos.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Los coches oficiales disponen de faros antinieblas.": {
+    "correct": "Los coches oficiales disponen de faros antiniebla.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Los coches oficiales disponen de faros antiniebla.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Los coches oficiales disponen de faros antiniebla.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "El primer y segundo cuarto del partido fue más intenso en ataque.": {
+    "correct": "El primer y segundo cuartos del partido fueron más intensos en ataque.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «El primer y segundo cuartos del partido fueron más intensos en ataque.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «El primer y segundo cuartos del partido fueron más intensos en ataque.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Anoche lleguemos muy tarde.": {
+    "correct": "Anoche llegamos muy tarde.",
+    "rule": "Construcción gramatical específica",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Anoche llegamos muy tarde.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Anoche llegamos muy tarde.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Dime cuanto te debo.": {
+    "correct": "Dime cuánto te debo.",
+    "rule": "Interrogativo indirecto",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «Dime cuánto te debo.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «Dime cuánto te debo.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "A tu hija tienes que darla más dinero.": {
+    "correct": "A tu hija tienes que darle más dinero.",
+    "rule": "Leísmo / complemento indirecto",
+    "why": "La construcción de la frase no es normativa en este contexto. La forma que debes usar es: «A tu hija tienes que darle más dinero.». El error está en el segmento concreto señalado; no es una regla genérica.",
+    "tip": "Repite mentalmente la forma correcta: «A tu hija tienes que darle más dinero.» y localiza en la frase exactamente qué palabra o construcción cambia."
+  },
+  "Se lo entregué en mano a los interesados ayer por la mañana.": {
+    "correct": "Se lo entregué en mano a los interesados ayer por la mañana.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se lo entregué en mano a los interesados ayer por la mañana.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Es muy probable que las temperaturas desciendan bruscamente mañana.": {
+    "correct": "Es muy probable que las temperaturas desciendan bruscamente mañana.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Es muy probable que las temperaturas desciendan bruscamente mañana.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Me alegro enormemente de que hayas superado la prueba teórica.": {
+    "correct": "Me alegro enormemente de que hayas superado la prueba teórica.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Me alegro enormemente de que hayas superado la prueba teórica.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "En aquel momento de confusión no me di cuenta de la gravedad del asunto.": {
+    "correct": "En aquel momento de confusión no me di cuenta de la gravedad del asunto.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «En aquel momento de confusión no me di cuenta de la gravedad del asunto.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "A los nuevos empleados se les proporcionó todo el material necesario.": {
+    "correct": "A los nuevos empleados se les proporcionó todo el material necesario.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «A los nuevos empleados se les proporcionó todo el material necesario.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Se prevén fuertes ráfagas de viento en la zona costera durante el fin de semana.": {
+    "correct": "Se prevén fuertes ráfagas de viento en la zona costera durante el fin de semana.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se prevén fuertes ráfagas de viento en la zona costera durante el fin de semana.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Si lo hubieras hecho antes, te habría ido mejor.": {
+    "correct": "Si lo hubieras hecho antes, te habría ido mejor.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Si lo hubieras hecho antes, te habría ido mejor.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Se han apropiado de su casa.": {
+    "correct": "Se han apropiado de su casa.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se han apropiado de su casa.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "No le reprochaba lo que hizo, sino que no hubiese llamado para avisar.": {
+    "correct": "No le reprochaba lo que hizo, sino que no hubiese llamado para avisar.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «No le reprochaba lo que hizo, sino que no hubiese llamado para avisar.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Se atuvieron a su derecho a no declarar.": {
+    "correct": "Se atuvieron a su derecho a no declarar.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se atuvieron a su derecho a no declarar.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Alegrémonos por la buena noticia.": {
+    "correct": "Alegrémonos por la buena noticia.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Alegrémonos por la buena noticia.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tienes el documento impreso sobre tu mesa.": {
+    "correct": "Tienes el documento impreso sobre tu mesa.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tienes el documento impreso sobre tu mesa.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Ese trabajo supone un sobreesfuerzo para el personal.": {
+    "correct": "Ese trabajo supone un sobreesfuerzo para el personal.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Ese trabajo supone un sobreesfuerzo para el personal.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Me entristece lo que me estás contando.": {
+    "correct": "Me entristece lo que me estás contando.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Me entristece lo que me estás contando.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "¿Quién te ha dicho eso?": {
+    "correct": "¿Quién te ha dicho eso?",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «¿Quién te ha dicho eso?». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tengo un amigo cuya madre ha fallecido.": {
+    "correct": "Tengo un amigo cuya madre ha fallecido.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tengo un amigo cuya madre ha fallecido.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Por favor, digámosle la verdad a Juan.": {
+    "correct": "Por favor, digámosle la verdad a Juan.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Por favor, digámosle la verdad a Juan.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Su padre no le regañó a pesar de que llegó muy tarde.": {
+    "correct": "Su padre no le regañó a pesar de que llegó muy tarde.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Su padre no le regañó a pesar de que llegó muy tarde.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Ana no cree que la entiendan.": {
+    "correct": "Ana no cree que la entiendan.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Ana no cree que la entiendan.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "No ha aparecido el arma con la que cometió el crimen.": {
+    "correct": "No ha aparecido el arma con la que cometió el crimen.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «No ha aparecido el arma con la que cometió el crimen.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Siguió luchando aun cuando lo tenía todo perdido.": {
+    "correct": "Siguió luchando aun cuando lo tenía todo perdido.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Siguió luchando aun cuando lo tenía todo perdido.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Lo miró de arriba abajo.": {
+    "correct": "Lo miró de arriba abajo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Lo miró de arriba abajo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Los hechos ocurrieron en aquella época.": {
+    "correct": "Los hechos ocurrieron en aquella época.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Los hechos ocurrieron en aquella época.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Cógete de mi brazo.": {
+    "correct": "Cógete de mi brazo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Cógete de mi brazo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Su actuación se considera cuasidelito.": {
+    "correct": "Su actuación se considera cuasidelito.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Su actuación se considera cuasidelito.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Aún me queda dinero.": {
+    "correct": "Aún me queda dinero.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Aún me queda dinero.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Anoche me estaba divirtiendo mucho justo antes de irme.": {
+    "correct": "Anoche me estaba divirtiendo mucho justo antes de irme.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Anoche me estaba divirtiendo mucho justo antes de irme.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Abrázame fuerte.": {
+    "correct": "Abrázame fuerte.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Abrázame fuerte.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "De haberlo sabido antes te lo habría dicho.": {
+    "correct": "De haberlo sabido antes te lo habría dicho.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «De haberlo sabido antes te lo habría dicho.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Viene de la ciudad de El Escorial.": {
+    "correct": "Viene de la ciudad de El Escorial.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Viene de la ciudad de El Escorial.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Juan sabe quién lo ha hecho.": {
+    "correct": "Juan sabe quién lo ha hecho.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Juan sabe quién lo ha hecho.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Déjame en paz.": {
+    "correct": "Déjame en paz.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Déjame en paz.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Se me olvidó en muchas ocasiones.": {
+    "correct": "Se me olvidó en muchas ocasiones.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se me olvidó en muchas ocasiones.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Los espectadores contuvieron sus lágrimas.": {
+    "correct": "Los espectadores contuvieron sus lágrimas.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Los espectadores contuvieron sus lágrimas.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "No me iré sin que tú me des permiso.": {
+    "correct": "No me iré sin que tú me des permiso.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «No me iré sin que tú me des permiso.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "El objeto se localizó en esta área concreta.": {
+    "correct": "El objeto se localizó en esta área concreta.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «El objeto se localizó en esta área concreta.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "La primera y la segunda son buenas soluciones.": {
+    "correct": "La primera y la segunda son buenas soluciones.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «La primera y la segunda son buenas soluciones.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Habría que tener en cuenta muchas cosas.": {
+    "correct": "Habría que tener en cuenta muchas cosas.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Habría que tener en cuenta muchas cosas.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Busqué las llaves donde siempre las dejo.": {
+    "correct": "Busqué las llaves donde siempre las dejo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Busqué las llaves donde siempre las dejo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "No creo que vengan hoy.": {
+    "correct": "No creo que vengan hoy.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «No creo que vengan hoy.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tengo la certeza de que vendrá.": {
+    "correct": "Tengo la certeza de que vendrá.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tengo la certeza de que vendrá.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "No sabemos qué hacer.": {
+    "correct": "No sabemos qué hacer.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «No sabemos qué hacer.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Cerca de la mitad de los trabajadores eran inmigrantes.": {
+    "correct": "Cerca de la mitad de los trabajadores eran inmigrantes.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Cerca de la mitad de los trabajadores eran inmigrantes.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Estaba acercándose mucho, cuando se precipitó al vacío.": {
+    "correct": "Estaba acercándose mucho, cuando se precipitó al vacío.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Estaba acercándose mucho, cuando se precipitó al vacío.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Esa novela es muy de su gusto.": {
+    "correct": "Esa novela es muy de su gusto.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Esa novela es muy de su gusto.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Cuando mejor estábamos, nos tuvimos que ir.": {
+    "correct": "Cuando mejor estábamos, nos tuvimos que ir.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Cuando mejor estábamos, nos tuvimos que ir.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Le compré un ramo de flores a mi hija.": {
+    "correct": "Le compré un ramo de flores a mi hija.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Le compré un ramo de flores a mi hija.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Me obligaron a hacerlo.": {
+    "correct": "Me obligaron a hacerlo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Me obligaron a hacerlo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Se estaban divirtiendo mucho.": {
+    "correct": "Se estaban divirtiendo mucho.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Se estaban divirtiendo mucho.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Que baje quien quiera.": {
+    "correct": "Que baje quien quiera.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Que baje quien quiera.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Eso se lo tengo que decir a Ana.": {
+    "correct": "Eso se lo tengo que decir a Ana.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Eso se lo tengo que decir a Ana.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Nos han explicado muy bien cómo llegar.": {
+    "correct": "Nos han explicado muy bien cómo llegar.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Nos han explicado muy bien cómo llegar.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "La mayor parte de la gente irá el domingo.": {
+    "correct": "La mayor parte de la gente irá el domingo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «La mayor parte de la gente irá el domingo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Llegará antes de que anochezca.": {
+    "correct": "Llegará antes de que anochezca.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Llegará antes de que anochezca.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tenemos que poner ese cuadro más abajo.": {
+    "correct": "Tenemos que poner ese cuadro más abajo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tenemos que poner ese cuadro más abajo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tú no te lo mereces.": {
+    "correct": "Tú no te lo mereces.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tú no te lo mereces.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Los meteorólogos predijeron mal tiempo para el fin de semana.": {
+    "correct": "Los meteorólogos predijeron mal tiempo para el fin de semana.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Los meteorólogos predijeron mal tiempo para el fin de semana.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "En ese local se hacen arreglos de ropa.": {
+    "correct": "En ese local se hacen arreglos de ropa.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «En ese local se hacen arreglos de ropa.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Cuanta más gente venga, mejor.": {
+    "correct": "Cuanta más gente venga, mejor.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Cuanta más gente venga, mejor.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "El ordenador del centro de datos no tiene actualizado el antivirus.": {
+    "correct": "El ordenador del centro de datos no tiene actualizado el antivirus.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «El ordenador del centro de datos no tiene actualizado el antivirus.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Este señor es el alcalde del municipio.": {
+    "correct": "Este señor es el alcalde del municipio.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Este señor es el alcalde del municipio.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "El mes de mayo no tiene treinta días.": {
+    "correct": "El mes de mayo no tiene treinta días.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «El mes de mayo no tiene treinta días.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tanto la joven como el anciano parecen sospechosos.": {
+    "correct": "Tanto la joven como el anciano parecen sospechosos.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tanto la joven como el anciano parecen sospechosos.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "La policía también se incautó de un helicóptero.": {
+    "correct": "La policía también se incautó de un helicóptero.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «La policía también se incautó de un helicóptero.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Mi lápiz negro escribe mal, pero el de Juan escribe muy bien.": {
+    "correct": "Mi lápiz negro escribe mal, pero el de Juan escribe muy bien.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Mi lápiz negro escribe mal, pero el de Juan escribe muy bien.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "El sueldo es de mil quinientos euros al mes, más pagas extraordinarias.": {
+    "correct": "El sueldo es de mil quinientos euros al mes, más pagas extraordinarias.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «El sueldo es de mil quinientos euros al mes, más pagas extraordinarias.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "La escuadrilla está compuesta de cinco aeronaves.": {
+    "correct": "La escuadrilla está compuesta de cinco aeronaves.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «La escuadrilla está compuesta de cinco aeronaves.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "¡Mira que eres despistado!": {
+    "correct": "¡Mira que eres despistado!",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «¡Mira que eres despistado!». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Tenéis que entreteneros con algo.": {
+    "correct": "Tenéis que entreteneros con algo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Tenéis que entreteneros con algo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Entre el público había, sobre todo, muchos jóvenes.": {
+    "correct": "Entre el público había, sobre todo, muchos jóvenes.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Entre el público había, sobre todo, muchos jóvenes.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Esta casa no es como aquellas otras.": {
+    "correct": "Esta casa no es como aquellas otras.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Esta casa no es como aquellas otras.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Coged vuestras cosas y venid conmigo.": {
+    "correct": "Coged vuestras cosas y venid conmigo.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Coged vuestras cosas y venid conmigo.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  },
+  "Me trata como si no me conociera.": {
+    "correct": "Me trata como si no me conociera.",
+    "rule": "Oración correcta",
+    "why": "La frase es gramaticalmente correcta según la clave auditada. No hay que corregir su construcción: el error ha sido marcarla como incorrecta.",
+    "tip": "Repite la frase: «Me trata como si no me conociera.». Si te parece extraña, busca la regla concreta antes de cambiarla."
+  }
+}

@@ -1,0 +1,3414 @@
+{
+  "counts": {
+    "englishOfficial": 401,
+    "englishTraining": 1744,
+    "orthographyOfficial": 120,
+    "grammarOfficial": 140,
+    "orthographyTraining": 500,
+    "grammarTraining": 500
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-3-1",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-10-5",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-13-3",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-13-5",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-10",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-16-17"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-11",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-16-15"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-12",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-16-7"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-14",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-16-5"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-17",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-19",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-16-8"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-21",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-3-5"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-25",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-1-20"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-27",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-28",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-4-16"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-29",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-1-8"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-31",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-10-4"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-32",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-9-8"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-34",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-1-4"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-37",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-3-13"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-38",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-3-3"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-39",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-5-1"
+    },
+    {
+      "bank": "englishOfficial",
+      "id": "oficial-19-40",
+      "issue": "duplicate-question",
+      "duplicateOf": "oficial-1-19"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-01-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-05",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-02-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-03-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-04-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-05-18",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-06-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-07-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-08-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-09-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-10-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-11-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-11-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-11-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-12-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-13-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-14-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-15-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-16-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-17-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-18-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-19-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-20-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-05",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-06",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-15",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-21-16",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-12",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-13",
+      "issue": "duplicate-options"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-22-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-23-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-24-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-25-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-26-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-27-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-10-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-28-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-29-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-30-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-01-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-06-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-10-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-10-variant-3",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-12-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-31-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-05-variant-3",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-12-variant-2",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-32-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-33-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-34-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-35-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-36-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-37-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-38-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-39-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-39-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-39-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-39-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-40-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-40-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-40-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-40-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-41-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-42-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-43-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-44-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-44-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-44-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-44-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-45-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-45-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-45-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-45-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-46-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-46-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-46-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-47-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-48-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-49-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-50-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-51-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-52-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-53-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-54-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-55-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-56-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-56-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-57-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-57-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-58-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-58-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-58-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-58-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-08",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-09",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-59-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-60-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-60-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-60-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-01",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-02",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-02",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-03",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-04",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-05",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-06",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-07",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-08",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-09",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-10",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-11",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-13",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-14",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-15",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-16",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-17",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-18",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-61-19",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-01",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-03",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-04",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-05",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-06",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-07",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-07",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-08",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-09",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-10",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-11",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-13",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-14",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-15",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-16",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-17",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-18",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-62-20",
+      "issue": "conditional-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-63-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-63-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-63-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-63-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-10",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-64-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-14",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-15",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-65-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-66-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-66-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-66-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-01",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-04",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-05",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-06",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-11",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-12",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-67-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-68-13",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-68-18",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-68-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-68-20",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-70-17",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-71-19",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-72-03",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "englishTraining",
+      "id": "stanley-72-16",
+      "issue": "possible-missing-gap"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-1-5",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-3-3",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-3-4",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-3-5",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-7-7",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-8-1",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-11-4",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-13-5",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-15-1",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-15-2",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-15-3",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-19-8",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-2",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-3",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-5",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-7",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-8",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-9",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-20-10",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-21-3",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-21-6",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-21-7",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-21-10",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "orthographyOfficial",
+      "id": "oficial-22-10",
+      "issue": "incompatible-legacy-answer-array"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "1:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "2:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "3:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "4:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "5:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "6:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "7:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "8:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "9:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "10:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "11:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "12:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "13:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "14:21",
+      "issue": "reserve-without-answer-not-scored"
+    },
+    {
+      "bank": "englishReserves",
+      "id": "15:21",
+      "issue": "reserve-without-answer-not-scored"
+    }
+  ]
+}

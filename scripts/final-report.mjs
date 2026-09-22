@@ -10,7 +10,7 @@ const rows=Object.entries(groups).map(([bank,q])=>({bank,before:baseline.groups[
 fs.writeFileSync('reports/bank-counts.json',JSON.stringify(rows,null,2)+'\n');
 fs.writeFileSync('reports/final-review.md',`# Informe final para revisión humana
 
-Estado: cambios locales sin publicar, sin push ni merge. Se continuó el worktree existente en bed694d, conservando los cambios previos. La creación de rama no se autorizó; el worktree sigue en HEAD separado. No hay commits nuevos. El diff y los archivos nuevos están listos para revisión; no equivalen a una versión aprobada para publicar.
+Estado: rama local audit-refactor-guardia-civil. La auditoría inicial se guardó en 7bfd51d; el dictamen humano posterior se entrega en un commit local adicional titulado «Revisión humana de respuestas oficiales ambiguas». Sin push, merge, publicación ni SQL ejecutado.
 
 **Regla preservada y probada: Formato oficial: 20 preguntas · 15 min.** El deadline es de 900 segundos; los intensivos se identifican por separado. Penalización interna exacta: errores / 3.
 
@@ -19,6 +19,8 @@ Estado: cambios locales sin publicar, sin push ni merge. Se continuó el worktre
 Se terminó la lectura de las 1.235 Stanley pendientes y se registró dictamen para las 1.244. Resultado: ${audit.statuses['editorial-reviewed']} utilizables, ${audit.statuses['reviewed-unusable']} con importación inutilizable y ${audit.statuses['reviewed-ambiguous']} ambiguas con enunciado conservado. Algunas inutilizables también tienen candidatas alternativas. **${audit.sourceReviewRequired} siguen excluidas** y requieren PDF/plantilla y criterio docente para repararlas. Se preservan todas, sin inventar huecos nuevos en esta continuación. La revisión editorial está completa; la verificación de fuente no está hecha.
 
 Hay **${changes.length} cambios efectivos de clave**, ${changes.filter(q=>q.id.startsWith('oficial')).length} oficiales y ${audit.changedKeys} Stanley. Se compara con la clave original por ocurrencia, corrigiendo cuatro falsos cambios que producía el inventario anterior al colisionar IDs. No se modificó ningún enunciado u opción oficial. Se conservaron las 11 variantes Stanley mediante IDs estables con legacyId.
+
+**Dictamen humano sobre las 14 oficiales revisadas: 11 cambios validados, 2 preguntas con múltiples respuestas válidas y 1 sin opción inequívoca.** Las tres anomalías están excluidas de aleatorios y anuladas en sus modelos históricos; ninguna respuesta ni blanco perjudica la nota. En oficial-13-15 se retira c y se conserva b solo como clave histórica importada. Los 13 campos oficiales distintos del original incluyen dos valores representativos de preguntas anuladas, no 13 soluciones únicas aprobadas. Detalle en [official-human-review.md](official-human-review.md).
 
 - Lista íntegra de claves, motivos y confianza: [english-bank-audit.md](english-bank-audit.md) y [answer-changes.json](answer-changes.json).
 - Preguntas con alternativas: [ambiguous-questions.json](ambiguous-questions.json).
@@ -60,8 +62,8 @@ Se añadieron foco visible, controles táctiles, navegación por teclado, modal 
 | Comprobación | Resultado |
 |---|---|
 | Validador de seis bancos y modelos/reservas | 3.405 entradas; ${validation.errors.length} errores; ${validation.warnings.length} advertencias históricas documentadas |
-| Unidades y regresión contra bed694d | 50/50 correctas; detalle en unit-tests.txt |
-| E2E Playwright 1.62.1 + Edge local | 10/10 correctas; detalle de cobertura en e2e-results.json |
+| Unidades, regresión y dictamen humano | 54/54 correctas; incluye cuatro pruebas específicas de las 14 oficiales |
+| E2E Playwright 1.62.1 + Edge local | 11/11 correctas en e2e-tests.txt; el caso específico de anomalías históricas se volvió a ejecutar y pasó antes del commit |
 | Sintaxis JS | correcta; detalle en syntax-check.txt |
 | git diff --check | correcto; advertencia de conversión LF/CRLF de Git, sin errores de whitespace |
 | Subruta /guardia-civil-ingles/ y recarga offline | correctas en E2E local |
@@ -97,7 +99,7 @@ Ningún SQL se ejecutó ni ninguna tabla de producción se modificó. Revisar y 
 
 Instrucciones exactas en [README.md](../README.md). Iniciar con node scripts/serve.mjs; validar con node scripts/validate-banks.mjs, node --test tests/*.test.mjs y node scripts/check-syntax.mjs. E2E usa las variables documentadas para Playwright/Edge existentes.
 
-El worktree contiene el diff local y los nuevos archivos sin stage/commit. [change-manifest.json](change-manifest.json) enumera sus huellas para revisión. No ejecutar scripts antiguos de extracción: se retiraron los prototipos usados una sola vez; baseline.json permanece intacto. No se hizo merge a main, push, publicación ni modificación automática de producción.
+El trabajo inicial está en 7bfd51d; el dictamen humano y sus pruebas se entregan en el commit local adicional «Revisión humana de respuestas oficiales ambiguas». Consultar git log para su hash. [change-manifest.json](change-manifest.json) enumera las huellas actuales. No ejecutar scripts antiguos de extracción: se retiraron los prototipos usados una sola vez; baseline.json permanece intacto. No se hizo merge a main, push, publicación ni modificación automática de producción.
 `);
 const files=['index.html','README.md','AGENTS.md','package.json','manifest.webmanifest','sw.js','.gitignore',...['assets','data','scripts','supabase','tests','.github'].flatMap(walk),...walk('reports').filter(p=>!p.endsWith('change-manifest.json')&&!p.endsWith('.png'))];
 fs.writeFileSync('reports/change-manifest.json',JSON.stringify(files.map(p=>({path:p.replaceAll('\\','/'),bytes:fs.statSync(p).size,sha256:crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')})),null,2)+'\n');

@@ -46,6 +46,29 @@ async function setup(t,options={}){
 }
 async function englishHome(page){await page.getByRole('button',{name:'Entrar en Inglés',exact:true}).click();await page.getByRole('button',{name:'Empezar simulacro real'}).waitFor();}
 async function active(page){return page.evaluate(()=>JSON.parse(localStorage.getItem('gcActiveExamV1')));}
+
+test('human-reviewed anomalies remain historical and never penalize or show a failure',async t=>{
+ const {page}=await setup(t);await englishHome(page);
+ for(const examId of [10,13]){
+  await page.locator('#examSel').selectOption(String(examId));await page.getByRole('button',{name:'Empezar modelo histórico'}).click();await page.locator('.qcard').waitFor();
+  const ids=(await active(page)).questionIds;
+  const affected=['oficial-10-9','oficial-10-11','oficial-13-15'].filter(id=>ids.includes(id));
+  assert.equal(affected.length,examId===10?2:1);
+  for(const id of affected)await page.evaluate(i=>{goTo(i);choose('c');},ids.indexOf(id));
+  await page.getByRole('button',{name:'Finalizar',exact:true}).click();await page.locator('.result').waitFor();
+  const result=await page.evaluate(()=>window.__lastResult);
+  assert.equal(result.wrong,0);assert.equal(result.penalty,0);
+  assert.equal(result.total,ids.length-english.examenes.find(e=>e.id===examId).preguntas.filter(q=>q.neutralized).length);
+  await page.getByRole('button',{name:'🔎 Ver revisión',exact:true}).click();
+  for(const id of affected){const item=page.locator('[data-question-id="'+id+'"]');assert.equal(await item.count(),1);assert.match(await item.innerText(),/ANULADA · no puntúa/);assert.equal(await item.locator('.wrong,.ai-btn').count(),0);assert.doesNotMatch(await item.innerText(),/Respuesta correcta:/);}
+  await page.evaluate(()=>home());await page.getByRole('heading',{name:'Elige el módulo'}).waitFor();await englishHome(page);
+ }
+ for(const mode of ['official','mixed']){
+  await page.evaluate(mode=>start(mode,100),mode);await page.locator('.qcard').waitFor();
+  assert.ok((await active(page)).questionIds.every(id=>!['oficial-10-9','oficial-10-11','oficial-13-15'].includes(id)));
+  await page.getByRole('button',{name:'Abandonar',exact:true}).click();await page.getByRole('button',{name:'Empezar simulacro real'}).waitFor();
+ }
+});
 test('mobile load is lazy; official 20 / 15 min, score, blank, numbers and review',async t=>{
  const {page}=await setup(t);assert.equal(await page.evaluate(()=>performance.getEntriesByType('resource').filter(r=>r.name.includes('/data/')).length),0);
  await englishHome(page);assert.ok((await page.locator('body').innerText()).includes('Formato oficial: 20 preguntas · 15 min'));

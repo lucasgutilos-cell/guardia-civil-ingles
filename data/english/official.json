@@ -4125,8 +4125,7 @@
           "answerSource": "editorial-review",
           "answerStatus": "ambiguous",
           "originalAnswer": "c",
-          "reviewedAnswer": "b",
-          "reviewNote": "Who y that funcionan como sujetos de una relativa especificativa de personas; whom no.",
+          "reviewNote": "Ambigüedad validada en revisión humana: b) who y d) that son sujetos válidos de la relativa especificativa. Se conserva en el modelo histórico, pero queda anulada para todos: no suma ni resta y no entra en el denominador. Dictamen lingüístico, no plantilla oficial verificada.",
           "reviewConfidence": "high",
           "validAnswers": [
             "b",
@@ -4135,8 +4134,13 @@
           "excludeRandom": true,
           "auditFlags": [
             "excluded-random",
-            "ambiguous"
-          ]
+            "ambiguous",
+            "human-reviewed-anomaly",
+            "neutralized"
+          ],
+          "neutralized": true,
+          "humanReview": "approved-anomaly",
+          "sourceVerified": false
         },
         {
           "numero": 10,
@@ -4182,8 +4186,7 @@
           "answerSource": "editorial-review",
           "answerStatus": "ambiguous",
           "originalAnswer": "d",
-          "reviewedAnswer": "a",
-          "reviewNote": "More friendly than y not as friendly as son comparaciones gramaticales.",
+          "reviewNote": "Ambigüedad validada en revisión humana: a) is more friendly than y b) is not as friendly as son gramaticales con significados distintos. Sin contexto no hay clave única. Se conserva en el modelo histórico, anulada sin efecto sobre la nota. Dictamen lingüístico, no plantilla oficial verificada.",
           "reviewConfidence": "high",
           "validAnswers": [
             "a",
@@ -4192,8 +4195,13 @@
           "excludeRandom": true,
           "auditFlags": [
             "excluded-random",
-            "ambiguous"
-          ]
+            "ambiguous",
+            "human-reviewed-anomaly",
+            "neutralized"
+          ],
+          "neutralized": true,
+          "humanReview": "approved-anomaly",
+          "sourceVerified": false
         },
         {
           "numero": 12,
@@ -5625,19 +5633,27 @@
             "c": "well / hardly",
             "d": "very good / lot"
           },
-          "respuesta_correcta": "c",
+          "respuesta_correcta": "b",
           "tipo": "oficial",
           "id": "oficial-13-15",
           "examenId": 13,
           "fuente": "2018 - modelo 1A",
           "sourceType": "official",
           "answerSource": "editorial-review",
-          "answerStatus": "reviewed",
+          "answerStatus": "unresolved",
           "originalAnswer": "b",
-          "reviewedAnswer": "c",
-          "reviewNote": "Well y hardly son adverbios: el equipo jugó bien aunque apenas trabajó. Bad no es el adverbio estándar badly.",
-          "reviewConfidence": "high",
-          "auditFlags": []
+          "reviewNote": "Anomalía validada en revisión humana: ninguna opción es inequívocamente correcta en el texto conservado. Worked hardly no justifica aceptar c como solución definitiva; la combinación esperable well / hard no figura entre las opciones. Se retira la corrección propuesta c y se conserva b únicamente como clave histórica importada, no como solución válida. Pregunta anulada sin efecto sobre la nota; requiere cotejo con la fuente.",
+          "reviewConfidence": "low",
+          "auditFlags": [
+            "human-reviewed-anomaly",
+            "excluded-random",
+            "neutralized"
+          ],
+          "neutralized": true,
+          "excludeRandom": true,
+          "humanReview": "approved-anomaly",
+          "sourceVerified": false,
+          "rejectedAnswer": "c"
         },
         {
           "numero": 16,

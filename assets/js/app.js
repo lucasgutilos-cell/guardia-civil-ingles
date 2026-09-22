@@ -1206,7 +1206,8 @@ function reviewAll(r) {
     a,
     ok
   }) => {
-    const cls = !a ? 'blank' : ok ? 'ok' : 'bad';
+    const cls = q.neutralized ? 'neutral' : !a ? 'blank' : ok ? 'ok' : 'bad';
+    if (q.neutralized) return `<div class="item neutral" data-question-id="${esc(q.id)}"><div class="qmeta">Pregunta ${i + 1} de ${r.questions.length} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div>Tu respuesta: ${a ? esc(a.toUpperCase() + ' — ' + q.opciones[a]) : 'En blanco'}</div><p class="notice"><b>⚠️ Anomalía / ambigüedad · ANULADA · no puntúa.</b> No suma, no resta y no se incluye en el total evaluable.</p><p>${esc(q.reviewNote || 'No existe una clave inequívoca contrastada.')}</p>${q.validAnswers?.length > 1 ? `<p>Alternativas gramaticalmente válidas: ${q.validAnswers.map(k => esc(k.toUpperCase() + ' — ' + q.opciones[k])).join(' / ')}.</p>` : ''}<p>La clave histórica importada se conserva como metadato; no es una plantilla oficial verificada.</p></div>`;
     return `<div class="item ${cls}"><div class="qmeta">Pregunta ${i + 1} de ${r.total} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div style="margin-top:8px">Tu respuesta: <span class="${!a ? '' : ok ? 'correct' : 'wrong'}"><b>${a ? esc(a.toUpperCase() + ' — ' + q.opciones[a]) : 'En blanco'}</b></span></div><div>Respuesta correcta: <span class="correct"><b>${q.neutralized ? 'ANULADA · no puntúa' : validAnswers(q).map(k => esc(k.toUpperCase() + ' — ' + q.opciones[k])).join(' / ')}</b></span></div>${q.reviewNote ? `<p class="notice">${esc(q.reviewNote)}</p>` : ''}${!ok ? `<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo</button><div class="hidden">${q.tipo === 'generada' ? explainGenerated(q, a) : explainOfficial(q, a)}</div>` : q.tipo === 'oficial' && officialAnomaly(q).length ? `<div class="ai-anomaly"><b>⚠️ Posible anomalía detectada:</b> ${officialAnomaly(q).map(esc).join(' ')}</div>` : ''}</div>`;
   }).join('')}`;
 }

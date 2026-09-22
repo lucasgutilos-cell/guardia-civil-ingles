@@ -1,0 +1,89 @@
+{
+  "reviewed": 14,
+  "approvedSingleAnswer": 11,
+  "multipleValidAnswers": 2,
+  "noUnequivocalAnswer": 1,
+  "approved": [
+    {
+      "id": "oficial-6-17",
+      "answer": "b",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-10-8",
+      "answer": "c",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-11-1",
+      "answer": "a",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-11-6",
+      "answer": "d",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-11-7",
+      "answer": "a",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-13-9",
+      "answer": "c",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-14-6",
+      "answer": "b",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-14-7",
+      "answer": "a",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-18-11",
+      "answer": "a",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-19-18",
+      "answer": "c",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    },
+    {
+      "id": "oficial-19-29",
+      "answer": "c",
+      "source": "Deducción lingüística aprobada por el usuario; no plantilla oficial verificada"
+    }
+  ],
+  "multiple": [
+    {
+      "id": "oficial-10-9",
+      "validAnswers": [
+        "b",
+        "d"
+      ],
+      "neutralized": true
+    },
+    {
+      "id": "oficial-10-11",
+      "validAnswers": [
+        "a",
+        "b"
+      ],
+      "neutralized": true
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "oficial-13-15",
+      "originalAnswer": "b",
+      "rejectedAnswer": "c",
+      "neutralized": true
+    }
+  ]
+}

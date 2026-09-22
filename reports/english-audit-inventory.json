@@ -2116,7 +2116,8 @@
       "b": "made / did",
       "c": "did / made",
       "d": "made / made"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-6-18",
@@ -3402,7 +3403,8 @@
       "b": "does your flight leaving",
       "c": "does your flight leave",
       "d": "does your flight leaves"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-10-9",
@@ -3410,13 +3412,9 @@
     "status": "ambiguous",
     "previous": "c",
     "current": "b",
-    "validAnswers": [
-      "b",
-      "d"
-    ],
     "excluded": true,
-    "neutralized": false,
-    "note": "Who y that funcionan como sujetos de una relativa especificativa de personas; whom no.",
+    "neutralized": true,
+    "note": "Ambigüedad validada en revisión humana: b) who y d) that son sujetos válidos de la relativa especificativa. Se conserva en el modelo histórico, pero queda anulada para todos: no suma ni resta y no entra en el denominador. Dictamen lingüístico, no plantilla oficial verificada.",
     "confidence": "high",
     "question": "She gives advice to teenagers _____ feel stress during exams.",
     "options": {
@@ -3424,7 +3422,13 @@
       "b": "who",
       "c": "whom",
       "d": "that"
-    }
+    },
+    "humanDecision": "multiple-valid-answers",
+    "sourceVerified": false,
+    "validAnswers": [
+      "b",
+      "d"
+    ]
   },
   {
     "id": "oficial-10-10",
@@ -3450,13 +3454,9 @@
     "status": "ambiguous",
     "previous": "d",
     "current": "a",
-    "validAnswers": [
-      "a",
-      "b"
-    ],
     "excluded": true,
-    "neutralized": false,
-    "note": "More friendly than y not as friendly as son comparaciones gramaticales.",
+    "neutralized": true,
+    "note": "Ambigüedad validada en revisión humana: a) is more friendly than y b) is not as friendly as son gramaticales con significados distintos. Sin contexto no hay clave única. Se conserva en el modelo histórico, anulada sin efecto sobre la nota. Dictamen lingüístico, no plantilla oficial verificada.",
     "confidence": "high",
     "question": "In my opinion, Margaret _____ Julia.",
     "options": {
@@ -3464,7 +3464,13 @@
       "b": "is not as friendly as",
       "c": "is not as friendship as",
       "d": "is not as friendly than"
-    }
+    },
+    "humanDecision": "multiple-valid-answers",
+    "sourceVerified": false,
+    "validAnswers": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "oficial-10-12",
@@ -3644,7 +3650,8 @@
       "b": "My nephew hardly ever exercise.",
       "c": "My nephew do exercise hardly ever.",
       "d": "My nephew exercise hardly ever."
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-11-2",
@@ -3734,7 +3741,8 @@
       "b": "in / at",
       "c": "next at / at",
       "d": "at / on"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-11-7",
@@ -3752,7 +3760,8 @@
       "b": "there will can be",
       "c": "there will being",
       "d": "there will been"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-11-8",
@@ -4520,7 +4529,8 @@
       "b": "can to play / no could",
       "c": "can play / couldn’t",
       "d": "can played / couldn’t"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-13-10",
@@ -4615,20 +4625,23 @@
   {
     "id": "oficial-13-15",
     "sourceType": "official",
-    "status": "reviewed",
+    "status": "unresolved",
     "previous": "b",
-    "current": "c",
-    "excluded": false,
-    "neutralized": false,
-    "note": "Well y hardly son adverbios: el equipo jugó bien aunque apenas trabajó. Bad no es el adverbio estándar badly.",
-    "confidence": "high",
+    "current": "b",
+    "excluded": true,
+    "neutralized": true,
+    "note": "Anomalía validada en revisión humana: ninguna opción es inequívocamente correcta en el texto conservado. Worked hardly no justifica aceptar c como solución definitiva; la combinación esperable well / hard no figura entre las opciones. Se retira la corrección propuesta c y se conserva b únicamente como clave histórica importada, no como solución válida. Pregunta anulada sin efecto sobre la nota; requiere cotejo con la fuente.",
+    "confidence": "low",
     "question": "The team played _____. All the players worked _____.",
     "options": {
       "a": "good / hard",
       "b": "bad / hard",
       "c": "well / hardly",
       "d": "very good / lot"
-    }
+    },
+    "humanDecision": "no-unequivocal-answer",
+    "sourceVerified": false,
+    "rejectedAnswer": "c"
   },
   {
     "id": "oficial-13-16",
@@ -4830,7 +4843,8 @@
       "b": "got up / didn’t have",
       "c": "got up / don’t had",
       "d": "get up / didn’t to have"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-14-7",
@@ -4848,7 +4862,8 @@
       "b": "a little of / a few of",
       "c": "a few / a little",
       "d": "a lot / a lot"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-14-8",
@@ -6380,7 +6395,8 @@
       "b": "needn't",
       "c": "need",
       "d": "don't need"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-18-12",
@@ -6866,7 +6882,8 @@
       "b": "must",
       "c": "have to",
       "d": "had to"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-19-19",
@@ -7064,7 +7081,8 @@
       "b": "the fartherest",
       "c": "the furthest",
       "d": "the furtest"
-    }
+    },
+    "humanDecision": "approved-single-answer"
   },
   {
     "id": "oficial-19-30",

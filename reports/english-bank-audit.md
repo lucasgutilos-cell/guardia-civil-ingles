@@ -6,19 +6,18 @@ Stanley: 360 utilizables; 884 conservadas y excluidas por problemas de importaci
 
 Se corrigió además el registro de claves base: los IDs Stanley repetidos se comparan por ocurrencia, usando los sufijos de id-migrations.json. El informe previo atribuía cuatro cambios inexistentes a colisiones de IDs.
 
-## Claves realmente cambiadas (212)
+## Claves realmente cambiadas (211)
 
 | ID | Original | Actual | Motivo | Confianza |
 |---|---|---|---|---|
 | oficial-6-17 | d | b | Make an effort y do well son las colocaciones requeridas; made / made no funciona. | high |
 | oficial-10-8 | d | c | Después de does se usa leave, no leaves. | high |
-| oficial-10-9 | c | b | Who y that funcionan como sujetos de una relativa especificativa de personas; whom no. | high |
-| oficial-10-11 | d | a | More friendly than y not as friendly as son comparaciones gramaticales. | high |
+| oficial-10-9 | c | b (representativa; anulada) | Ambigüedad validada en revisión humana: b) who y d) that son sujetos válidos de la relativa especificativa. Se conserva en el modelo histórico, pero queda anulada para todos: no suma ni resta y no entra en el denominador. Dictamen lingüístico, no plantilla oficial verificada. | high |
+| oficial-10-11 | d | a (representativa; anulada) | Ambigüedad validada en revisión humana: a) is more friendly than y b) is not as friendly as son gramaticales con significados distintos. Sin contexto no hay clave única. Se conserva en el modelo histórico, anulada sin efecto sobre la nota. Dictamen lingüístico, no plantilla oficial verificada. | high |
 | oficial-11-1 | c | a | My nephew requiere exercises; do exercise no concuerda con sujeto singular. | high |
 | oficial-11-6 | a | d | Sit at the table y lie on the floor; in / in no describe estas posiciones. | high |
 | oficial-11-7 | c | a | Existencia futura: there will be, no there will being. | high |
 | oficial-13-9 | d | c | Can + play; could not se contrae como couldn’t. | high |
-| oficial-13-15 | b | c | Well y hardly son adverbios: el equipo jugó bien aunque apenas trabajó. Bad no es el adverbio estándar badly. | high |
 | oficial-14-6 | a | b | Pasado irregular got up; did not + have. | high |
 | oficial-14-7 | b | a | A little water (incontable), a few apples (contable); sin of ante estos sustantivos. | high |
 | oficial-18-11 | b | a | El enunciado ya contiene to come: doesn’t need to come. Needn’t to come es incorrecto. | high |
@@ -236,3 +235,28 @@ Lectura individual de enunciado, cuatro opciones y clave. Una referencia tempora
 Referencias de contraste: [Cambridge: will/shall](https://dictionary.cambridge.org/grammar/british-grammar/future-will-and-shall), [Cambridge: tags](https://dictionary.cambridge.org/grammar/british-grammar/tags), [British Council: past perfect](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect). Estas referencias explican estructuras generales; no autentican ninguna clave Stanley ni oficial.
 
 Antes de publicar, un docente debe revisar las claves cambiadas y resolver exclusiones contra el PDF/plantilla. No se inventaron huecos adicionales para aumentar el banco utilizable.
+
+## Dictamen humano de las 14 oficiales
+
+**11 cambios de clave validados; 2 preguntas con múltiples respuestas gramaticalmente válidas; 1 sin opción inequívocamente correcta.** Ninguna se acredita mediante plantilla oficial: son dictámenes lingüísticos aprobados por el usuario.
+
+| ID | Dictamen | Tratamiento |
+|---|---|---|
+| oficial-6-17 | Clave b validada | Se conserva |
+| oficial-10-8 | Clave c validada | Se conserva |
+| oficial-11-1 | Clave a validada | Se conserva |
+| oficial-11-6 | Clave d validada | Se conserva |
+| oficial-11-7 | Clave a validada | Se conserva |
+| oficial-13-9 | Clave c validada | Se conserva |
+| oficial-14-6 | Clave b validada | Se conserva |
+| oficial-14-7 | Clave a validada | Se conserva |
+| oficial-18-11 | Clave a validada | Se conserva |
+| oficial-19-18 | Clave c validada | Se conserva |
+| oficial-19-29 | Clave c validada | Se conserva |
+| oficial-10-9 | b y d válidas | Excluida de aleatorios; anulada en histórico |
+| oficial-10-11 | a y b válidas | Excluida de aleatorios; anulada en histórico |
+| oficial-13-15 | No hay opción inequívoca; c rechazada | b solo como clave histórica; anulada |
+
+Las tres anomalías permanecen en sus modelos originales. Cualquier opción o blanco tiene efecto cero: no suma, no resta ni entra en el denominador. La revisión muestra una advertencia y nunca las etiqueta como fallo del usuario. Los enunciados, opciones y procedencia permanecen intactos. El resto de preguntas oficiales y todo Stanley no se modifican en este paso.
+
+La cuenta de cambios de campo respecto a bed694d pasa de 212 a 211: 198 Stanley sin cambios en este paso y 13 oficiales (11 validadas y 2 valores representativos de preguntas anuladas). La corrección c de oficial-13-15 se retira, restaurando b únicamente como registro histórico. Esto no convierte b en respuesta válida.

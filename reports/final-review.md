@@ -1,6 +1,6 @@
 # Informe final para revisión humana
 
-Estado: cambios locales sin publicar, sin push ni merge. Se continuó el worktree existente en bed694d, conservando los cambios previos. La creación de rama no se autorizó; el worktree sigue en HEAD separado. No hay commits nuevos. El diff y los archivos nuevos están listos para revisión; no equivalen a una versión aprobada para publicar.
+Estado: rama local audit-refactor-guardia-civil. La auditoría inicial se guardó en 7bfd51d; el dictamen humano posterior se entrega en un commit local adicional titulado «Revisión humana de respuestas oficiales ambiguas». Sin push, merge, publicación ni SQL ejecutado.
 
 **Regla preservada y probada: Formato oficial: 20 preguntas · 15 min.** El deadline es de 900 segundos; los intensivos se identifican por separado. Penalización interna exacta: errores / 3.
 
@@ -8,7 +8,9 @@ Estado: cambios locales sin publicar, sin push ni merge. Se continuó el worktre
 
 Se terminó la lectura de las 1.235 Stanley pendientes y se registró dictamen para las 1.244. Resultado: 360 utilizables, 609 con importación inutilizable y 275 ambiguas con enunciado conservado. Algunas inutilizables también tienen candidatas alternativas. **884 siguen excluidas** y requieren PDF/plantilla y criterio docente para repararlas. Se preservan todas, sin inventar huecos nuevos en esta continuación. La revisión editorial está completa; la verificación de fuente no está hecha.
 
-Hay **212 cambios efectivos de clave**, 14 oficiales y 198 Stanley. Se compara con la clave original por ocurrencia, corrigiendo cuatro falsos cambios que producía el inventario anterior al colisionar IDs. No se modificó ningún enunciado u opción oficial. Se conservaron las 11 variantes Stanley mediante IDs estables con legacyId.
+Hay **211 cambios efectivos de clave**, 13 oficiales y 198 Stanley. Se compara con la clave original por ocurrencia, corrigiendo cuatro falsos cambios que producía el inventario anterior al colisionar IDs. No se modificó ningún enunciado u opción oficial. Se conservaron las 11 variantes Stanley mediante IDs estables con legacyId.
+
+**Dictamen humano sobre las 14 oficiales revisadas: 11 cambios validados, 2 preguntas con múltiples respuestas válidas y 1 sin opción inequívoca.** Las tres anomalías están excluidas de aleatorios y anuladas en sus modelos históricos; ninguna respuesta ni blanco perjudica la nota. En oficial-13-15 se retira c y se conserva b solo como clave histórica importada. Los 13 campos oficiales distintos del original incluyen dos valores representativos de preguntas anuladas, no 13 soluciones únicas aprobadas. Detalle en [official-human-review.md](official-human-review.md).
 
 - Lista íntegra de claves, motivos y confianza: [english-bank-audit.md](english-bank-audit.md) y [answer-changes.json](answer-changes.json).
 - Preguntas con alternativas: [ambiguous-questions.json](ambiguous-questions.json).
@@ -21,7 +23,7 @@ Las candidatas de preguntas excluidas no se aceptan automáticamente al puntuar.
 
 | Banco | Antes | Después | Elegibles aleatorios |
 |---|---:|---:|---:|
-| englishOfficial | 401 | 401 | 372 |
+| englishOfficial | 401 | 401 | 371 |
 | englishTraining | 1744 | 1744 | 860 |
 | orthographyOfficial | 120 | 120 | 120 |
 | grammarOfficial | 140 | 140 | 140 |
@@ -48,15 +50,15 @@ HTML de entrada, CSS, módulos ES y JSON por módulo/origen. Servicios separados
 | Importaciones con claves erróneas y explicación ficticia | Correcciones trazables y exclusión de entradas inciertas; sin certificar una plantilla inexistente |
 | Sin comprobaciones ni recuperación offline | Validador, unidades/regresión, E2E, CI propuesto, caché estática por ruta relativa |
 
-Se añadieron foco visible, controles táctiles, navegación por teclado, modal con foco y escape, y escape de HTML. La CSP elimina la ejecución de handlers inline. La representación visual conserva el diseño existente. La carga inicial de HTML+CSS+JS locales suma 136.395 bytes frente a 3.165.688 bytes del HTML anterior (suma de archivos sin compresión; no es una medición de red). Los bancos se descargan al entrar en su módulo; los metadatos editoriales aumentan su tamaño. No se hizo benchmark de hardware móvil.
+Se añadieron foco visible, controles táctiles, navegación por teclado, modal con foco y escape, y escape de HTML. La CSP elimina la ejecución de handlers inline. La representación visual conserva el diseño existente. La carga inicial de HTML+CSS+JS locales suma 137.215 bytes frente a 3.165.688 bytes del HTML anterior (suma de archivos sin compresión; no es una medición de red). Los bancos se descargan al entrar en su módulo; los metadatos editoriales aumentan su tamaño. No se hizo benchmark de hardware móvil.
 
 ## Pruebas ejecutadas
 
 | Comprobación | Resultado |
 |---|---|
 | Validador de seis bancos y modelos/reservas | 3.405 entradas; 0 errores; 677 advertencias históricas documentadas |
-| Unidades y regresión contra bed694d | 50/50 correctas; detalle en unit-tests.txt |
-| E2E Playwright 1.62.1 + Edge local | 10/10 correctas; detalle de cobertura en e2e-results.json |
+| Unidades, regresión y dictamen humano | 54/54 correctas; incluye cuatro pruebas específicas de las 14 oficiales |
+| E2E Playwright 1.62.1 + Edge local | 11/11 correctas en e2e-tests.txt; el caso específico de anomalías históricas se volvió a ejecutar y pasó antes del commit |
 | Sintaxis JS | correcta; detalle en syntax-check.txt |
 | git diff --check | correcto; advertencia de conversión LF/CRLF de Git, sin errores de whitespace |
 | Subruta /guardia-civil-ingles/ y recarga offline | correctas en E2E local |
@@ -80,7 +82,7 @@ Ningún SQL se ejecutó ni ninguna tabla de producción se modificó. Revisar y 
 
 ## Riesgos y revisión humana antes de publicar
 
-- Revisar las 212 claves cambiadas, las 884 Stanley excluidas, oficiales ambiguas/neutralizadas y las reparaciones de plantillas/nueve huecos hechas previamente. No hay PDF/plantilla autenticada.
+- Revisar las 211 claves cambiadas, las 884 Stanley excluidas, oficiales ambiguas/neutralizadas y las reparaciones de plantillas/nueve huecos hechas previamente. No hay PDF/plantilla autenticada.
 - Sin la RPC propuesta, dos dispositivos pueden perder una actualización concurrente de ciclos. Sin índice único de intentos, dos subidas simultáneas pueden duplicarse. Los clientes antiguos no respetan marcadores de borrado; actualizar todos los dispositivos.
 - Los snapshots/localStorage y marcadores pueden crecer; el aviso de cuota y exportación protegen el progreso en memoria, pero cerrar el navegador antes de exportar puede perder lo que no se pudo escribir.
 - La selección académica garantiza unicidad, pero no certifica distribución pedagógica por tema o dificultad; revisar este criterio docente por separado.
@@ -92,4 +94,4 @@ Ningún SQL se ejecutó ni ninguna tabla de producción se modificó. Revisar y 
 
 Instrucciones exactas en [README.md](../README.md). Iniciar con node scripts/serve.mjs; validar con node scripts/validate-banks.mjs, node --test tests/*.test.mjs y node scripts/check-syntax.mjs. E2E usa las variables documentadas para Playwright/Edge existentes.
 
-El worktree contiene el diff local y los nuevos archivos sin stage/commit. [change-manifest.json](change-manifest.json) enumera sus huellas para revisión. No ejecutar scripts antiguos de extracción: se retiraron los prototipos usados una sola vez; baseline.json permanece intacto. No se hizo merge a main, push, publicación ni modificación automática de producción.
+El trabajo inicial está en 7bfd51d; el dictamen humano y sus pruebas se entregan en el commit local adicional «Revisión humana de respuestas oficiales ambiguas». Consultar git log para su hash. [change-manifest.json](change-manifest.json) enumera las huellas actuales. No ejecutar scripts antiguos de extracción: se retiraron los prototipos usados una sola vez; baseline.json permanece intacto. No se hizo merge a main, push, publicación ni modificación automática de producción.

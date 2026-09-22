@@ -116,13 +116,9 @@
     "status": "ambiguous",
     "previous": "c",
     "current": "b",
-    "validAnswers": [
-      "b",
-      "d"
-    ],
     "excluded": true,
-    "neutralized": false,
-    "note": "Who y that funcionan como sujetos de una relativa especificativa de personas; whom no.",
+    "neutralized": true,
+    "note": "Ambigüedad validada en revisión humana: b) who y d) that son sujetos válidos de la relativa especificativa. Se conserva en el modelo histórico, pero queda anulada para todos: no suma ni resta y no entra en el denominador. Dictamen lingüístico, no plantilla oficial verificada.",
     "confidence": "high",
     "question": "She gives advice to teenagers _____ feel stress during exams.",
     "options": {
@@ -130,7 +126,13 @@
       "b": "who",
       "c": "whom",
       "d": "that"
-    }
+    },
+    "humanDecision": "multiple-valid-answers",
+    "sourceVerified": false,
+    "validAnswers": [
+      "b",
+      "d"
+    ]
   },
   {
     "id": "oficial-10-11",
@@ -138,13 +140,9 @@
     "status": "ambiguous",
     "previous": "d",
     "current": "a",
-    "validAnswers": [
-      "a",
-      "b"
-    ],
     "excluded": true,
-    "neutralized": false,
-    "note": "More friendly than y not as friendly as son comparaciones gramaticales.",
+    "neutralized": true,
+    "note": "Ambigüedad validada en revisión humana: a) is more friendly than y b) is not as friendly as son gramaticales con significados distintos. Sin contexto no hay clave única. Se conserva en el modelo histórico, anulada sin efecto sobre la nota. Dictamen lingüístico, no plantilla oficial verificada.",
     "confidence": "high",
     "question": "In my opinion, Margaret _____ Julia.",
     "options": {
@@ -152,7 +150,13 @@
       "b": "is not as friendly as",
       "c": "is not as friendship as",
       "d": "is not as friendly than"
-    }
+    },
+    "humanDecision": "multiple-valid-answers",
+    "sourceVerified": false,
+    "validAnswers": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "oficial-11-8",
@@ -219,6 +223,27 @@
       "c": "They have being in Mexico for six months.",
       "d": "They have been in Mexico since January."
     }
+  },
+  {
+    "id": "oficial-13-15",
+    "sourceType": "official",
+    "status": "unresolved",
+    "previous": "b",
+    "current": "b",
+    "excluded": true,
+    "neutralized": true,
+    "note": "Anomalía validada en revisión humana: ninguna opción es inequívocamente correcta en el texto conservado. Worked hardly no justifica aceptar c como solución definitiva; la combinación esperable well / hard no figura entre las opciones. Se retira la corrección propuesta c y se conserva b únicamente como clave histórica importada, no como solución válida. Pregunta anulada sin efecto sobre la nota; requiere cotejo con la fuente.",
+    "confidence": "low",
+    "question": "The team played _____. All the players worked _____.",
+    "options": {
+      "a": "good / hard",
+      "b": "bad / hard",
+      "c": "well / hardly",
+      "d": "very good / lot"
+    },
+    "humanDecision": "no-unequivocal-answer",
+    "sourceVerified": false,
+    "rejectedAnswer": "c"
   },
   {
     "id": "oficial-14-1",

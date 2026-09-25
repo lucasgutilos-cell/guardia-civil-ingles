@@ -60,7 +60,7 @@ test('human-reviewed anomalies remain historical and never penalize or show a fa
   assert.equal(result.wrong,0);assert.equal(result.penalty,0);
   assert.equal(result.total,ids.length-english.examenes.find(e=>e.id===examId).preguntas.filter(q=>q.neutralized).length);
   await page.getByRole('button',{name:'🔎 Ver revisión',exact:true}).click();
-  for(const id of affected){const item=page.locator('[data-question-id="'+id+'"]');assert.equal(await item.count(),1);assert.match(await item.innerText(),/ANULADA · no puntúa/);assert.equal(await item.locator('.wrong,.ai-btn').count(),0);assert.doesNotMatch(await item.innerText(),/Respuesta correcta:/);}
+  for(const id of affected){const item=page.locator('[data-question-id="'+id+'"]');await item.waitFor();assert.equal(await item.count(),1);assert.match(await item.innerText(),/ANULADA · no puntúa/);assert.equal(await item.locator('.wrong,.ai-btn').count(),0);assert.doesNotMatch(await item.innerText(),/Respuesta correcta:/);}
   await page.evaluate(()=>home());await page.getByRole('heading',{name:'Elige el módulo'}).waitFor();await englishHome(page);
  }
  for(const mode of ['official','mixed']){
@@ -79,7 +79,7 @@ test('mobile load is lazy; official 20 / 15 min, score, blank, numbers and revie
  await page.getByRole('button',{name:'Finalizar',exact:true}).click();await page.locator('.result').waitFor();
  const result=await page.evaluate(()=>window.__lastResult);assert.equal(result.correct,1);assert.equal(result.blank,19);assert.equal(result.score,1);
  assert.equal(await active(page),null);assert.ok((await page.evaluate(()=>JSON.parse(localStorage.getItem('gcEnglishQuestionCycles')))).official.length===20);
- await page.getByRole('button',{name:'🔎 Ver revisión',exact:true}).click();assert.equal(await page.locator('.review .item').count(),20);
+ await page.getByRole('button',{name:'🔎 Ver revisión',exact:true}).click();await page.waitForFunction(()=>document.querySelectorAll('.review .item').length===20);assert.equal(await page.locator('.review .item').count(),20);
  await page.screenshot({path:'reports/mobile-review.png',fullPage:true});
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
 });

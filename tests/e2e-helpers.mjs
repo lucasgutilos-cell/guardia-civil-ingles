@@ -95,7 +95,7 @@ export async function enterModule(page, module) {
   await page.evaluate(() => home());
   const names = {english: 'Inglés', ortografia: 'Ortografía', gramatica: 'Gramática'};
   await page.getByRole('button', {name: `Entrar en ${names[module]}`, exact: true}).click();
-  await page.getByRole('heading', {name: 'Práctica por contenidos', exact: true}).waitFor();
+  await page.getByRole('heading', {name: 'Entrenamiento por contenidos', exact: true}).waitFor();
 }
 export async function loginMock(page, email = 'topics@example.test') {
   await page.getByRole('button', {name: '👤 Entrar / Registrarme'}).click();

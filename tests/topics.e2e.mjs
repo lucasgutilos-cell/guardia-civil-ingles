@@ -114,7 +114,7 @@ test('topic completion commits independent cycles, prevents repetition, stores f
     assert.equal((await readLocal(page, CYCLES))[mark], undefined);
     assert.deepEqual(new Set((await readLocal(page, CYCLES))[cycleKey]), new Set(initial.questionIds));
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /1\\s+INTENTOS/i);
+    assert.match(await card(page, topicId).innerText(), /1\s+INTENTOS/i);
     const secondSelection = await startTopic(page, module, topicId);
     assert.ok(secondSelection.questionIds.every(id => !initial.questionIds.includes(id)));
     await finishTopic(page, module, 19);
@@ -128,7 +128,7 @@ test('topic completion commits independent cycles, prevents repetition, stores f
     await finishTopic(page, module, 0);
     assert.deepEqual((await readLocal(page, CYCLES))[mark], earned);
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /3\\s+INTENTOS/i);
+    assert.match(await card(page, topicId).innerText(), /3\s+INTENTOS/i);
     assert.match(await card(page, topicId).innerText(), /Dominado/);
     const summary = module === 'english' ? '#statsHome' : '#academicStatsHome';
     assert.equal(await page.locator(`${summary} .stat b`).first().innerText(), '0', 'Topic attempts do not enter simulator averages');

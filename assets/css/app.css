@@ -640,8 +640,8 @@ body[data-module-theme] .academic-nav button.done{
 }
 body[data-module-theme] .nav-grid button.current,
 body[data-module-theme] .academic-nav button.current{
-  outline:3px solid rgba(var(--module-accent-rgb),.55)!important;
-  outline-offset:2px!important;
+  outline:none!important;
+  box-shadow:inset 0 0 0 3px var(--module-deep)!important;
 }
 body[data-module-theme] .nav-grid button.current:not(.answered),
 body[data-module-theme] .academic-nav button.current:not(.done){

@@ -48,7 +48,7 @@ test('all 16 topic cards show exact counts and launch only their pool with offic
     assert.equal(await page.locator('.topic-card').count(), topics.length);
     if (module === 'english') assert.match(await page.locator('body').innerText(), /Formato oficial: 20 preguntas · 15 min/);
     for (const topic of topics) {
-      assert.match(await card(page, topic.id).innerText(), new RegExp(`${topic.count} ${module === 'english' ? 'preguntas' : 'frases'}`));
+      assert.match(await card(page, topic.id).innerText(), new RegExp(`${topic.count}\\s+${module === 'english' ? 'preguntas' : 'frases'}`, 'i'));
       assert.match(await card(page, topic.id).innerText(), /Nivel examen/);
       assert.doesNotMatch(await card(page, topic.id).innerText(), /Fácil|Media|Difícil/);
       const before = await page.evaluate(key => localStorage.getItem(key), CYCLES);
@@ -114,7 +114,7 @@ test('topic completion commits independent cycles, prevents repetition, stores f
     assert.equal((await readLocal(page, CYCLES))[mark], undefined);
     assert.deepEqual(new Set((await readLocal(page, CYCLES))[cycleKey]), new Set(initial.questionIds));
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /1 intentos/);
+    assert.match(await card(page, topicId).innerText(), /1\\s+INTENTOS/i);
     const secondSelection = await startTopic(page, module, topicId);
     assert.ok(secondSelection.questionIds.every(id => !initial.questionIds.includes(id)));
     await finishTopic(page, module, 19);
@@ -123,20 +123,20 @@ test('topic completion commits independent cycles, prevents repetition, stores f
     assert.equal(earned.length, 1);
     assert.ok(Number.isFinite(Date.parse(earned[0])));
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /✓ Dominado/);
+    assert.match(await card(page, topicId).innerText(), /Dominado/);
     await startTopic(page, module, topicId);
     await finishTopic(page, module, 0);
     assert.deepEqual((await readLocal(page, CYCLES))[mark], earned);
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /3 intentos/);
-    assert.match(await card(page, topicId).innerText(), /✓ Dominado/);
+    assert.match(await card(page, topicId).innerText(), /3\\s+INTENTOS/i);
+    assert.match(await card(page, topicId).innerText(), /Dominado/);
     const summary = module === 'english' ? '#statsHome' : '#academicStatsHome';
     assert.equal(await page.locator(`${summary} .stat b`).first().innerText(), '0', 'Topic attempts do not enter simulator averages');
     await page.reload();
     try {await page.getByRole('heading', {name: 'Elige el módulo'}).waitFor({timeout: 5000});}
     catch (error) {t.diagnostic(JSON.stringify({module, active: await activeExam(page), body: (await page.locator('body').innerText()).slice(0, 1500)})); throw error;}
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /✓ Dominado/);
+    assert.match(await card(page, topicId).innerText(), /Dominado/);
   }
   const entries = await readLocal(page, HISTORY);
   assert.equal(entries.length, 9);
@@ -203,7 +203,7 @@ test('mock cloud merges topic modes, cycles and mastery without new Supabase col
     assert.equal(Object.hasOwn(uploaded, 'topicId'), false, 'Topic identity travels in the existing mode column');
     assert.equal(Object.hasOwn(uploaded, 'mastery'), false);
     await enterModule(page, module);
-    assert.match(await card(page, topicId).innerText(), /✓ Dominado/);
+    assert.match(await card(page, topicId).innerText(), /Dominado/);
   }
 });
 

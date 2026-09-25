@@ -1,0 +1,16 @@
+{
+  "base": "guardia-civil-transfer-reforzado-2026-09-25.zip",
+  "modified": [
+    "data/professor/grammar.json",
+    "data/professor/orthography.json",
+    "data/professor/rules.json",
+    "data/professor/spanish-rules.json",
+    "scripts/build-professor-spanish.mjs",
+    "tests/professor.test.mjs"
+  ],
+  "added": [
+    "reports/professor-pedagogy-refinement-2026-09-25.md",
+    "reports/refinement-tests-2026-09-25.txt"
+  ],
+  "missing": []
+}

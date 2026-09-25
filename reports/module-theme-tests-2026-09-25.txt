@@ -1,0 +1,472 @@
+TAP version 13
+# Subtest: review coverage keeps every Stanley row and quarantines uncertain answers
+ok 1 - review coverage keeps every Stanley row and quarantines uncertain answers
+  ---
+  duration_ms: 4.847372
+  type: 'test'
+  ...
+# Subtest: new cycle generation overrides stale IDs and same-generation unions tombstones
+ok 2 - new cycle generation overrides stale IDs and same-generation unions tombstones
+  ---
+  duration_ms: 0.974205
+  type: 'test'
+  ...
+# Subtest: cloud queue reports failure and continues processing later work
+ok 3 - cloud queue reports failure and continues processing later work
+  ---
+  duration_ms: 0.338139
+  type: 'test'
+  ...
+# Subtest: score boundary and exact thirds for 20
+ok 4 - score boundary and exact thirds for 20
+  ---
+  duration_ms: 0.360433
+  type: 'test'
+  ...
+# Subtest: official 20: unique IDs, exact exhaustion, boundary and rollback
+ok 5 - official 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 1.232985
+  type: 'test'
+  ...
+# Subtest: new_Fácil 20: unique IDs, exact exhaustion, boundary and rollback
+ok 6 - new_Fácil 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.489376
+  type: 'test'
+  ...
+# Subtest: new_Media 20: unique IDs, exact exhaustion, boundary and rollback
+ok 7 - new_Media 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.903519
+  type: 'test'
+  ...
+# Subtest: new_Difícil 20: unique IDs, exact exhaustion, boundary and rollback
+ok 8 - new_Difícil 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.480683
+  type: 'test'
+  ...
+# Subtest: mixed_official 20: unique IDs, exact exhaustion, boundary and rollback
+ok 9 - mixed_official 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.768296
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Fácil 20: unique IDs, exact exhaustion, boundary and rollback
+ok 10 - mixed_generated_Fácil 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.788707
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Media 20: unique IDs, exact exhaustion, boundary and rollback
+ok 11 - mixed_generated_Media 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.490578
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Difícil 20: unique IDs, exact exhaustion, boundary and rollback
+ok 12 - mixed_generated_Difícil 20: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.481555
+  type: 'test'
+  ...
+# Subtest: score boundary and exact thirds for 40
+ok 13 - score boundary and exact thirds for 40
+  ---
+  duration_ms: 0.111958
+  type: 'test'
+  ...
+# Subtest: official 40: unique IDs, exact exhaustion, boundary and rollback
+ok 14 - official 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.594835
+  type: 'test'
+  ...
+# Subtest: new_Fácil 40: unique IDs, exact exhaustion, boundary and rollback
+ok 15 - new_Fácil 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.539451
+  type: 'test'
+  ...
+# Subtest: new_Media 40: unique IDs, exact exhaustion, boundary and rollback
+ok 16 - new_Media 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.557669
+  type: 'test'
+  ...
+# Subtest: new_Difícil 40: unique IDs, exact exhaustion, boundary and rollback
+ok 17 - new_Difícil 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.467704
+  type: 'test'
+  ...
+# Subtest: mixed_official 40: unique IDs, exact exhaustion, boundary and rollback
+ok 18 - mixed_official 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.500032
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Fácil 40: unique IDs, exact exhaustion, boundary and rollback
+ok 19 - mixed_generated_Fácil 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.467884
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Media 40: unique IDs, exact exhaustion, boundary and rollback
+ok 20 - mixed_generated_Media 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.525471
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Difícil 40: unique IDs, exact exhaustion, boundary and rollback
+ok 21 - mixed_generated_Difícil 40: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.47162
+  type: 'test'
+  ...
+# Subtest: score boundary and exact thirds for 60
+ok 22 - score boundary and exact thirds for 60
+  ---
+  duration_ms: 0.253581
+  type: 'test'
+  ...
+# Subtest: official 60: unique IDs, exact exhaustion, boundary and rollback
+ok 23 - official 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.487844
+  type: 'test'
+  ...
+# Subtest: new_Fácil 60: unique IDs, exact exhaustion, boundary and rollback
+ok 24 - new_Fácil 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.547473
+  type: 'test'
+  ...
+# Subtest: new_Media 60: unique IDs, exact exhaustion, boundary and rollback
+ok 25 - new_Media 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.505521
+  type: 'test'
+  ...
+# Subtest: new_Difícil 60: unique IDs, exact exhaustion, boundary and rollback
+ok 26 - new_Difícil 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.521044
+  type: 'test'
+  ...
+# Subtest: mixed_official 60: unique IDs, exact exhaustion, boundary and rollback
+ok 27 - mixed_official 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.430918
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Fácil 60: unique IDs, exact exhaustion, boundary and rollback
+ok 28 - mixed_generated_Fácil 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.428114
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Media 60: unique IDs, exact exhaustion, boundary and rollback
+ok 29 - mixed_generated_Media 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.390657
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Difícil 60: unique IDs, exact exhaustion, boundary and rollback
+ok 30 - mixed_generated_Difícil 60: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 2.170675
+  type: 'test'
+  ...
+# Subtest: score boundary and exact thirds for 100
+ok 31 - score boundary and exact thirds for 100
+  ---
+  duration_ms: 0.193591
+  type: 'test'
+  ...
+# Subtest: official 100: unique IDs, exact exhaustion, boundary and rollback
+ok 32 - official 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.331308
+  type: 'test'
+  ...
+# Subtest: new_Fácil 100: unique IDs, exact exhaustion, boundary and rollback
+ok 33 - new_Fácil 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.293101
+  type: 'test'
+  ...
+# Subtest: new_Media 100: unique IDs, exact exhaustion, boundary and rollback
+ok 34 - new_Media 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.288855
+  type: 'test'
+  ...
+# Subtest: new_Difícil 100: unique IDs, exact exhaustion, boundary and rollback
+ok 35 - new_Difícil 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.25988
+  type: 'test'
+  ...
+# Subtest: mixed_official 100: unique IDs, exact exhaustion, boundary and rollback
+ok 36 - mixed_official 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.254423
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Fácil 100: unique IDs, exact exhaustion, boundary and rollback
+ok 37 - mixed_generated_Fácil 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.244738
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Media 100: unique IDs, exact exhaustion, boundary and rollback
+ok 38 - mixed_generated_Media 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.287763
+  type: 'test'
+  ...
+# Subtest: mixed_generated_Difícil 100: unique IDs, exact exhaustion, boundary and rollback
+ok 39 - mixed_generated_Difícil 100: unique IDs, exact exhaustion, boundary and rollback
+  ---
+  duration_ms: 0.246361
+  type: 'test'
+  ...
+# Subtest: ambiguous accepted variants and neutralized questions
+ok 40 - ambiguous accepted variants and neutralized questions
+  ---
+  duration_ms: 0.121743
+  type: 'test'
+  ...
+# Subtest: deadline ignores callback frequency and caps recorded elapsed time
+ok 41 - deadline ignores callback frequency and caps recorded elapsed time
+  ---
+  duration_ms: 0.179791
+  type: 'test'
+  ...
+# Subtest: legacy history is readable, compact correction key is frozen and merge is additive
+ok 42 - legacy history is readable, compact correction key is frozen and merge is additive
+  ---
+  duration_ms: 10.189674
+  type: 'test'
+  ...
+# Subtest: quota fallback reports error and does not destroy old values
+ok 43 - quota fallback reports error and does not destroy old values
+  ---
+  duration_ms: 0.368804
+  type: 'test'
+  ...
+# Subtest: precision is independent from penalty; cycle cloud merge preserves both sides
+ok 44 - precision is independent from penalty; cycle cloud merge preserves both sides
+  ---
+  duration_ms: 0.17983
+  type: 'test'
+  ...
+# Subtest: all difficulty pools support 100 and remain separate from official
+ok 45 - all difficulty pools support 100 and remain separate from official
+  ---
+  duration_ms: 0.828597
+  type: 'test'
+  ...
+# Subtest: validator catches corrupt answer, metadata and options
+ok 46 - validator catches corrupt answer, metadata and options
+  ---
+  duration_ms: 1.725216
+  type: 'test'
+  ...
+# Subtest: Professor reconstructs gaps without swallowing spaces, including spaced dots and multiple slashes
+ok 47 - Professor reconstructs gaps without swallowing spaces, including spaced dots and multiple slashes
+  ---
+  duration_ms: 1.772146
+  type: 'test'
+  ...
+# Subtest: specific selected distractor diagnosis, blank and correct explanations
+ok 48 - specific selected distractor diagnosis, blank and correct explanations
+  ---
+  duration_ms: 3.149358
+  type: 'test'
+  ...
+# Subtest: historical signature mismatch and invalid/missing records use only the exact safe fallback
+ok 49 - historical signature mismatch and invalid/missing records use only the exact safe fallback
+  ---
+  duration_ms: 0.337688
+  type: 'test'
+  ...
+# Subtest: all validAnswers stay accepted, neutralized questions never assert a unique answer
+ok 50 - all validAnswers stay accepted, neutralized questions never assert a unique answer
+  ---
+  duration_ms: 0.596146
+  type: 'test'
+  ...
+# Subtest: validator rejects key, gap, example, rule, repeated prose, placeholder and source defects
+ok 51 - validator rejects key, gap, example, rule, repeated prose, placeholder and source defects
+  ---
+  duration_ms: 0.935487
+  type: 'test'
+  ...
+# Subtest: source allowlist rejects non-HTTPS, credentials, lookalike hosts, ports and executable schemes
+ok 52 - source allowlist rejects non-HTTPS, credentials, lookalike hosts, ports and executable schemes
+  ---
+  duration_ms: 0.195074
+  type: 'test'
+  ...
+# Subtest: renderer escapes text/attributes even if called directly with hostile data
+ok 53 - renderer escapes text/attributes even if called directly with hostile data
+  ---
+  duration_ms: 0.521435
+  type: 'test'
+  ...
+# Subtest: minimal character diff preserves unchanged letters and accents
+ok 54 - minimal character diff preserves unchanged letters and accents
+  ---
+  duration_ms: 0.414233
+  type: 'test'
+  ...
+# Subtest: recurrent concept failures count local wrong/blanks, exclude neutral and other modules
+ok 55 - recurrent concept failures count local wrong/blanks, exclude neutral and other modules
+  ---
+  duration_ms: 10.195728
+  type: 'test'
+  ...
+# Subtest: materialized Professor coverage and all structural invariants pass without network
+ok 56 - materialized Professor coverage and all structural invariants pass without network
+  ---
+  duration_ms: 175.993018
+  type: 'test'
+  ...
+# Subtest: neutralized English items never present a historical key as an accepted solution
+ok 57 - neutralized English items never present a historical key as an accepted solution
+  ---
+  duration_ms: 10.583892
+  type: 'test'
+  ...
+# Subtest: Active / Passive training explanations distinguish active voice from passive voice
+ok 58 - Active / Passive training explanations distinguish active voice from passive voice
+  ---
+  duration_ms: 10.488958
+  type: 'test'
+  ...
+# Subtest: materialized Spanish Professor uses readable corrections and preserves sentence capitalization
+ok 59 - materialized Spanish Professor uses readable corrections and preserves sentence capitalization
+  ---
+  duration_ms: 5.327154
+  type: 'test'
+  ...
+# Subtest: real banks: every valid key and neutral remains compatible; orthography B/M and grammar conflict
+ok 60 - real banks: every valid key and neutral remains compatible; orthography B/M and grammar conflict
+  ---
+  duration_ms: 140.925447
+  type: 'test'
+  ...
+# Subtest: Spanish Professor pedagogy stays specific to the word or construction being reviewed
+ok 61 - Spanish Professor pedagogy stays specific to the word or construction being reviewed
+  ---
+  duration_ms: 28.327965
+  type: 'test'
+  ...
+# Subtest: topic catalog has the requested names, frozen definitions and exam formats
+ok 62 - topic catalog has the requested names, frozen definitions and exam formats
+  ---
+  duration_ms: 1.563913
+  type: 'test'
+  ...
+# Subtest: english: exact topic counts, unique mapping, no official questions or bank mutations
+ok 63 - english: exact topic counts, unique mapping, no official questions or bank mutations
+  ---
+  duration_ms: 28.429727
+  type: 'test'
+  ...
+# Subtest: ortografia: exact topic counts, unique mapping, no official questions or bank mutations
+ok 64 - ortografia: exact topic counts, unique mapping, no official questions or bank mutations
+  ---
+  duration_ms: 11.193438
+  type: 'test'
+  ...
+# Subtest: gramatica: exact topic counts, unique mapping, no official questions or bank mutations
+ok 65 - gramatica: exact topic counts, unique mapping, no official questions or bank mutations
+  ---
+  duration_ms: 2.490126
+  type: 'test'
+  ...
+# Subtest: English dedupe is exact after trim, local to generated topics, retaining lowest lexical ID
+ok 66 - English dedupe is exact after trim, local to generated topics, retaining lowest lexical ID
+  ---
+  duration_ms: 27.562002
+  type: 'test'
+  ...
+# Subtest: English eligibility requires review, confidence, key and explicit Stanley gaps
+ok 67 - English eligibility requires review, confidence, key and explicit Stanley gaps
+  ---
+  duration_ms: 0.557659
+  type: 'test'
+  ...
+# Subtest: mixed English themes obey the requested question/option decision rules
+ok 68 - mixed English themes obey the requested question/option decision rules
+  ---
+  duration_ms: 0.515275
+  type: 'test'
+  ...
+# Subtest: orthography assigns all 500 phrases once across seven focused families without rewriting entries
+ok 69 - orthography assigns all 500 phrases once across seven focused families without rewriting entries
+  ---
+  duration_ms: 0.227993
+  type: 'test'
+  ...
+# Subtest: grammar assigns all 500 training entries once through 25 exact named rules
+ok 70 - grammar assigns all 500 training entries once through 25 exact named rules
+  ---
+  duration_ms: 0.394313
+  type: 'test'
+  ...
+# Subtest: topic modes, labels, independent cycle keys and invalid values round-trip safely
+ok 71 - topic modes, labels, independent cycle keys and invalid values round-trip safely
+  ---
+  duration_ms: 0.769037
+  type: 'test'
+  ...
+# Subtest: english: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+ok 72 - english: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+  ---
+  duration_ms: 2.814314
+  type: 'test'
+  ...
+# Subtest: ortografia: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+ok 73 - ortografia: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+  ---
+  duration_ms: 1.191783
+  type: 'test'
+  ...
+# Subtest: gramatica: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+ok 74 - gramatica: each topic cycle is provisional, unique, commits explicitly and closes boundaries
+  ---
+  duration_ms: 0.719633
+  type: 'test'
+  ...
+# Subtest: mastery is separate from passing and requires the latest two attempts of the same topic
+ok 75 - mastery is separate from passing and requires the latest two attempts of the same topic
+  ---
+  duration_ms: 1.025322
+  type: 'test'
+  ...
+# Subtest: academic mastery uses correct >= 17 and cloud union/recalculation preserves achievements
+ok 76 - academic mastery uses correct >= 17 and cloud union/recalculation preserves achievements
+  ---
+  duration_ms: 0.425641
+  type: 'test'
+  ...
+# Subtest: topic summaries and sorted attempts remain independent from other contents and simulators
+ok 77 - topic summaries and sorted attempts remain independent from other contents and simulators
+  ---
+  duration_ms: 0.283557
+  type: 'test'
+  ...
+1..77
+# tests 77
+# suites 0
+# pass 77
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 459.136872

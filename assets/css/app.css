@@ -1,5 +1,5 @@
 
-:root{--bg:#f2f4f3;--card:#fff;--ink:#173124;--muted:#657168;--green:#214f33;--green2:#2e6844;--green3:#e7efe9;--gold:#d4c64f;--ok:#287548;--bad:#b3261e;--line:#d8ded9;--soft:#f7f9f7;--shadow:0 2px 10px rgba(25,45,32,.08)}
+:root{--bg:#f2f4f3;--card:#fff;--ink:#173124;--muted:#657168;--green:#214f33;--green2:#2e6844;--green3:#e7efe9;--gold:#d4c64f;--ok:#287548;--bad:#b3261e;--line:#d8ded9;--border:var(--line);--soft:#f7f9f7;--shadow:0 2px 10px rgba(25,45,32,.08)}
 *{box-sizing:border-box}
 button:disabled{cursor:not-allowed;opacity:.6}
 button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #8a6400;outline-offset:3px}
@@ -292,3 +292,333 @@ select{border-radius:11px;padding:11px 12px;box-shadow:inset 0 1px 2px rgba(0,0,
   .academic-head .row{width:100%;justify-content:space-between}
   .academic-head .row button{flex:1}
 }
+
+/* Topic practice and local Professor: native keyboard disclosure, narrow-screen flow. */
+.topic-practice{margin:24px 0}.topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.topic-card{min-width:0;display:flex;flex-direction:column}.topic-card button{margin-top:auto}.topic-mastery{font-weight:800}.professor{border:1px solid var(--border);border-radius:12px;padding:14px;margin:14px 0;overflow-wrap:anywhere}.professor h5{font-size:1rem;margin:16px 0 4px}.professor p{margin:8px 0}.professor details{margin:10px 0}.professor summary{cursor:pointer;min-height:44px;line-height:1.5;padding:10px 6px;font-weight:700}.professor a,.professor button{min-height:44px;display:inline-flex;align-items:center;max-width:100%;white-space:normal}.professor summary:focus-visible,.professor a:focus-visible,.topic-card button:focus-visible{outline:3px solid #2558a5;outline-offset:3px}.professor-neutral{border-color:#b9ad83;background:#fbfaf5}.professor-wrong{border-left:4px solid var(--bad)}.professor-correct{border-left:4px solid var(--ok)}.professor-quick{background:var(--soft);padding:10px;border-radius:8px}.professor del,.corrected-phrase del{color:#852321;background:#ffe1de;text-decoration:line-through}.professor ins,.corrected-phrase ins{color:#165329;background:#ddf3e3;text-decoration:underline;text-decoration-thickness:2px}.professor-fallback{padding:12px;border:1px solid var(--border);border-radius:8px}.academic-element{border-top:1px solid var(--border);margin-top:12px}.neutral{border-left:4px solid #b9ad83}.professor li{margin:8px 0}.topic-card,.professor,.academic-review-item{overflow-wrap:anywhere}@media(max-width:760px){.topic-grid{grid-template-columns:1fr}.professor{padding:10px}.professor ul{padding-left:20px}.professor button{width:100%}}
+
+/* V24 — Rediseño visual de submódulos por contenidos. Solo presentación. */
+.topic-practice{
+  --topic-accent:#365b9a;
+  --topic-accent-rgb:54,91,154;
+  --topic-tint:#eef4ff;
+  margin:34px 0 10px;
+  padding:30px;
+  border:1px solid rgba(34,62,45,.10);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(255,253,249,.92),rgba(248,250,247,.94));
+  box-shadow:0 10px 32px rgba(24,45,33,.06);
+}
+.topic-practice-ortografia{--topic-accent:#a76128;--topic-accent-rgb:167,97,40;--topic-tint:#fff4e9}
+.topic-practice-gramatica{--topic-accent:#75549a;--topic-accent-rgb:117,84,154;--topic-tint:#f4effa}
+.topic-section-head{text-align:center;max-width:760px;margin:0 auto 24px}
+.topic-eyebrow{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:6px 11px;border-radius:999px;background:var(--topic-tint);
+  color:var(--topic-accent);border:1px solid rgba(var(--topic-accent-rgb),.18);
+  font-size:11px;font-weight:950;letter-spacing:.1em;text-transform:uppercase
+}
+.topic-section-head h2{font-size:27px;margin:8px 0 7px;letter-spacing:-.035em}
+.topic-section-head>p{max-width:650px;margin:0 auto;color:var(--muted);font-size:14px;line-height:1.6}
+.topic-section-pills{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px}
+.topic-section-pills span{
+  display:inline-flex;align-items:center;min-height:30px;padding:6px 10px;
+  border-radius:999px;background:#fff;border:1px solid #dde4de;color:#536159;
+  box-shadow:0 2px 7px rgba(25,45,32,.035);font-size:11px;font-weight:800
+}
+.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.topic-card{
+  position:relative;isolation:isolate;overflow:hidden;min-width:0;
+  display:flex;flex-direction:column;padding:22px 22px 20px;
+  border:1px solid rgba(var(--topic-accent-rgb),.17);border-radius:20px;
+  background:linear-gradient(180deg,#fff 0%,#fffdfa 100%);
+  box-shadow:0 7px 22px rgba(24,45,33,.07);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease
+}
+.topic-card:before{
+  content:"";position:absolute;z-index:-1;left:0;right:0;top:0;height:5px;
+  background:linear-gradient(90deg,var(--topic-accent),rgba(var(--topic-accent-rgb),.42))
+}
+.topic-card:after{
+  content:"";position:absolute;z-index:-1;width:150px;height:150px;border-radius:50%;
+  right:-78px;top:-82px;background:rgba(var(--topic-accent-rgb),.055)
+}
+.topic-card:hover{transform:translateY(-3px);border-color:rgba(var(--topic-accent-rgb),.30);box-shadow:0 14px 32px rgba(24,45,33,.11)}
+.topic-card-top{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;margin-bottom:15px}
+.topic-icon{
+  width:48px;height:48px;display:inline-flex;align-items:center;justify-content:center;
+  border-radius:14px;background:var(--topic-tint);border:1px solid rgba(var(--topic-accent-rgb),.20);
+  color:var(--topic-accent);font-size:20px;font-weight:950;line-height:1;letter-spacing:-.04em
+}
+.topic-number{justify-self:start;font-size:10px;font-weight:950;letter-spacing:.095em;text-transform:uppercase;color:#79837d}
+.topic-level{
+  justify-self:end;padding:5px 8px;border-radius:999px;background:#f5f7f4;border:1px solid #dfe5df;
+  color:#5f6b63;font-size:10px;font-weight:850;white-space:nowrap
+}
+.topic-card-copy{text-align:center;min-height:112px;padding:1px 6px 0}
+.topic-card-copy h3{font-size:19px;line-height:1.25;margin:0 auto 9px;max-width:390px;letter-spacing:-.02em}
+.topic-card-copy p{font-size:13px;line-height:1.55;color:var(--muted);max-width:390px;margin:0 auto}
+.topic-metrics{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;
+  margin:17px 0 15px;padding:11px 6px;border-top:1px solid #edf0ed;border-bottom:1px solid #edf0ed
+}
+.topic-metric{text-align:center;min-width:0;padding:2px 5px}
+.topic-metric+.topic-metric{border-left:1px solid #e7ebe7}
+.topic-metric b{display:block;font-size:16px;line-height:1.2;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topic-metric span{display:block;margin-top:4px;color:#7a847e;font-size:9.5px;font-weight:850;letter-spacing:.055em;text-transform:uppercase}
+.topic-cycle{margin:0 2px 13px}
+.topic-cycle-label{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:7px;color:#66726b;font-size:11px}
+.topic-cycle-label strong{color:var(--topic-accent);font-size:11px}
+.topic-cycle-bar{height:8px;border-radius:999px;background:#e9eeea;overflow:hidden;box-shadow:inset 0 1px 2px rgba(20,45,30,.06)}
+.topic-cycle-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--topic-accent),rgba(var(--topic-accent-rgb),.68));transition:width .25s ease}
+.topic-card-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 2px 16px;min-height:28px}
+.topic-last{font-size:11px;color:#758078}.topic-last b{color:var(--ink)}
+.topic-mastery{
+  display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border-radius:999px;
+  background:#f3f5f3;color:#68736c;border:1px solid #e1e6e2;font-size:10px;font-weight:900;white-space:nowrap
+}
+.topic-mastery i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#aab3ad}
+.topic-mastery.active{background:var(--topic-tint);color:var(--topic-accent);border-color:rgba(var(--topic-accent-rgb),.20)}
+.topic-mastery.active i{background:var(--topic-accent)}
+.topic-mastery.mastered{background:#e7f3e9;color:#23623c;border-color:#c5dfca}
+.topic-mastery.mastered i{background:#2d7b4b;box-shadow:0 0 0 3px rgba(45,123,75,.10)}
+.topic-start-btn{
+  width:100%;margin-top:auto;display:flex;align-items:center;justify-content:center;gap:10px;
+  min-height:48px;background:var(--topic-accent);box-shadow:0 5px 13px rgba(var(--topic-accent-rgb),.18)
+}
+.topic-start-btn:hover{background:var(--topic-accent);filter:brightness(1.06);box-shadow:0 8px 18px rgba(var(--topic-accent-rgb),.25)}
+.topic-start-btn b{font-size:18px;line-height:1;transition:transform .15s ease}
+.topic-start-btn:hover b{transform:translateX(3px)}
+.topic-card button:focus-visible{outline:3px solid var(--topic-accent);outline-offset:3px}
+@media(max-width:760px){
+  .topic-practice{padding:22px 14px;border-radius:20px;margin-top:26px}
+  .topic-section-head h2{font-size:24px}.topic-section-head>p{font-size:13px}
+  .topic-grid{grid-template-columns:1fr;gap:14px}.topic-card{padding:19px 17px 17px}
+  .topic-card-copy{min-height:auto;padding-bottom:3px}.topic-card-copy h3{font-size:18px}
+}
+@media(max-width:430px){
+  .topic-card-top{grid-template-columns:auto 1fr}.topic-level{grid-column:2;justify-self:start;margin-top:-9px}
+  .topic-icon{grid-row:1 / span 2;width:44px;height:44px;border-radius:13px}
+  .topic-metrics{gap:3px}.topic-metric{padding:2px}.topic-metric b{font-size:14px}.topic-metric span{font-size:8.5px}
+  .topic-card-foot{align-items:flex-start;flex-direction:column;gap:7px}.topic-mastery{align-self:flex-start}
+}
+
+/* V25 — Identidad visual por módulo + pulido transversal. */
+body[data-module-theme="english"]{
+  --module-accent:#3565a8;--module-accent-rgb:53,101,168;--module-tint:#edf4ff;--module-soft:#f7faff;--module-deep:#234b82;
+}
+body[data-module-theme="ortografia"]{
+  --module-accent:#b76824;--module-accent-rgb:183,104,36;--module-tint:#fff2e6;--module-soft:#fffaf5;--module-deep:#8d4b16;
+}
+body[data-module-theme="gramatica"]{
+  --module-accent:#7652a0;--module-accent-rgb:118,82,160;--module-tint:#f4effb;--module-soft:#fbf8ff;--module-deep:#58357e;
+}
+body[data-module-theme="english"],body[data-module-theme="ortografia"],body[data-module-theme="gramatica"]{
+  background:
+    radial-gradient(circle at 7% 2%,rgba(var(--module-accent-rgb),.11),transparent 28%),
+    radial-gradient(circle at 94% 18%,rgba(var(--module-accent-rgb),.07),transparent 24%),
+    var(--bg);
+}
+body[data-module-theme="english"] header,
+body[data-module-theme="ortografia"] header,
+body[data-module-theme="gramatica"] header{border-bottom-color:var(--module-accent)}
+body[data-module-theme="english"] .hero,
+body[data-module-theme="ortografia"] .hero,
+body[data-module-theme="gramatica"] .hero{position:relative;padding-bottom:24px}
+body[data-module-theme="english"] .hero:after,
+body[data-module-theme="ortografia"] .hero:after,
+body[data-module-theme="gramatica"] .hero:after{
+  content:"";display:block;width:74px;height:4px;margin:18px auto 0;border-radius:999px;
+  background:linear-gradient(90deg,rgba(var(--module-accent-rgb),.22),var(--module-accent),rgba(var(--module-accent-rgb),.22));
+}
+body[data-module-theme="english"] .hero .lead,
+body[data-module-theme="ortografia"] .hero .lead,
+body[data-module-theme="gramatica"] .hero .lead{
+  color:var(--module-deep);background:var(--module-tint);border-color:rgba(var(--module-accent-rgb),.22)
+}
+body[data-module-theme="english"] .module-nav button.active,
+body[data-module-theme="ortografia"] .module-nav button.active,
+body[data-module-theme="gramatica"] .module-nav button.active{
+  color:var(--module-deep);background:var(--module-tint);border-color:rgba(var(--module-accent-rgb),.27);
+  box-shadow:0 0 0 2px rgba(var(--module-accent-rgb),.09)
+}
+body[data-module-theme="english"] .menu-panel,
+body[data-module-theme="ortografia"] .academic-panel,
+body[data-module-theme="gramatica"] .academic-panel{
+  border-color:rgba(var(--module-accent-rgb),.19);box-shadow:0 10px 28px rgba(var(--module-accent-rgb),.065)
+}
+body[data-module-theme="english"] .menu-panel.official-panel,
+body[data-module-theme="english"] .menu-panel.training-panel,
+body[data-module-theme="ortografia"] .academic-panel,
+body[data-module-theme="gramatica"] .academic-panel{border-top:5px solid var(--module-accent)}
+body[data-module-theme="english"] .menu-panel.training-panel,
+body[data-module-theme="ortografia"] .academic-panel:nth-child(2),
+body[data-module-theme="gramatica"] .academic-panel:nth-child(2){border-top-color:rgba(var(--module-accent-rgb),.62)}
+body[data-module-theme="english"] .panel-title,
+body[data-module-theme="ortografia"] .panel-title,
+body[data-module-theme="gramatica"] .panel-title{color:var(--module-deep)}
+body[data-module-theme="english"] .menu-block,
+body[data-module-theme="ortografia"] .academic-panel .mode-card,
+body[data-module-theme="gramatica"] .academic-panel .mode-card{
+  border-color:rgba(var(--module-accent-rgb),.14);background:linear-gradient(180deg,#fff,var(--module-soft));
+  transition:border-color .16s ease,transform .16s ease,box-shadow .16s ease
+}
+body[data-module-theme="english"] .menu-block:hover,
+body[data-module-theme="ortografia"] .academic-panel .mode-card:hover,
+body[data-module-theme="gramatica"] .academic-panel .mode-card:hover{
+  border-color:rgba(var(--module-accent-rgb),.28);box-shadow:0 8px 18px rgba(var(--module-accent-rgb),.07)
+}
+body[data-module-theme="english"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn),
+body[data-module-theme="ortografia"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn),
+body[data-module-theme="gramatica"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn){
+  background:var(--module-accent);box-shadow:0 4px 11px rgba(var(--module-accent-rgb),.18)
+}
+body[data-module-theme="english"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn):hover,
+body[data-module-theme="ortografia"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn):hover,
+body[data-module-theme="gramatica"] main button:not(.secondary):not(.danger):not(.link):not(.bm-btn):hover{
+  background:var(--module-accent);filter:brightness(1.05);box-shadow:0 7px 16px rgba(var(--module-accent-rgb),.24)
+}
+body[data-module-theme="english"] .level-btn,
+body[data-module-theme="ortografia"] .level-btn,
+body[data-module-theme="gramatica"] .level-btn{
+  background:var(--module-soft)!important;color:var(--module-deep)!important;border-color:rgba(var(--module-accent-rgb),.20)!important;box-shadow:none!important
+}
+body[data-module-theme="english"] .level-btn.active,
+body[data-module-theme="ortografia"] .level-btn.active,
+body[data-module-theme="gramatica"] .level-btn.active,
+body[data-module-theme="ortografia"] .training-level button.active,
+body[data-module-theme="gramatica"] .training-level button.active{
+  background:var(--module-accent)!important;color:#fff!important;border-color:var(--module-accent)!important
+}
+body[data-module-theme="english"] .academic-new-badge,
+body[data-module-theme="ortografia"] .academic-new-badge,
+body[data-module-theme="gramatica"] .academic-new-badge,
+body[data-module-theme="english"] .training-status,
+body[data-module-theme="ortografia"] .training-status,
+body[data-module-theme="gramatica"] .training-status{
+  color:var(--module-deep);background:var(--module-tint);border-color:rgba(var(--module-accent-rgb),.25)
+}
+body[data-module-theme="english"] .academic-help,
+body[data-module-theme="ortografia"] .academic-help,
+body[data-module-theme="gramatica"] .academic-help{
+  background:linear-gradient(135deg,var(--module-tint),#fff);border-color:rgba(var(--module-accent-rgb),.18)
+}
+body[data-module-theme="english"] .topic-practice,
+body[data-module-theme="ortografia"] .topic-practice,
+body[data-module-theme="gramatica"] .topic-practice{
+  --topic-accent:var(--module-accent);--topic-accent-rgb:var(--module-accent-rgb);--topic-tint:var(--module-tint);
+  border-color:rgba(var(--module-accent-rgb),.16);box-shadow:0 12px 34px rgba(var(--module-accent-rgb),.07)
+}
+body[data-module-theme="english"] .topic-section-pills span,
+body[data-module-theme="ortografia"] .topic-section-pills span,
+body[data-module-theme="gramatica"] .topic-section-pills span{
+  border-color:rgba(var(--module-accent-rgb),.16);background:rgba(255,255,255,.88)
+}
+body[data-module-theme="english"] .topbar,
+body[data-module-theme="ortografia"] .topbar,
+body[data-module-theme="gramatica"] .topbar{
+  border-bottom-color:rgba(var(--module-accent-rgb),.22);box-shadow:0 5px 18px rgba(var(--module-accent-rgb),.07)
+}
+body[data-module-theme="english"] .qcard,
+body[data-module-theme="ortografia"] .qcard,
+body[data-module-theme="gramatica"] .qcard{
+  border-color:rgba(var(--module-accent-rgb),.20);border-top:4px solid var(--module-accent);box-shadow:0 10px 28px rgba(var(--module-accent-rgb),.07)
+}
+body[data-module-theme="english"] .progress i,
+body[data-module-theme="ortografia"] .progress i,
+body[data-module-theme="gramatica"] .progress i{background:linear-gradient(90deg,var(--module-accent),rgba(var(--module-accent-rgb),.62))}
+body[data-module-theme="english"] .blank-space,
+body[data-module-theme="ortografia"] .blank-space,
+body[data-module-theme="gramatica"] .blank-space{border-bottom-color:var(--module-accent)}
+body[data-module-theme="english"] .blank-note,
+body[data-module-theme="ortografia"] .blank-note,
+body[data-module-theme="gramatica"] .blank-note,
+body[data-module-theme="english"] .source-tag,
+body[data-module-theme="ortografia"] .source-tag,
+body[data-module-theme="gramatica"] .source-tag{color:var(--module-deep)}
+body[data-module-theme="english"] .option input,
+body[data-module-theme="ortografia"] .option input,
+body[data-module-theme="gramatica"] .option input{accent-color:var(--module-accent)}
+body[data-module-theme="english"] .option:hover,
+body[data-module-theme="ortografia"] .option:hover,
+body[data-module-theme="gramatica"] .option:hover{background:var(--module-soft);border-color:rgba(var(--module-accent-rgb),.24)}
+body[data-module-theme="english"] .nav-grid button,
+body[data-module-theme="ortografia"] .nav-grid button,
+body[data-module-theme="gramatica"] .nav-grid button{
+  background:#fff;color:var(--module-deep);border-color:rgba(var(--module-accent-rgb),.19);box-shadow:none;filter:none
+}
+body[data-module-theme="english"] .nav-grid button.answered,
+body[data-module-theme="ortografia"] .nav-grid button.answered,
+body[data-module-theme="gramatica"] .nav-grid button.answered{background:var(--module-tint);border-color:rgba(var(--module-accent-rgb),.36)}
+body[data-module-theme="english"] .nav-grid button.current,
+body[data-module-theme="ortografia"] .nav-grid button.current,
+body[data-module-theme="gramatica"] .nav-grid button.current{box-shadow:inset 0 0 0 2px var(--module-accent)}
+body[data-module-theme="english"] .academic-nav button,
+body[data-module-theme="ortografia"] .academic-nav button,
+body[data-module-theme="gramatica"] .academic-nav button{
+  background:var(--module-soft);color:var(--module-deep);border-color:rgba(var(--module-accent-rgb),.18);box-shadow:none;filter:none
+}
+body[data-module-theme="english"] .academic-nav button.done,
+body[data-module-theme="ortografia"] .academic-nav button.done,
+body[data-module-theme="gramatica"] .academic-nav button.done{background:var(--module-accent);color:#fff;border-color:var(--module-accent)}
+body[data-module-theme="english"] .academic-nav button.current,
+body[data-module-theme="ortografia"] .academic-nav button.current,
+body[data-module-theme="gramatica"] .academic-nav button.current{outline-color:var(--module-deep)}
+body[data-module-theme="english"] .correctness button,
+body[data-module-theme="ortografia"] .correctness button,
+body[data-module-theme="gramatica"] .correctness button{
+  background:#fff!important;color:#173a2a!important;border-color:#c8d0cc!important;box-shadow:none!important;filter:none!important
+}
+body[data-module-theme="english"] .correctness button.selected-b,
+body[data-module-theme="ortografia"] .correctness button.selected-b,
+body[data-module-theme="gramatica"] .correctness button.selected-b{background:#1f5b3a!important;border-color:#17462d!important;color:#fff!important;box-shadow:0 0 0 3px #bfe3cd!important}
+body[data-module-theme="english"] .correctness button.selected-m,
+body[data-module-theme="ortografia"] .correctness button.selected-m,
+body[data-module-theme="gramatica"] .correctness button.selected-m{background:#a92d2d!important;border-color:#7d1f1f!important;color:#fff!important;box-shadow:0 0 0 3px #f2bcbc!important}
+body[data-module-theme="english"] .professor,
+body[data-module-theme="ortografia"] .professor,
+body[data-module-theme="gramatica"] .professor{border-color:rgba(var(--module-accent-rgb),.18)}
+body[data-module-theme="english"] .professor-quick,
+body[data-module-theme="ortografia"] .professor-quick,
+body[data-module-theme="gramatica"] .professor-quick,
+body[data-module-theme="english"] .academic-ai-detail,
+body[data-module-theme="ortografia"] .academic-ai-detail,
+body[data-module-theme="gramatica"] .academic-ai-detail{
+  background:var(--module-soft);border-color:rgba(var(--module-accent-rgb),.22)
+}
+body[data-module-theme="english"] .professor h5,
+body[data-module-theme="ortografia"] .professor h5,
+body[data-module-theme="gramatica"] .professor h5{color:var(--module-deep)}
+body[data-module-theme="english"] .stats .stat,
+body[data-module-theme="ortografia"] .stats .stat,
+body[data-module-theme="gramatica"] .stats .stat{background:linear-gradient(180deg,#fff,var(--module-soft));border-color:rgba(var(--module-accent-rgb),.14)}
+body[data-module-theme="english"] button:focus-visible,
+body[data-module-theme="english"] input:focus-visible,
+body[data-module-theme="english"] select:focus-visible,
+body[data-module-theme="ortografia"] button:focus-visible,
+body[data-module-theme="ortografia"] input:focus-visible,
+body[data-module-theme="ortografia"] select:focus-visible,
+body[data-module-theme="gramatica"] button:focus-visible,
+body[data-module-theme="gramatica"] input:focus-visible,
+body[data-module-theme="gramatica"] select:focus-visible{outline-color:var(--module-accent)}
+body[data-module-theme="english"] .creator-watermark,
+body[data-module-theme="ortografia"] .creator-watermark,
+body[data-module-theme="gramatica"] .creator-watermark{color:var(--module-deep);border-color:rgba(var(--module-accent-rgb),.16)}
+@media(min-width:761px){
+  .topic-practice-ortografia .topic-card:last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 9px);justify-self:center}
+}
+body[data-module-theme="ortografia"] .academic-phrase,
+body[data-module-theme="gramatica"] .academic-phrase{
+  border-color:rgba(var(--module-accent-rgb),.22);background:linear-gradient(180deg,#fff,var(--module-soft));
+  box-shadow:0 7px 20px rgba(var(--module-accent-rgb),.055)
+}
+body[data-module-theme="ortografia"] .academic-highlight,
+body[data-module-theme="gramatica"] .academic-highlight{text-decoration-color:var(--module-accent)}
+body[data-module-theme="ortografia"] .bm-item,
+body[data-module-theme="gramatica"] .bm-item{
+  background:var(--module-soft);border-color:rgba(var(--module-accent-rgb),.18)
+}
+body[data-module-theme="ortografia"] .academic-training-note,
+body[data-module-theme="gramatica"] .academic-training-note{color:var(--module-deep)}
+body[data-module-theme="english"] .item,
+body[data-module-theme="ortografia"] .academic-review-item,
+body[data-module-theme="gramatica"] .academic-review-item{border-color:rgba(var(--module-accent-rgb),.16)}

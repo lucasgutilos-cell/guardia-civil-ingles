@@ -1,5 +1,8 @@
 import { esc } from './core/html.js';
-import { typeBadge, explainGenerated, officialRule, officialAnomaly, explainOfficial } from './modules/english/explanations.js';
+import { typeBadge } from './modules/english/explanations.js';
+import { TOPICS, buildTopicPools, parseTopicMode, topicMode, topicLabel, topicCycleKey, topicSummary, updateMastery } from './services/topics.js';
+import { createProfessorIndex, professorView, recurrentConceptFailures, correctedOrthographyPhrase } from './services/professor.js';
+import { renderProfessor, renderDifference } from './modules/professor/render.js';
 import { academicNormalizeText, academicFindElementRange, renderAcademicPhrase } from './modules/academic/phrases.js';
 import { scoreEnglish, isCorrect, validAnswers } from './services/scoring.js';
 import { remainingSeconds, elapsedSeconds, englishDuration, runTimer } from './services/timer.js';
@@ -20,11 +23,13 @@ let ACADEMIC_BANK = {},
   TRAINING_ACADEMIC_BANK = {},
   AUDIT_GRAMMAR_RULES = {};
 async function reviewHistoryEntry(i) {
+  if (state.active || academicState.active) return;
   const h = history();
   let r = h[i];
   if (!r) return;
   const module = statsModuleFromAttempt(r);
   await ensureBank(module);
+  if (state.active || academicState.active) return;
   r = hydrateAttempt(r, id => lookupQuestion(module, id));
   if (module !== 'english') r = rebuildAcademicDetails(r);
   if (String(r.mode || '').startsWith('academic_')) {
@@ -45,6 +50,10 @@ function reviewSavedAcademic(i) {
 let supabaseClient;
 let currentUser = null;
 const app = document.getElementById('app');
+const MODULE_THEMES = new Set(['english', 'ortografia', 'gramatica']);
+function setModuleTheme(module) {
+  document.body.dataset.moduleTheme = MODULE_THEMES.has(module) ? module : 'neutral';
+}
 const state = {
   mode: null,
   questions: [],
@@ -54,11 +63,90 @@ const state = {
   timer: null,
   startedAt: null,
   difficulty: 'Media',
-  cycleSnapshot: null
+  cycleSnapshot: null,
+  topicId: null
 };
 const HISTORY_KEY = 'gcEnglishHistory';
 const FAILURES_KEY = 'gcEnglishFailures';
 const CYCLES_KEY = 'gcEnglishQuestionCycles';
+const topicPools = {};
+const professorIndexes = new Map();
+const professorLoads = new Map();
+async function ensureProfessor(module) {
+  if (professorLoads.has(module)) return professorLoads.get(module);
+  const file = module === 'english' ? 'english' : module === 'ortografia' ? 'orthography' : 'grammar';
+  const pending = Promise.all([getJSON('data/professor/rules.json'),getJSON('data/professor/' + file + '.json')])
+    .then(([rules,data]) => { const index=createProfessorIndex(data,rules); professorIndexes.set(module,index); return index; })
+    .catch(error => {professorLoads.delete(module);throw error;});
+  professorLoads.set(module,pending);
+  return pending;
+}
+function professorHistory(module) {
+  return history().filter(x=>statsModuleFromAttempt(x)===module).map(x=>hydrateAttempt(x,id=>lookupQuestion(module,id)));
+}
+const TOPIC_VISUALS = Object.freeze({
+  english: Object.freeze({
+    'verb-tenses': '🕒', 'conditionals-future': '🔀', 'modals-obligation': '🧭', 'passive-voice': '↔',
+    'relatives-questions': '❓', 'quantifiers-nouns': '🔢', 'comparison-adverbs': '📈', 'prepositions-patterns': '🔗'
+  }),
+  ortografia: Object.freeze({'bv': 'B/V', 'gj': 'G/J', 'h': 'H', 'accentuation': 'Á', 'csz': 'C/Z', 'lly': 'LL/Y', 'xs-other': 'X/S'}),
+  gramatica: Object.freeze({'agreement-impersonal': '≡', 'pronouns-relatives': '↪', 'que-regime': 'QUE', 'verb-mood': 'V', 'normative-constructions': '✓'})
+});
+function renderTopicCards(module) {
+  const h=history(),cycles=questionCycles();
+  const isEnglish=module==='english';
+  const testSize=module==='ortografia'?5:20;
+  const masteryGoal=isEnglish?'15 aciertos + 12 puntos':'17 aciertos';
+  const unit=isEnglish?'preguntas':'frases';
+  return `<section class="topic-practice topic-practice-${esc(module)}">
+    <div class="topic-section-head">
+      <span class="topic-eyebrow">Práctica dirigida</span>
+      <h2>Entrenamiento por contenidos</h2>
+      <p>Elige un bloque concreto y trabaja solo esa materia. Cada contenido guarda su progreso de forma independiente.</p>
+      <div class="topic-section-pills"><span>${TOPICS[module].length} contenidos</span><span>${testSize} ${unit} por práctica</span><span>Nivel examen</span><span>Dominado: ${masteryGoal}</span></div>
+    </div>
+    <div class="topic-grid">${TOPICS[module].map((topic,index)=>{
+      const summary=topicSummary(module,topic.id,h,cycles),count=topicPools[module]?.[topic.id]?.length || 0;
+      const score=x=>x?Number(x.score).toFixed(2)+' / '+Number(x.total):'—';
+      const action=isEnglish?`startEnglishTopic('${topic.id}')`:`startAcademicTopic('${module}','${topic.id}')`;
+      const progress=count?Math.min(100,Math.round(summary.used/count*100)):0;
+      const icon=TOPIC_VISUALS[module]?.[topic.id] || '•';
+      const number=String(index+1).padStart(2,'0');
+      const status=summary.mastered?'Dominado':summary.attempts?'En progreso':'Sin empezar';
+      const statusClass=summary.mastered?' mastered':summary.attempts?' active':'';
+      return `<article class="topic-card" data-topic-id="${esc(topic.id)}">
+        <div class="topic-card-top"><span class="topic-icon" aria-hidden="true">${esc(icon)}</span><span class="topic-number">Contenido ${number}</span><span class="topic-level">Nivel examen</span></div>
+        <div class="topic-card-copy"><h3>${esc(topic.name)}</h3><p>${esc(topic.description)}</p></div>
+        <div class="topic-metrics">
+          <div class="topic-metric"><b>${count}</b><span>${unit}</span></div>
+          <div class="topic-metric"><b>${summary.attempts}</b><span>intentos</span></div>
+          <div class="topic-metric"><b>${esc(score(summary.best))}</b><span>mejor marca</span></div>
+        </div>
+        <div class="topic-cycle"><div class="topic-cycle-label"><span>Recorrido del banco</span><strong>${summary.used}/${count}</strong></div><div class="topic-cycle-bar" role="progressbar" aria-label="Progreso del ciclo" aria-valuemin="0" aria-valuemax="${count}" aria-valuenow="${summary.used}"><i style="width:${progress}%"></i></div></div>
+        <div class="topic-card-foot"><span class="topic-last">Último <b>${esc(score(summary.last))}</b></span><span class="topic-mastery${statusClass}"><i></i>${status}</span></div>
+        <button class="topic-start-btn" data-click-action="${esc(action)}"><span>Practicar este contenido</span><b aria-hidden="true">→</b></button>
+      </article>`;
+    }).join('')}</div>
+  </section>`;
+}
+async function startEnglishTopic(topicId) {
+  if (state.active || academicState.active || !topicMode('english',topicId)) return;
+  await ensureBank('english');
+  if (state.active || academicState.active) return;
+  state.transaction=transaction(questionCycles());
+  state.cycleSnapshot=JSON.stringify(state.transaction.snapshot);
+  state.selecting=true;
+  try { state.questions=takeCycle(topicPools.english[topicId],topicCycleKey('english',topicId),20); }
+  catch(error) {state.transaction=null;notice(error.message);return;}
+  finally {state.selecting=false;}
+  begin(topicMode('english',topicId));
+}
+async function startAcademicTopic(module,topicId) {
+  if (state.active || academicState.active || !['ortografia','gramatica'].includes(module) || !topicMode(module,topicId)) return;
+  await ensureBank(module);
+  if (state.active || academicState.active) return;
+  startAcademic(module,'topic:'+topicId);
+}
 function history() {
   const entries=readJSON(HISTORY_KEY,[]);
   if(!Array.isArray(entries)){notice('Historial con formato desconocido. Se conserva una copia antes de guardar cambios.');return [];}
@@ -273,7 +361,7 @@ async function loadCloudData() {
       });
       if (module === 'english') writeJSON(FAILURES_KEY, [...merged.values()]);else saveAcademicFailureBank(module, [...merged.values()]);
     }
-    if (!state.active && !academicState.active) saveQuestionCycles(mergeCycles(questionCycles(), cloud));
+    saveQuestionCycles(updateMastery(history(), mergeCycles(questionCycles(), cloud)));
     // Pending local attempts remain in an outbox until a server acknowledgement.
     for (const x of history()) {
       if (remote.some(r => r.date === x.date && r.mode === x.mode)) continue;
@@ -382,6 +470,7 @@ function authPanel(module = 'selector') {
 }
 function home() {
   if (state.active || academicState.active) return;
+  setModuleTheme('neutral');
   clearInterval(state.timer);
   state.questions = [];
   state.answers = {};
@@ -480,6 +569,7 @@ function getAcademicDifficulty() {
 }
 function moduleHome(module) {
   if (state.active || academicState.active) return;
+  setModuleTheme(module);
   clearInterval(state.timer);
   state.questions = [];
   state.answers = {};
@@ -495,7 +585,7 @@ function moduleHome(module) {
     failN = academicFailureCount(module),
     failRemaining = Math.max(0, 20 - failN);
   const failButton = failN >= 20 ? `<button class="full" onclick="startAcademic('${module}','failures')">🎯 Repasar mis fallos (${failN})</button>` : `<button class="secondary full" disabled>🔒 Faltan ${failRemaining} preguntas</button>`;
-  app.innerHTML = `<main>${authPanel(module)}<section class="hero"><div class="lead">Preparación Guardia Civil · ${title}</div><h1>${icon} ${title}</h1><p>${isO ? '20 elementos destacados · Bien/Mal · 7 minutos · máximo 5 fallos.' : '20 frases completas · Correcta/Incorrecta · 12 minutos · máximo 5 fallos.'}</p></section><div class="academic-menu"><section class="academic-panel"><div class="panel-title">🏛️ Oficial</div><h2>Simulacro ${title}</h2><div class="mode-card"><h3>🎯 Simulacro oficial</h3><p>${isO ? '5 frases × 4 elementos = 20 respuestas.' : '20 frases completas independientes.'} <b>0-5 fallos = APTO.</b></p><button class="full" onclick="startAcademic('${module}','official')">Comenzar simulacro</button></div><div class="mode-card"><h3>📚 Modelo histórico</h3><p>Selecciona un modelo del banco oficial.</p><select id="academicHistorical">${histOptions}</select><button class="full" onclick="startAcademic('${module}','historical')">Comenzar histórico</button></div></section><section class="academic-panel"><div class="panel-title">🧠 Entrenamiento · preguntas nuevas</div><h2>Práctica</h2><div class="mode-card"><h3>🤖 Solo nuevas</h3><p><b>500 preguntas nuevas</b> entrenadas a partir de los patrones del banco oficial auditado. No se copian preguntas oficiales.</p><div class="training-level"><button id="academic-level-Fácil" class="secondary ${level === 'Fácil' ? 'active' : ''}" onclick="setAcademicDifficulty('Fácil');moduleHome('${module}')">Fácil</button><button id="academic-level-Media" class="secondary ${level === 'Media' ? 'active' : ''}" onclick="setAcademicDifficulty('Media');moduleHome('${module}')">Media</button><button id="academic-level-Difícil" class="secondary ${level === 'Difícil' ? 'active' : ''}" onclick="setAcademicDifficulty('Difícil');moduleHome('${module}')">Difícil</button></div><div id="academicLevelHint" class="academic-training-note">Nivel ${level} · ciclo independiente del resto de niveles.</div><div class="academic-new-badge" style="margin-top:9px">🤖 NUEVAS · CICLO INDEPENDIENTE</div><button class="full" onclick="startAcademic('${module}','new')">Practicar preguntas nuevas</button></div><div class="mode-card"><h3>🔒 Repaso de fallos</h3><p>Solo preguntas nuevas que hayas fallado. Las que resuelvas bien salen de tu banco de fallos.</p>${academicFailureStatus(module)}${failButton}</div></section></div><section class="card" style="margin-top:14px"><div class="row" style="justify-content:space-between;align-items:center"><div><div class="lead">Seguimiento</div><h3 style="margin:3px 0">📊 Mis estadísticas de ${title}</h3><div class="small">Resumen de tus resultados en este módulo.</div></div><button onclick="showGeneralStats()">Estadísticas generales</button></div><div id="academicStatsHome" style="margin-top:10px"></div></section><section class="card academic-help"><b>Cómo se puntúa:</b> 20 puntos máximos. Cada error cuenta como 1 fallo y no resta puntos. Las respuestas son obligatorias. Con <b>más de 5 fallos = NO APTO</b>. ${isO ? 'En Ortografía cada frase contiene 4 elementos destacados.' : 'En Gramática cada frase completa es una pregunta independiente.'}</section></main>`;
+  app.innerHTML = `<main>${authPanel(module)}<section class="hero"><div class="lead">Preparación Guardia Civil · ${title}</div><h1>${icon} ${title}</h1><p>${isO ? '20 elementos destacados · Bien/Mal · 7 minutos · máximo 5 fallos.' : '20 frases completas · Correcta/Incorrecta · 12 minutos · máximo 5 fallos.'}</p></section><div class="academic-menu"><section class="academic-panel"><div class="panel-title">🏛️ Oficial</div><h2>Simulacro ${title}</h2><div class="mode-card"><h3>🎯 Simulacro oficial</h3><p>${isO ? '5 frases × 4 elementos = 20 respuestas.' : '20 frases completas independientes.'} <b>0-5 fallos = APTO.</b></p><button class="full" onclick="startAcademic('${module}','official')">Comenzar simulacro</button></div><div class="mode-card"><h3>📚 Modelo histórico</h3><p>Selecciona un modelo del banco oficial.</p><select id="academicHistorical">${histOptions}</select><button class="full" onclick="startAcademic('${module}','historical')">Comenzar histórico</button></div></section><section class="academic-panel"><div class="panel-title">🧠 Entrenamiento · preguntas nuevas</div><h2>Práctica</h2><div class="mode-card"><h3>🤖 Solo nuevas</h3><p><b>500 preguntas nuevas</b> entrenadas a partir de los patrones del banco oficial auditado. No se copian preguntas oficiales.</p><div class="training-level"><button id="academic-level-Fácil" class="secondary ${level === 'Fácil' ? 'active' : ''}" onclick="setAcademicDifficulty('Fácil');moduleHome('${module}')">Fácil</button><button id="academic-level-Media" class="secondary ${level === 'Media' ? 'active' : ''}" onclick="setAcademicDifficulty('Media');moduleHome('${module}')">Media</button><button id="academic-level-Difícil" class="secondary ${level === 'Difícil' ? 'active' : ''}" onclick="setAcademicDifficulty('Difícil');moduleHome('${module}')">Difícil</button></div><div id="academicLevelHint" class="academic-training-note">Nivel ${level} · ciclo independiente del resto de niveles.</div><div class="academic-new-badge" style="margin-top:9px">🤖 NUEVAS · CICLO INDEPENDIENTE</div><button class="full" onclick="startAcademic('${module}','new')">Practicar preguntas nuevas</button></div><div class="mode-card"><h3>🔒 Repaso de fallos</h3><p>Solo preguntas nuevas que hayas fallado. Las que resuelvas bien salen de tu banco de fallos.</p>${academicFailureStatus(module)}${failButton}</div></section></div>${renderTopicCards(module)}<section class="card" style="margin-top:14px"><div class="row" style="justify-content:space-between;align-items:center"><div><div class="lead">Seguimiento</div><h3 style="margin:3px 0">📊 Mis estadísticas de ${title}</h3><div class="small">Resumen de tus resultados en este módulo.</div></div><button onclick="showGeneralStats()">Estadísticas generales</button></div><div id="academicStatsHome" style="margin-top:10px"></div></section><section class="card academic-help"><b>Cómo se puntúa:</b> 20 puntos máximos. Cada error cuenta como 1 fallo y no resta puntos. Las respuestas son obligatorias. Con <b>más de 5 fallos = NO APTO</b>. ${isO ? 'En Ortografía cada frase contiene 4 elementos destacados.' : 'En Gramática cada frase completa es una pregunta independiente.'}</section></main>`;
   renderModuleStats('academicStatsHome', module);
 }
 const academicState = {
@@ -510,7 +600,8 @@ const academicState = {
   label: '',
   source: null,
   difficulty: '',
-  cycleSnapshot: null
+  cycleSnapshot: null,
+  topicId: null
 };
 function academicCycles() {
   return questionCycles();
@@ -544,6 +635,7 @@ function academicTakeDiverse(pool, key, n, field) {
   return academicTake(pool, key, n);
 }
 function startAcademic(module, mode) {
+  setModuleTheme(module);
   const sel = document.getElementById('academicHistorical');
   let items = [],
     label = '',
@@ -551,7 +643,15 @@ function startAcademic(module, mode) {
     level = getAcademicDifficulty();
   academicState.transaction = transaction(questionCycles());
   academicState.cycleSnapshot = JSON.stringify(academicState.transaction.snapshot);
-  if (mode === 'new') {
+  academicState.topicId = null;
+  if (mode.startsWith('topic:')) {
+    const topicId = mode.slice(6);
+    if (!topicMode(module,topicId)) return;
+    academicState.topicId = topicId;
+    items = academicTake(topicPools[module][topicId], topicCycleKey(module,topicId), module === 'ortografia' ? 5 : 20);
+    label = topicLabel(module,topicId);
+    level = 'Nivel examen';
+  } else if (mode === 'new') {
     const pool = academicTrainingPool(module, level);
     items = module === 'ortografia' ? academicTakeNoTargetRepeat(pool, 'academic_' + module + '_new_' + level, 5) : academicTakeDiverse(pool, 'academic_' + module + '_new_' + level, 20, q => q.regla);
     label = (module === 'ortografia' ? 'Ortografía' : 'Gramática') + ' · Solo nuevas · ' + level;
@@ -603,13 +703,14 @@ function startAcademic(module, mode) {
   armTimer('academic');
 }
 function academicRender() {
+  setModuleTheme(academicState.module);
   if (academicState.active) persistActive('academic');
   const s = academicState,
     q = s.items[s.idx],
     total = s.module === 'ortografia' ? s.items.length * 4 : s.items.length;
   let done = s.module === 'ortografia' ? Object.values(s.answers).reduce((n, v) => n + (Array.isArray(v) ? v.filter(Boolean).length : 0), 0) : Object.keys(s.answers).length;
   let body = '';
-  const modeLabel = s.mode === 'historical' ? 'Modelo histórico' : s.mode === 'new' ? 'Solo nuevas' : s.mode === 'failures' ? 'Repaso de fallos' : 'Simulacro oficial';
+  const modeLabel = s.topicId ? topicLabel(s.module,s.topicId) + ' · Nivel examen' : s.mode === 'historical' ? 'Modelo histórico' : s.mode === 'new' ? 'Solo nuevas' : s.mode === 'failures' ? 'Repaso de fallos' : 'Simulacro oficial';
   if (s.module === 'ortografia') {
     body = `<div class="source-tag">${esc(q.examen || 'Entrenamiento')} · 4 elementos ${q.es_nueva ? '<span class="academic-new-badge">🤖 NUEVA</span>' : ''}</div><div class="academic-phrase"><b>${s.idx + 1}.</b> ${renderAcademicPhrase(q, false, s.answers[s.idx] || [])}</div><div class="bm-grid">${q.elementos_destacados.map((e, j) => {
       const a = (s.answers[s.idx] || [])[j];
@@ -772,13 +873,14 @@ function academicFinish(auto) {
     penalty: 0,
     elapsed,
     difficulty: s.difficulty || '',
+    topicId: s.topicId || null,
     questions: s.items,
     answers: s.answers,
     fallosPermitidos: 5,
     apto: pass,
     detalles: details
   };
-  if (s.mode === 'new') rememberAcademicFailures(s.module, s.items, s.answers);
+  if (s.mode === 'new' || s.topicId) rememberAcademicFailures(s.module, s.items, s.answers);
   if (s.mode === 'failures') resolveAcademicFailures(s.module, s.items, s.answers);
   saveHistory(entry);
   commitExam(s);
@@ -789,111 +891,34 @@ function renderAcademicResult(r) {
   window.__lastAcademicResult = r;
   const pass = r.wrong <= 5,
     mod = r.mode.includes('_ortografia_') ? 'ortografia' : 'gramatica';
+  setModuleTheme(mod);
   app.innerHTML = `<main class="academic-result"><div class="card"><div class="source-tag">${esc(r.label)}</div><div class="academic-pass" style="color:${pass ? '#2d7a4b' : '#a52d2d'}">${pass ? 'APTO' : 'NO APTO'}</div><div class="academic-score">${r.correct} / ${r.total} puntos</div><div class="stats"><div class="stat"><b>${r.correct}</b><span>aciertos</span></div><div class="stat"><b>${r.wrong}</b><span>fallos</span></div><div class="stat"><b>${r.blank}</b><span>en blanco</span></div><div class="stat"><b>${r.total - r.correct}</b><span>errores</span></div></div><p style="text-align:center"><b>Máximo permitido: 5 fallos.</b> Los errores no restan puntos.</p><p style="text-align:center"><b>Tiempo:</b> ${Math.floor(r.elapsed / 60)}:${String(r.elapsed % 60).padStart(2, '0')}</p><div class="row" style="justify-content:center"><button onclick="moduleHome('${mod}')">Volver al módulo</button><button class="secondary" onclick="reviewAcademic()">🔎 Ver revisión</button></div></div><div id="academicReview"></div></main>`;
 }
-function academicGrammarRule(q) {
-  const t = String(q.frase || '').trim();
-  if (q.es_nueva) {
-    return {
-      correct: q.frase_correcta || t,
-      rule: q.regla || 'Regla gramatical',
-      why: q.explicacion_profesor || 'La explicación se centra en la construcción concreta de la frase.',
-      tip: q.truco || 'Compara la frase con la forma correcta y localiza exactamente el cambio.'
-    };
-  }
-  return AUDIT_GRAMMAR_RULES[t] || {
-    correct: t,
-    rule: 'Revisión específica',
-    why: 'Esta frase está marcada por la clave auditada. La explicación se basa en la construcción exacta y no inventa una regla general.',
-    tip: 'Compara la frase con la construcción normativa indicada en la revisión.'
-  };
-}
-function academicOrthographyRule(d) {
-  const t = String(d.texto || '').trim(),
-    key = d.respuesta;
-  if (d.es_nueva) {
-    return [d.forma_correcta || t, d.regla || 'Regla ortográfica', d.explicacion_profesor || 'La explicación se centra en el elemento concreto.', d.truco || 'Compara la forma incorrecta con la correcta y localiza exactamente el cambio.'];
-  }
-  if (key === 'B') {
-    return [t, 'Elemento correcto', undefined || '«' + t + '» está correctamente escrito en esta frase. No hay una corrección ortográfica que aplicar.', 'No cambies una palabra correcta solo porque parezca extraña: comprueba su grafía y su significado en el contexto.'];
-  }
-  const r = undefined || {
-    correct: t,
-    rule: 'Revisión específica',
-    why: 'La clave importada marca este elemento como incorrecto. No se dispone de una explicación verificada para esta entrada.',
-    tip: 'Compara la palabra exacta con la forma normativa indicada en el banco.'
-  };
-  return [r.correct, r.rule, r.why, r.tip];
-}
-function explainAcademicOrthography(d) {
-  const info = academicOrthographyRule(d),
-    correct = info[0],
-    type = info[1],
-    why = info[2],
-    tip = info[3] || '';
-  const user = d.answer,
-    key = d.respuesta;
-  const keyText = key === 'B' ? 'BIEN / CORRECTA' : 'MAL / INCORRECTA';
-  const userText = user === 'B' ? 'BIEN / CORRECTA' : user === 'M' ? 'MAL / INCORRECTA' : 'EN BLANCO';
-  const exact = String(d.texto || '');
-  const sentence = String(d.frase || '');
-  const header = key === 'M' ? '❌ QUÉ HAS FALLADO EXACTAMENTE' : '❌ POR QUÉ TU RESPUESTA FALLÓ';
-  return `<div class="ai-box"><div class="ai-title">Profesor · explicaciones · Te lo explico</div><div class="ai-section"><div class="ai-label">TU RESPUESTA</div><div>${userText}</div></div><div class="ai-section correct-box"><div class="ai-label">✅ CLAVE ${d.es_nueva ? 'DE LA PREGUNTA NUEVA' : 'AUDITADA'}</div><div><b>${keyText}</b></div></div><div class="academic-ai-detail"><div class="ai-label">${header}</div><div class="academic-ai-correction"><b>Elemento:</b> «${esc(exact)}»<br><b>En la frase:</b> ${esc(sentence)}</div><div class="academic-ai-why" style="margin-top:8px">${esc(why)}</div></div><div class="academic-ai-tip"><div class="ai-label">📚 REGLA APLICADA · ${esc(type)}</div><div>${esc(why)}</div><div style="margin-top:8px"><b>Forma correcta:</b> ${esc(correct)}</div></div><div class="ai-example"><div class="ai-label">💡 CÓMO EVITAR ESTE FALLO</div><div class="example-en">${esc(tip)}</div><div class="small">La explicación se refiere al elemento concreto y no modifica el texto de la pregunta.</div></div></div>`;
-}
-function explainAcademicGrammar(d) {
-  const info = academicGrammarRule(d),
-    user = d.answer,
-    key = d.respuesta;
-  const userText = user === 'B' ? 'CORRECTA' : user === 'M' ? 'INCORRECTA' : 'EN BLANCO';
-  const keyText = key === 'B' ? 'CORRECTA' : 'INCORRECTA';
-  const phrase = String(d.texto || '');
-  return `<div class="ai-box"><div class="ai-title">Profesor · explicaciones · Te lo explico</div><div class="ai-section"><div class="ai-label">TU RESPUESTA</div><div>${userText}</div></div><div class="ai-section correct-box"><div class="ai-label">✅ CLAVE ${d.es_nueva ? 'DE LA PREGUNTA NUEVA' : 'AUDITADA'}</div><div><b>${keyText}</b></div></div><div class="academic-ai-detail"><div class="ai-label">❌ ${key === 'M' ? 'POR QUÉ ES INCORRECTA' : 'POR QUÉ TU RESPUESTA FALLÓ'}</div><div class="academic-ai-correction"><b>Frase exacta:</b> ${esc(phrase)}</div><div class="academic-ai-why" style="margin-top:8px">${esc(info.why)}</div></div><div class="academic-ai-tip"><div class="ai-label">📚 REGLA APLICADA · ${esc(info.rule)}</div><div>${esc(info.why)}</div><div style="margin-top:8px"><b>Forma correcta:</b> ${esc(info.correct)}</div></div><div class="ai-example"><div class="ai-label">💡 CÓMO EVITAR ESTE FALLO</div><div class="example-en">${esc(info.tip)}</div><div class="small">La explicación se centra en la frase concreta y no modifica el texto de la pregunta.</div></div></div>`;
-}
-function reviewAcademic() {
-  const r = window.__lastAcademicResult,
-    box = document.getElementById('academicReview');
-  if (!r || !box) return;
-  if (r.mode.includes('_ortografia_')) {
-    const groups = {};
-    r.detalles.forEach(d => {
-      const k = d.examen + '|' + d.frase;
-      if (!groups[k]) groups[k] = [];
-      groups[k].push(d);
-    });
-    const arr = Object.values(groups).sort((a, b) => {
-      const aw = a.filter(d => d.answer !== d.respuesta).length,
-        bw = b.filter(d => d.answer !== d.respuesta).length;
-      return (bw ? 0 : 1) - (aw ? 0 : 1);
-    });
-    box.innerHTML = `<h2>Revisión</h2>${arr.map(ds => {
-      const d0 = ds[0],
-        user = ds.map(d => d.answer),
-        bad = ds.filter(d => d.answer !== d.respuesta),
-        ok = bad.length === 0;
-      return `<div class="academic-review-item ${ok ? 'good' : 'bad'}"><div class="source-tag">${esc(d0.examen || 'Entrenamiento')} ${d0.es_nueva ? '<span class="academic-new-badge">🤖 NUEVA</span>' : ''}</div><div class="academic-review-phrase">${renderAcademicPhrase({
-        frase: d0.frase,
-        elementos_destacados: ds.map((d, i) => ({
-          posicion: i + 1,
-          texto: d.texto,
-          respuesta: d.respuesta
-        }))
-      }, true, user)}</div>${bad.length ? `<div class="academic-fail-list"><b>❌ Tus fallos:</b> ${bad.map(d => String.fromCharCode(65 + ds.indexOf(d))).join(', ')}</div>` : '<div class="small">✅ Todos los elementos de esta frase están correctos.</div>'}${bad.map(d => `<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo · ${esc(d.texto)}</button><div class="hidden">${explainAcademicOrthography(d)}</div>`).join('')}</div>`;
-    }).join('')}`;
-  } else {
-    const items = r.detalles.slice().sort((a, b) => (a.answer === a.respuesta ? 1 : 0) - (b.answer === b.respuesta ? 1 : 0));
-    box.innerHTML = `<h2>Revisión</h2>${items.map(d => {
-      const ok = d.answer === d.respuesta;
-      return `<div class="academic-review-item ${ok ? 'good' : 'bad'}"><div class="source-tag">${esc(d.examen || 'Entrenamiento')} ${d.es_nueva ? '<span class="academic-new-badge">🤖 NUEVA</span>' : ''}</div><div class="academic-review-phrase ${ok ? 'review-word-good' : 'review-word-bad'}">${esc(d.texto)}</div><p>Tu respuesta: <b class="${ok ? 'correct' : 'wrong'}">${d.answer === 'B' ? 'CORRECTA' : d.answer === 'M' ? 'INCORRECTA' : 'EN BLANCO'}</b></p><p>Respuesta correcta: <b class="correct">${d.respuesta === 'B' ? 'CORRECTA' : 'INCORRECTA'}</b></p>${d.reviewNote ? `<p class="notice">${esc(d.reviewNote)}</p>` : ''}${!ok ? `<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo</button><div class="hidden">${explainAcademicGrammar(d)}</div>` : ''}</div>`;
-    }).join('')}`;
-  }
+async function reviewAcademic() {
+  const r=window.__lastAcademicResult,box=document.getElementById('academicReview');
+  if(!r || !box || state.active || academicState.active)return;
+  const module=r.mode.includes('_ortografia_')?'ortografia':'gramatica';
+  let index;
+  try { index=await ensureProfessor(module); } catch(error) { notice(error.message); }
+  if(!box.isConnected || state.active || academicState.active)return;
+  const repeated=index?recurrentConceptFailures(professorHistory(module),index,module):{};
+  const items=(r.questions || []).map((q,i)=>({q,i,views:module==='ortografia'?(q.elementos_destacados || []).map(e=>professorView(index,module,q,r.answers?.[i]?.[e.posicion-1],e.posicion)):[professorView(index,module,q,r.answers?.[i])]}));
+  items.sort((a,b)=>Number(!a.views.some(v=>!v.correct&&!['anomaly','unavailable'].includes(v.status)))-Number(!b.views.some(v=>!v.correct&&!['anomaly','unavailable'].includes(v.status))) || a.i-b.i);
+  box.innerHTML='<h2>Revisión</h2>'+items.map(({q,i,views})=>{
+    const anomaly=views.some(v=>v.status==='anomaly'),bad=views.some(v=>!v.correct&&!['anomaly','unavailable'].includes(v.status));
+    const corrected=module==='ortografia'&&index?correctedOrthographyPhrase(q,index):null;
+    return '<article class="academic-review-item '+(anomaly?'neutral':bad?'bad':'good')+'" data-question-id="'+esc(q.id)+'"><div class="source-tag">'+esc(q.examen || 'Entrenamiento')+'</div><div class="academic-review-phrase">'+esc(q.frase)+'</div>'+(corrected?'<p class="corrected-phrase"><b>Frase corregida:</b> '+renderDifference(q.frase,corrected)+'</p>':'')+views.map((v,j)=>'<section class="academic-element">'+(module==='ortografia'?'<h4>'+esc(String.fromCharCode(65+j)+' · '+q.elementos_destacados[j].texto)+'</h4>':'')+(v.status==='anomaly'?'<p class="notice">⚠ Anomalía documentada; la clave del banco se conserva. Requiere revisión humana.</p>':v.status==='unavailable'?'':'<p>Tu respuesta: <b class="'+(v.correct?'correct':'wrong')+'">'+(v.correct?'✓ ':'✗ ')+esc(v.userAnswer)+'</b> · Respuesta utilizada para corregir: <b class="correct">✓ '+esc(v.acceptedAnswers.join(' / '))+'</b></p>')+renderProfessor(v,{repeated:repeated[v.conceptId] || 0})+'</section>').join('')+'</article>';
+  }).join('');
 }
 function showAcademicReserves(module) {
+  setModuleTheme(module);
   const rs = ACADEMIC_BANK.ortografia.reservas || [];
   const filtered = rs.filter(r => String(r.tipo || '').startsWith(module === 'ortografia' ? 'ortografia' : 'gramatica'));
   app.innerHTML = `<main><section class="card"><div class="row" style="justify-content:space-between"><h2>Reservas · ${module === 'ortografia' ? 'Ortografía' : 'Gramática'}</h2><button class="secondary" onclick="moduleHome('${module}')">Volver</button></div><div class="reserve-note">Las reservas están separadas del banco oficial principal.</div>${filtered.length ? filtered.map(r => `<div class="academic-review-item"><div class="source-tag">${esc(r.examen || 'Reserva')}</div><pre style="white-space:pre-wrap;font-family:inherit">${esc(JSON.stringify(r, null, 2))}</pre></div>`).join('') : '<p>No hay reservas disponibles.</p>'}</section></main>`;
 }
 function englishHome() {
   if (state.active || academicState.active) return;
+  setModuleTheme('english');
   clearInterval(state.timer);
   state.timer = null;
   state.questions = [];
@@ -955,6 +980,7 @@ function englishHome() {
   <div class="notice">🤖 <b>Profesor:</b> las preguntas nuevas llevan regla, explicación y ejemplo para estudiar los fallos.</div>
 </section>
 </div>
+${renderTopicCards('english')}
 <section class="card" style="margin-top:16px"><h2>Mis estadísticas</h2><div id="statsHome"></div><div class="row"><button class="secondary" onclick="showHistory()">Ver historial</button><button class="secondary" onclick="clearStats()">Borrar estadísticas</button></div></section>
 
 </main>`;
@@ -1006,7 +1032,7 @@ function setDifficulty(level) {
   if (hint) hint.textContent = level === 'Fácil' ? 'Nivel fácil: estructuras más directas y distractores sencillos.' : level === 'Media' ? 'Nivel medio: mezcla de estructuras y distractores más exigentes.' : 'Nivel difícil: estructuras más complejas, contrastes gramaticales y distractores más parecidos.';
 }
 function renderModuleStats(targetId, module) {
-  const h = history().filter(x => statsModuleFromAttempt(x) === module),
+  const h = history().filter(x => statsModuleFromAttempt(x) === module && !parseTopicMode(x.mode)),
     total = h.reduce((s, x) => s + (Number(x.total) || 0), 0),
     correct = h.reduce((s, x) => s + (Number(x.correct) || 0), 0),
     avg = h.length ? h.reduce((s, x) => s + statsPercent(x), 0) / h.length : 0,
@@ -1068,8 +1094,10 @@ function startHistorical() {
   begin('exam');
 }
 function begin(mode) {
+  setModuleTheme('english');
   clearInterval(state.timer);
   state.mode = mode;
+  state.topicId = parseTopicMode(mode)?.topicId || null;
   state.answers = {};
   state.idx = 0;
   state.startedAt = Date.now();
@@ -1092,11 +1120,12 @@ function updateTimer() {
   el.className = 'timer' + (state.timeLeft <= 60 ? ' danger' : state.timeLeft <= 300 ? ' warn' : '');
 }
 function renderTest() {
+  setModuleTheme('english');
   if (state.active) persistActive('english');
   const q = state.questions[state.idx],
     total = state.questions.length,
     answered = Object.keys(state.answers).length;
-  app.innerHTML = `<div class="topbar"><div class="topin"><div><b>${state.mode === 'official' ? 'SIMULACIÓN OFICIAL' : state.mode === 'new' ? 'SOLO NUEVAS' : state.mode === 'mixed' ? 'MIXTO' : state.mode === 'failures' ? 'REPASO DE FALLOS' : 'MODELO HISTÓRICO'}</b><div class="small">${answered}/${total} respondidas${state.mode === 'new' || state.mode === 'mixed' ? ' · Nivel ' + esc(state.difficulty) : ''}</div></div><div class="row">${state.timeLeft > 0 ? '<span id="timer" class="timer">' + formatTime(state.timeLeft) + '</span>' : ''}<button class="secondary abandon-btn" onclick="abandonEnglishTest()">Abandonar</button><button class="danger" onclick="confirmFinish()">Finalizar</button></div></div></div><main><div class="progress"><i style="width:${(state.idx + 1) / total * 100}%"></i></div><div class="qcard"><div class="qmeta">Pregunta ${state.idx + 1} de ${total} ${typeBadge(q)}</div><div class="question">${q.instruction ? `<p class="notice">${esc(q.instruction)}</p>` : ''}${q.neutralized ? '<p class="notice">Pregunta anulada por anomalía de importación. Se conserva para consulta; no puntúa.</p>' : ''}${esc(q.pregunta).replace(/_____+/g, '<span class="blank-space">_____</span>')}</div>${['a', 'b', 'c', 'd'].map(k => `<label class="option"><input type="radio" name="ans" value="${k}" ${state.answers[state.idx] === k ? 'checked' : ''} onchange="choose('${k}')"><span><b>${k.toUpperCase()})</b> ${esc(q.opciones[k])}</span></label>`).join('')}</div><div class="blank-note">Las preguntas en blanco no penalizan.</div><div class="question-actions"><button class="secondary" onclick="prev()" ${state.idx === 0 ? 'disabled' : ''}>Anterior</button><button onclick="next()">${state.idx === total - 1 ? 'Corregir' : 'Siguiente'}</button></div><div class="nav-grid">${state.questions.map((_, i) => `<button class="${state.answers[i] ? 'answered ' : ''}${i === state.idx ? 'current' : ''}" aria-label="Pregunta ${i + 1}${state.answers[i] ? ', respondida' : ', en blanco'}" ${i === state.idx ? 'aria-current="step"' : ''} onclick="goTo(${i})">${i + 1}</button>`).join('')}</div></main>`;
+  app.innerHTML = `<div class="topbar"><div class="topin"><div><b>${state.topicId ? esc(topicLabel('english',state.topicId)) + ' · Nivel examen' : state.mode === 'official' ? 'SIMULACIÓN OFICIAL' : state.mode === 'new' ? 'SOLO NUEVAS' : state.mode === 'mixed' ? 'MIXTO' : state.mode === 'failures' ? 'REPASO DE FALLOS' : 'MODELO HISTÓRICO'}</b><div class="small">${answered}/${total} respondidas${state.mode === 'new' || state.mode === 'mixed' ? ' · Nivel ' + esc(state.difficulty) : ''}</div></div><div class="row">${state.timeLeft > 0 ? '<span id="timer" class="timer">' + formatTime(state.timeLeft) + '</span>' : ''}<button class="secondary abandon-btn" onclick="abandonEnglishTest()">Abandonar</button><button class="danger" onclick="confirmFinish()">Finalizar</button></div></div></div><main><div class="progress"><i style="width:${(state.idx + 1) / total * 100}%"></i></div><div class="qcard"><div class="qmeta">Pregunta ${state.idx + 1} de ${total} ${typeBadge(q)}</div><div class="question">${q.instruction ? `<p class="notice">${esc(q.instruction)}</p>` : ''}${q.neutralized ? '<p class="notice">Pregunta anulada por anomalía de importación. Se conserva para consulta; no puntúa.</p>' : ''}${esc(q.pregunta).replace(/_____+/g, '<span class="blank-space">_____</span>')}</div>${['a', 'b', 'c', 'd'].map(k => `<label class="option"><input type="radio" name="ans" value="${k}" ${state.answers[state.idx] === k ? 'checked' : ''} onchange="choose('${k}')"><span><b>${k.toUpperCase()})</b> ${esc(q.opciones[k])}</span></label>`).join('')}</div><div class="blank-note">Las preguntas en blanco no penalizan.</div><div class="question-actions"><button class="secondary" onclick="prev()" ${state.idx === 0 ? 'disabled' : ''}>Anterior</button><button onclick="next()">${state.idx === total - 1 ? 'Corregir' : 'Siguiente'}</button></div><div class="nav-grid">${state.questions.map((_, i) => `<button class="${state.answers[i] ? 'answered ' : ''}${i === state.idx ? 'current' : ''}" aria-label="Pregunta ${i + 1}${state.answers[i] ? ', respondida' : ', en blanco'}" ${i === state.idx ? 'aria-current="step"' : ''} onclick="goTo(${i})">${i + 1}</button>`).join('')}</div></main>`;
   updateTimer();
 }
 function choose(k) {
@@ -1157,7 +1186,7 @@ function finish(autoSubmitted) {
     score
   } = scoreEnglish(state.questions, state.answers);
   const elapsed = elapsedSeconds(state.startedAt, state.deadline);
-  if (state.mode === 'new' || state.mode === 'mixed') rememberTrainingFailures(state.questions, state.answers);
+  if (state.mode === 'new' || state.mode === 'mixed' || state.topicId) rememberTrainingFailures(state.questions, state.answers);
   if (state.mode === 'failures') resolveFailureTest(state.questions, state.answers);
   const entry = {
     date: new Date().toISOString(),
@@ -1171,18 +1200,20 @@ function finish(autoSubmitted) {
     score,
     penalty,
     elapsed,
-    label: state.mode === 'official' ? 'Simulación oficial' : state.mode === 'new' ? 'Solo nuevas' : state.mode === 'mixed' ? 'Mixto' : state.mode === 'failures' ? 'Repaso de fallos' : 'Modelo histórico',
-    difficulty: state.difficulty,
+    topicId: state.topicId || null,
+    label: state.topicId ? topicLabel('english',state.topicId) : state.mode === 'official' ? 'Simulación oficial' : state.mode === 'new' ? 'Solo nuevas' : state.mode === 'mixed' ? 'Mixto' : state.mode === 'failures' ? 'Repaso de fallos' : 'Modelo histórico',
+    difficulty: state.topicId ? 'Nivel examen' : state.difficulty,
     questions: state.questions,
     answers: state.answers
   };
   saveHistory(entry);
   commitExam(state);
-  if (state.mode === 'new' || state.mode === 'mixed' || state.mode === 'failures') syncFailuresCloud().catch(() => {});
+  if (state.mode === 'new' || state.mode === 'mixed' || state.mode === 'failures' || state.topicId) syncFailuresCloud().catch(() => {});
   saveAttemptCloud(entry).catch(() => {});
   renderResult(entry);
 }
 function renderResult(r) {
+  setModuleTheme('english');
   window.__lastResult = r;
   const pass = r.total > 0 && r.score >= r.total * .4,
     threshold = (r.total * .4).toFixed(0);
@@ -1191,25 +1222,19 @@ function renderResult(r) {
 function reviewCurrent() {
   if (window.__lastResult) reviewAll(window.__lastResult);
 }
-function reviewAll(r) {
-  const box = document.getElementById('review');
-  const items = r.questions.map((q, i) => ({
-    q,
-    i,
-    a: r.answers[i],
-    ok: isCorrect(q, r.answers[i])
-  }));
-  items.sort((x, y) => (x.ok ? 1 : 0) - (y.ok ? 1 : 0) || x.i - y.i);
-  box.innerHTML = `<div class="review-title"><h3>Revisión</h3><div class="review-sub">Primero tus fallos y después el resto de preguntas.</div></div>${items.map(({
-    q,
-    i,
-    a,
-    ok
-  }) => {
-    const cls = q.neutralized ? 'neutral' : !a ? 'blank' : ok ? 'ok' : 'bad';
-    if (q.neutralized) return `<div class="item neutral" data-question-id="${esc(q.id)}"><div class="qmeta">Pregunta ${i + 1} de ${r.questions.length} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div>Tu respuesta: ${a ? esc(a.toUpperCase() + ' — ' + q.opciones[a]) : 'En blanco'}</div><p class="notice"><b>⚠️ Anomalía / ambigüedad · ANULADA · no puntúa.</b> No suma, no resta y no se incluye en el total evaluable.</p><p>${esc(q.reviewNote || 'No existe una clave inequívoca contrastada.')}</p>${q.validAnswers?.length > 1 ? `<p>Alternativas gramaticalmente válidas: ${q.validAnswers.map(k => esc(k.toUpperCase() + ' — ' + q.opciones[k])).join(' / ')}.</p>` : ''}<p>La clave histórica importada se conserva como metadato; no es una plantilla oficial verificada.</p></div>`;
-    return `<div class="item ${cls}"><div class="qmeta">Pregunta ${i + 1} de ${r.total} ${typeBadge(q)}</div><b>${esc(q.pregunta)}</b><div style="margin-top:8px">Tu respuesta: <span class="${!a ? '' : ok ? 'correct' : 'wrong'}"><b>${a ? esc(a.toUpperCase() + ' — ' + q.opciones[a]) : 'En blanco'}</b></span></div><div>Respuesta correcta: <span class="correct"><b>${q.neutralized ? 'ANULADA · no puntúa' : validAnswers(q).map(k => esc(k.toUpperCase() + ' — ' + q.opciones[k])).join(' / ')}</b></span></div>${q.reviewNote ? `<p class="notice">${esc(q.reviewNote)}</p>` : ''}${!ok ? `<button class="ai-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">🤖 Explícame este fallo</button><div class="hidden">${q.tipo === 'generada' ? explainGenerated(q, a) : explainOfficial(q, a)}</div>` : q.tipo === 'oficial' && officialAnomaly(q).length ? `<div class="ai-anomaly"><b>⚠️ Posible anomalía detectada:</b> ${officialAnomaly(q).map(esc).join(' ')}</div>` : ''}</div>`;
-  }).join('')}`;
+async function reviewAll(r) {
+  const box=document.getElementById('review');
+  if(!box || state.active || academicState.active)return;
+  let index;
+  try { index=await ensureProfessor('english'); } catch(error) { notice(error.message); }
+  if(!box.isConnected || state.active || academicState.active)return;
+  const repeated=index?recurrentConceptFailures(professorHistory('english'),index,'english'):{};
+  const items=r.questions.map((q,i)=>({q,i,a:r.answers[i],ok:isCorrect(q,r.answers[i]),view:professorView(index,'english',q,r.answers[i])}));
+  items.sort((x,y)=>Number(x.q.neutralized || x.view.status==='anomaly' || x.ok)-Number(y.q.neutralized || y.view.status==='anomaly' || y.ok) || x.i-y.i);
+  box.innerHTML='<div class="review-title"><h3>Revisión</h3><div class="review-sub">Primero tus fallos y después el resto de preguntas.</div></div>'+items.map(({q,i,a,ok,view})=>{
+    const anomaly=q.neutralized || view.status==='anomaly';
+    return '<div class="item '+(anomaly?'neutral':!a?'blank':ok?'ok':'bad')+'" data-question-id="'+esc(q.id)+'"><div class="qmeta">Pregunta '+(i+1)+' de '+r.questions.length+' '+typeBadge(q)+'</div><b>'+esc(q.pregunta)+'</b>'+ (anomaly?'<p class="notice"><b>⚠ Anomalía / ambigüedad'+(q.neutralized?' · ANULADA · no puntúa.':' documentada.')+'</b> '+(q.neutralized?'No suma, no resta y no se incluye en el total evaluable.':'La clave del banco se conserva; requiere revisión humana.')+'</p><p>'+esc(q.reviewNote || view.anomalyReason || '')+'</p>':'<p>Tu respuesta: <b class="'+(ok?'correct':a?'wrong':'')+'">'+(ok?'✓ ':a?'✗ ':'')+esc(a?a.toUpperCase()+' — '+q.opciones[a]:'En blanco')+'</b></p><p>Respuesta utilizada para corregir: <b class="correct">✓ '+validAnswers(q).map(k=>esc(k.toUpperCase()+' — '+q.opciones[k])).join(' / ')+'</b></p>')+renderProfessor(view,{repeated:repeated[view.conceptId] || 0})+'</div>';
+  }).join('');
 }
 function statsModuleFromAttempt(x) {
   const m = String(x.mode || '');
@@ -1224,7 +1249,8 @@ function statsApto(x) {
   return Number(x.score || 0) >= Number(x.total || 0) * 0.4;
 }
 function showGeneralStats() {
-  const h = history();
+  setModuleTheme('neutral');
+  const all = history(), h = all.filter(x => !parseTopicMode(x.mode));
   const modules = [['english', '🗣️', 'Inglés'], ['ortografia', '✍️', 'Ortografía'], ['gramatica', '📚', 'Gramática']];
   const totalTests = h.length,
     aptos = h.filter(statsApto).length,
@@ -1236,8 +1262,8 @@ function showGeneralStats() {
       ap = arr.filter(statsApto).length;
     return `<div class="module-stat-card"><div class="module-stat-head"><div class="module-stat-name">${icon} ${name}</div><div class="module-stat-pct">${n ? av + '%' : '—'}</div></div><div class="stat-bar"><i style="width:${av}%"></i></div><div class="module-stat-meta"><span>${n} ${n === 1 ? 'examen' : 'exámenes'}</span><span>${ap} APTO · ${n - ap} NO APTO</span></div></div>`;
   }).join('');
-  const recent = h.slice(-8).reverse().map((x, revIndex) => {
-    const originalIndex = h.length - 1 - revIndex,
+  const recent = all.slice(-8).reverse().map((x, revIndex) => {
+    const originalIndex = all.length - 1 - revIndex,
       d = new Date(x.date),
       p = statsPercent(x),
       ap = statsApto(x);
@@ -1254,6 +1280,7 @@ function showGeneralStats() {
   }).join("")}</div></section><section class="card" style="margin-top:14px"><h2 class="general-section-title">Últimos exámenes</h2>${recent || '<div class="general-empty">Todavía no hay exámenes guardados.</div>'}</section>` : `<section class="card general-empty"><h2>Aún no hay resultados</h2><p>Cuando completes tu primer examen aparecerán aquí tus estadísticas y la comparativa entre los tres módulos.</p><button onclick="home()">Ir a los módulos</button></section>`}</main>`;
 }
 function showHistory() {
+  setModuleTheme('neutral');
   const h = history();
   const rows = h.map((x, i) => {
     const pass = statsApto(x),
@@ -1347,6 +1374,7 @@ async function ensureBank(module) {
         examenId: e.id
       })));
       GENERADAS = training;
+      topicPools.english = buildTopicPools('english', training);
       ALL = [...OFICIALES, ...GENERADAS];
       EVALUABLE = ALL.filter(q => q.respuesta_correcta && !q.excludeRandom);
       RESERVA = DATA.examenes.flatMap(e => (e.reserva || []).map(q => ({
@@ -1360,6 +1388,7 @@ async function ensureBank(module) {
       const [official, training] = await Promise.all([getJSON('data/' + directory + '/official.json'), getJSON('data/' + directory + '/training.json')]);
       ACADEMIC_BANK[module] = official;
       TRAINING_ACADEMIC_BANK[module] = training;
+      topicPools[module] = buildTopicPools(module, training.nuevas);
       if (module === 'gramatica') AUDIT_GRAMMAR_RULES = await getJSON('data/grammar/explanations.json');
     }
   })().catch(error => {
@@ -1411,8 +1440,9 @@ function commitExam(s) {
       changes[key] = s.transaction.draft[key];
     }
     saveQuestionCycles(mergeCycles(latest, changes));
-    syncQuestionCyclesCloud().catch(() => {});
   }
+  saveQuestionCycles(updateMastery(history(), questionCycles()));
+  syncQuestionCyclesCloud().catch(() => {});
   s.active = false;
   s.transaction = null;
   s.cycleSnapshot = null;
@@ -1434,6 +1464,7 @@ function persistActive(kind) {
     kind,
     module: s.module || 'english',
     mode: s.mode,
+    topicId: s.topicId || null,
     questionIds: (s.questions || s.items).map(q => q.id),
     answers: s.answers,
     idx: s.idx,
@@ -1538,7 +1569,7 @@ function dispatchAction(action, element) {
     Promise.resolve(window[match[1]](...args)).catch(error => notice(error.message));
   }
 }
-const publicActions = new Set(['home', 'englishHome', 'moduleHome', 'showGeneralStats', 'showHistory', 'showAuth', 'closeAuth', 'submitAuth', 'signOut', 'start', 'startFailures', 'startHistorical', 'setDifficulty', 'clearFailures', 'clearStats', 'startAcademic', 'setAcademicDifficulty', 'academicChoose', 'academicGo', 'academicPrev', 'academicNext', 'academicFinish', 'abandonAcademicTest', 'choose', 'goTo', 'prev', 'next', 'abandonEnglishTest', 'confirmFinish', 'reviewCurrent', 'reviewAcademic', 'reviewHistoryEntry', 'reviewSaved', 'reviewSavedAcademic', 'showAcademicReserves']);
+const publicActions = new Set(['home', 'englishHome', 'moduleHome', 'showGeneralStats', 'showHistory', 'showAuth', 'closeAuth', 'submitAuth', 'signOut', 'start', 'startFailures', 'startHistorical', 'setDifficulty', 'clearFailures', 'clearStats', 'startAcademic', 'startEnglishTopic', 'startAcademicTopic', 'setAcademicDifficulty', 'academicChoose', 'academicGo', 'academicPrev', 'academicNext', 'academicFinish', 'abandonAcademicTest', 'choose', 'goTo', 'prev', 'next', 'abandonEnglishTest', 'confirmFinish', 'reviewCurrent', 'reviewAcademic', 'reviewHistoryEntry', 'reviewSaved', 'reviewSavedAcademic', 'showAcademicReserves']);
 function wireActions() {
   for (const element of app.querySelectorAll('[onclick],[onchange]')) for (const event of ['click', 'change']) {
     const value = element.getAttribute('on' + event);
@@ -1586,12 +1617,13 @@ showGeneralStats = async function () {
   originalShowStats();
   const h = history();
   if (!h.length) return;
-  const summary = summarize(h);
+  const general = h.filter(x => !parseTopicMode(x.mode));
+  const summary = summarize(general);
   const section = document.createElement('section');
   section.className = 'card';
   section.innerHTML = `<h2>Detalle de práctica</h2><p>${summary.total} respuestas · tiempo medio ${formatTime(Math.round(summary.meanTime))} · puntuación media ${summary.meanScore.toFixed(2)}</p>`;
   for (const field of ['difficulty', 'mode']) {
-    const groups = Object.groupBy(h, x => x[field] || 'Sin dato');
+    const groups = Object.groupBy(general, x => x[field] || 'Sin dato');
     for (const [name, entries] of Object.entries(groups)) {
       const g = summarize(entries);
       const p = document.createElement('p');
@@ -1599,11 +1631,13 @@ showGeneralStats = async function () {
       section.append(p);
     }
   }
+  const topicAttempts=h.filter(x=>parseTopicMode(x.mode));
+  if(topicAttempts.length){const p=document.createElement('p');p.textContent='Práctica por contenidos (separada): '+topicAttempts.length+' intentos. El dominio se consulta en las tarjetas de cada módulo.';section.append(p);}
   document.querySelector('main').append(section);
   await Promise.all([...new Set(h.map(statsModuleFromAttempt))].map(module=>ensureBank(module)));
   if(!section.isConnected)return;
   const groups=new Map();
-  for(const entry of h){
+  for(const entry of general){
     const module=statsModuleFromAttempt(entry);
     const result=hydrateAttempt(entry,id=>lookupQuestion(module,id));
     for(const [i,q] of result.questions.entries()){
@@ -1746,5 +1780,5 @@ async function initialize() {
   connectCloud();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 }
-Object.assign(window,{home,englishHome,moduleHome,showGeneralStats,showHistory,showAuth,closeAuth,submitAuth,signOut,start,startFailures,startHistorical,setDifficulty,clearFailures,clearStats,startAcademic,setAcademicDifficulty,academicChoose,academicGo,academicPrev,academicNext,academicFinish,abandonAcademicTest,choose,goTo,prev,next,abandonEnglishTest,confirmFinish,reviewCurrent,reviewAcademic,reviewHistoryEntry,reviewSaved,reviewSavedAcademic,showAcademicReserves,renderFailureStatus,syncFailuresCloud,resumeExam,exportLocalData});
+Object.assign(window,{home,englishHome,moduleHome,showGeneralStats,showHistory,showAuth,closeAuth,submitAuth,signOut,start,startFailures,startHistorical,setDifficulty,clearFailures,clearStats,startAcademic,startEnglishTopic,startAcademicTopic,setAcademicDifficulty,academicChoose,academicGo,academicPrev,academicNext,academicFinish,abandonAcademicTest,choose,goTo,prev,next,abandonEnglishTest,confirmFinish,reviewCurrent,reviewAcademic,reviewHistoryEntry,reviewSaved,reviewSavedAcademic,showAcademicReserves,renderFailureStatus,syncFailuresCloud,resumeExam,exportLocalData});
 initialize();

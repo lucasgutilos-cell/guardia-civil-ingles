@@ -5,10 +5,12 @@
   "scripts": {
     "start": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",
-    "validate": "node scripts/validate-banks.mjs",
+    "validate": "node scripts/validate-banks.mjs && node scripts/validate-professor.mjs",
     "check:syntax": "node scripts/check-syntax.mjs",
-    "test:e2e": "node --test tests/app.e2e.mjs",
+    "test:e2e": "node --test tests/*.e2e.mjs",
     "check": "npm run validate && npm test && npm run check:syntax && npm run test:e2e"
   },
-  "devDependencies": {"playwright": "1.62.1"}
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
 }

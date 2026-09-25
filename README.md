@@ -14,12 +14,19 @@ Abrir http://127.0.0.1:4173/guardia-civil-ingles/ . No abrir index.html mediante
 
 ## Validación
 
-Sin dependencias adicionales:
+Sin dependencias adicionales, en un clon Git completo:
 
 ```sh
 node scripts/validate-banks.mjs
+node scripts/validate-professor.mjs
 node --test tests/*.test.mjs
 node scripts/check-syntax.mjs
+```
+
+Si trabajas directamente con el ZIP de transferencia, que no contiene `.git`, usa esta batería local equivalente para los tests que no dependen de commits históricos:
+
+```sh
+node --test tests/core.test.mjs tests/professor.test.mjs tests/topics.test.mjs
 ```
 
 Para E2E en una instalación nueva, con autorización para descargar dependencias:
@@ -44,8 +51,8 @@ Los tests de navegador usan Supabase simulado y un servidor local en 4184. No us
 
 - `assets/js/app.js`: navegación, presentación y coordinación de exámenes.
 - `assets/js/services`: puntuación, reloj, ciclos, almacenamiento, estadísticas y adaptador Supabase.
-- `assets/js/modules`: explicaciones inglesas y marcado de frases académicas.
-- `data`: seis bancos separados por módulo/origen y explicaciones académicas.
+- `assets/js/modules`: explicaciones, Profesor local y marcado de frases académicas.
+- `data`: seis bancos separados por módulo/origen y sidecars del Profesor en `data/professor`.
 - `tests`: regresión frente a bed694d, unidades y recorridos de navegador.
 - `reports`: inventario por pregunta, cambios de clave, exclusiones, línea base y resultados.
 - `supabase`: SQL manual y guía de revisión; ningún script se aplica automáticamente.
@@ -53,6 +60,21 @@ Los tests de navegador usan Supabase simulado y un servidor local en 4184. No us
 La carga de bancos es diferida por módulo. El historial inglés guarda referencias y snapshots compartidos; se siguen leyendo intentos antiguos con preguntas completas. Las preguntas enviadas a Supabase siguen completas para compatibilidad. El botón de copia de seguridad exporta el estado local, incluidas copias protegidas cuando se detectan datos dañados.
 
 Los ciclos se confirman al finalizar, nunca al seleccionar. El reloj usa una fecha límite persistida. Una recarga restaura respuestas, posición y tiempo restante; una fecha vencida finaliza una sola vez. Las preguntas ambiguas se excluyen de aleatorios y las neutralizadas no puntúan. El banco conserva todas las entradas aunque no sean utilizables.
+
+## Profesor IA local
+
+El Profesor se materializa en archivos laterales y nunca reescribe los bancos de preguntas. Para regenerarlo de forma reproducible:
+
+```sh
+node scripts/build-professor-english.mjs
+node scripts/build-professor-spanish.mjs
+node scripts/assemble-professor.mjs
+node scripts/validate-professor.mjs
+```
+
+La cobertura actual es de 1.261 preguntas inglesas, 2.480 elementos ortográficos y 640 frases gramaticales. Las entradas dudosas se presentan como anomalías y el sistema se abstiene de afirmar una solución única. Las referencias normativas respaldan la regla explicada, pero no equivalen a cotejar cada clave con una plantilla oficial autenticada. Ver `reports/professor-english-audit.md`, `reports/professor-spanish-audit.md`, `reports/professor-validation.json` y `reports/continuation-2026-09-23.md`.
+
+En un clon Git completo puede ejecutarse `node --test tests/*.test.mjs`. El ZIP de transferencia no incluye `.git`, así que los dos tests de regresión histórica que usan `git show` necesitan ejecutarse de nuevo al colocar estos archivos sobre la rama original.
 
 ## Revisión editorial y publicación
 

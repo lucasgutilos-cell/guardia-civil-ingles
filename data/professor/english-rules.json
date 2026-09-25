@@ -1,0 +1,719 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "en-be",
+      "title": "Be: persona, número y tiempo",
+      "plain": "Be cambia según el sujeto: I am; he/she/it is; you/we/they are. En pasado se usa was o were.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verb-be"
+        }
+      ],
+      "tip": "Localiza primero el sujeto; después elige am/is/are o was/were.",
+      "example": "The visitors were outside the museum.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-present",
+      "title": "Presente simple y concordancia",
+      "plain": "Los hábitos se expresan normalmente en presente simple. La tercera persona singular añade -s; con do/does el verbo principal queda en forma base.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+        }
+      ],
+      "tip": "La -s aparece una sola vez: she works, does she work?",
+      "example": "Our neighbour waters the plants every evening.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-continuous",
+      "title": "Be + verbo en -ing",
+      "plain": "El continuo combina be conjugado con la forma en -ing. Sirve para acciones en curso y para planes concretados.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous"
+        }
+      ],
+      "tip": "Una acción en marcha necesita dos piezas: be + -ing.",
+      "example": "The mechanic is checking a motorcycle.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-past",
+      "title": "Pasado simple y verbos irregulares",
+      "plain": "Un hecho situado en un pasado terminado usa pasado simple. Después de did/did not el verbo vuelve a su forma base.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+        }
+      ],
+      "tip": "Did ya marca el pasado: no lo marques otra vez en el verbo.",
+      "example": "We caught the last bus yesterday.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-past-continuous",
+      "title": "Acción de fondo y suceso en pasado",
+      "plain": "Was/were + -ing presenta una acción en desarrollo; el pasado simple puede introducir el hecho que ocurrió durante ella.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-continuous"
+        }
+      ],
+      "tip": "Imagina una escena en marcha y el hecho que la interrumpe.",
+      "example": "I was washing a cup when the door opened.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-perfect",
+      "title": "Have/has + participio",
+      "plain": "El present perfect se forma con have/has y participio; vincula una experiencia o duración pasada con el presente.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-perfect"
+        }
+      ],
+      "tip": "Tras have o has busca el participio, no el pasado simple.",
+      "example": "Nora has written three reports today.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-past-perfect",
+      "title": "Had + participio: pasado anterior",
+      "plain": "Had + participio sitúa un hecho antes de otro punto del pasado. El participio mantiene su forma con todos los sujetos.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-perfect"
+        }
+      ],
+      "tip": "Dibuja dos hechos pasados: had señala el anterior.",
+      "example": "The shop had closed when we reached the square.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-future",
+      "title": "Will y be going to",
+      "plain": "Will va seguido de forma base; be going to necesita be conjugado y to. El contexto distingue decisiones, predicciones y planes.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/talking-about-future"
+        }
+      ],
+      "tip": "Will go y is going to go son cadenas completas; no mezcles sus piezas.",
+      "example": "I will carry the smaller suitcase.",
+      "topic": "conditionals-future"
+    },
+    {
+      "id": "en-future-perfect",
+      "title": "Will have + participio",
+      "plain": "El futuro perfecto usa will have + participio para un hecho terminado antes de un límite futuro; will have been + -ing destaca su duración.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-continuous-future-perfect"
+        }
+      ],
+      "tip": "Límite futuro: by Friday; resultado anterior: will have finished.",
+      "example": "By June, Maya will have completed the course.",
+      "topic": "conditionals-future"
+    },
+    {
+      "id": "en-conditional1",
+      "title": "Condición posible: if/unless + presente",
+      "plain": "Para una condición futura posible, la subordinada suele llevar presente y el resultado will + forma base. Unless equivale a if not.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second"
+        }
+      ],
+      "tip": "No añadas will automáticamente detrás de if o unless.",
+      "example": "Unless it rains, we will eat outside.",
+      "topic": "conditionals-future"
+    },
+    {
+      "id": "en-conditional2",
+      "title": "Hipótesis: pasado + would",
+      "plain": "La segunda condicional combina una condición hipotética en pasado con would + forma base para su resultado.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second"
+        }
+      ],
+      "tip": "If I knew, I would tell: pasado en la condición, would en el resultado.",
+      "example": "If I owned a boat, I would sail every weekend.",
+      "topic": "conditionals-future"
+    },
+    {
+      "id": "en-conditional3",
+      "title": "Hipótesis pasada: had + participio",
+      "plain": "Una condición irreal pasada lleva had + participio; su resultado usa would have + participio.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed"
+        }
+      ],
+      "tip": "El pasado imposible tiene dos cadenas: had done y would have done.",
+      "example": "If we had left earlier, we would have caught the ferry.",
+      "topic": "conditionals-future"
+    },
+    {
+      "id": "en-modal",
+      "title": "Modal + forma base",
+      "plain": "Can, could, may, might, must y should van seguidos de forma base sin to y no añaden -s con he/she/it.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/modal-verbs"
+        }
+      ],
+      "tip": "Después de un modal, deja el verbo desnudo: can swim.",
+      "example": "You should rest before the journey.",
+      "topic": "modals-obligation"
+    },
+    {
+      "id": "en-ability",
+      "title": "Can, could y be able to",
+      "plain": "Can/could van con infinitivo sin to. Be able to necesita be conjugado y to; el futuro se construye con will be able to.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/can-could"
+        }
+      ],
+      "tip": "Will no se combina con can: cambia a will be able to.",
+      "example": "After the course, Leo will be able to drive a lorry.",
+      "topic": "modals-obligation"
+    },
+    {
+      "id": "en-obligation",
+      "title": "Must, have to y need",
+      "plain": "Must va sin to; have to se conjuga y permite had to, will have to o may have to. Need como verbo ordinario usa does not need to.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/modals-permission-obligation"
+        }
+      ],
+      "tip": "Must go, had to go; conserva un solo to.",
+      "example": "Yesterday we had to leave the building early.",
+      "topic": "modals-obligation"
+    },
+    {
+      "id": "en-passive",
+      "title": "Voz pasiva: be + participio",
+      "plain": "En pasiva, el sujeto recibe la acción. Se conjuga be y se añade el participio; by introduce al agente cuando se menciona.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives"
+        }
+      ],
+      "tip": "Identifica quién recibe la acción antes de elegir activa o pasiva.",
+      "example": "The bridge was repaired by a local company.",
+      "topic": "passive-voice"
+    },
+    {
+      "id": "en-voice-choice",
+      "title": "Voz activa o pasiva: identifica el agente",
+      "plain": "En activa, el sujeto realiza la acción. En pasiva, el sujeto la recibe y normalmente se usa be + participio; by puede introducir al agente.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives"
+        }
+      ],
+      "tip": "Pregunta primero: ¿el sujeto hace la acción o la recibe? Después comprueba el tiempo verbal.",
+      "example": "Mr Johnson translated the book. / The book was translated by Mr Johnson.",
+      "topic": "passive-voice"
+    },
+    {
+      "id": "en-tag",
+      "title": "Question tags: auxiliar y sujeto",
+      "plain": "La coletilla reproduce el auxiliar y un pronombre sujeto. Para pedir confirmación normalmente invierte la polaridad; otros usos dependen de entonación y contexto.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/question-tags"
+        }
+      ],
+      "tip": "Copia el auxiliar, comprueba el sujeto y después la polaridad.",
+      "example": "Eva has arrived, hasn’t she?",
+      "topic": "relatives-questions"
+    },
+    {
+      "id": "en-relative",
+      "title": "Pronombres relativos y función",
+      "plain": "Who se refiere a personas, which a cosas y whose expresa posesión. En relativas especificativas that puede sustituir a who/which; el relativo objeto puede omitirse.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses"
+        }
+      ],
+      "tip": "Decide si el hueco es sujeto, objeto, posesión o lugar.",
+      "example": "The artist who painted this mural lives nearby.",
+      "topic": "relatives-questions"
+    },
+    {
+      "id": "en-question",
+      "title": "Preguntas directas e indirectas",
+      "plain": "Las preguntas directas suelen colocar el auxiliar antes del sujeto; las indirectas conservan sujeto + verbo. How long pregunta duración y how often frecuencia.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/questions-negatives"
+        }
+      ],
+      "tip": "Distingue Where does she work? de Do you know where she works?",
+      "example": "How often does Clara visit the library?",
+      "topic": "relatives-questions"
+    },
+    {
+      "id": "en-pronoun",
+      "title": "Pronombres personales, posesivos y reflexivos",
+      "plain": "La forma depende de la función: they es sujeto, them objeto y their posesivo ante nombre. Los reflexivos concuerdan con su referente: himself, herself, ourselves, themselves.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/personal-pronouns"
+        }
+      ],
+      "tip": "Señala quién recibe la acción y si coincide con el sujeto.",
+      "example": "The twins prepared the meal themselves.",
+      "topic": "relatives-questions"
+    },
+    {
+      "id": "en-possessive",
+      "title": "Genitivo sajón",
+      "plain": "El poseedor lleva ’s; un plural ya terminado en -s añade solo apóstrofo. No se duplica el determinante del nombre poseído.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/possessives-nouns"
+        }
+      ],
+      "tip": "Una persona: Emma’s bag; varias chicas: the girls’ bags.",
+      "example": "The neighbours’ garden has a new fence.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-quantifier",
+      "title": "Cantidad y sustantivos contables",
+      "plain": "Many y (a) few acompañan contables plurales; much y (a) little, incontables. A lot of sirve con ambos cuando sigue un sustantivo.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/quantifiers"
+        }
+      ],
+      "tip": "Cuenta unidades: few coins; mide cantidad: little money.",
+      "example": "We bought a few oranges and a little rice.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-some-any",
+      "title": "Some, any y artículos",
+      "plain": "Some es habitual en afirmativas y ofertas; any, en negativas y preguntas neutrales. A/an acompaña un contable singular; an precede sonido vocálico.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/quantifiers"
+        }
+      ],
+      "tip": "No conviertas una cantidad de leche en una unidad con a/an.",
+      "example": "There is some cheese, but there are not any crackers.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-noun",
+      "title": "Número, artículo y forma del sustantivo",
+      "plain": "Un contable singular suele necesitar determinante. Los plurales y los incontables se comportan de modo distinto; furniture, information y news no añaden -s por cantidad.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/nouns"
+        }
+      ],
+      "tip": "Antes de poner a o -s, decide si puedes contar unidades del nombre.",
+      "example": "My cousins are doctors, and my aunt is an engineer.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-compound",
+      "title": "Sustantivos que modifican a otro nombre",
+      "plain": "Un nombre puede modificar al siguiente: water bottle. El último es el objeto principal y el anterior indica material, función o tipo.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-compound-nouns"
+        }
+      ],
+      "tip": "Lee del final al principio: coffee cup es una taza, no café.",
+      "example": "A stone wall surrounds the garden.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-existential",
+      "title": "There + be para existencia",
+      "plain": "La construcción existencial usa there y una forma de be. El número del nombre determina is/are o was/were; los tiempos compuestos conservan been.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/there-there-are"
+        }
+      ],
+      "tip": "Para decir que algo existe, empieza por there; después ajusta be.",
+      "example": "There were three bicycles outside the shop.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-demonstrative",
+      "title": "Demostrativos y número",
+      "plain": "This/that acompañan singular; these/those, plural. La distancia orienta this/these frente a that/those, pero necesita contexto.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/demonstratives"
+        }
+      ],
+      "tip": "Una cosa: this/that; varias: these/those.",
+      "example": "Those houses across the river are very old.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-comparative",
+      "title": "Comparativo, superlativo e igualdad",
+      "plain": "El comparativo suele ir con than; el superlativo destaca un elemento del conjunto. La igualdad usa as + adjetivo + as; no se duplica more con -er.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/comparative-superlative-adjectives"
+        }
+      ],
+      "tip": "Than compara; the + superlativo destaca; as abre y cierra igualdad.",
+      "example": "This path is narrower than the road beside it.",
+      "topic": "comparison-adverbs"
+    },
+    {
+      "id": "en-adverb",
+      "title": "Adjetivo, adverbio y grafía",
+      "plain": "El adjetivo caracteriza un nombre; el adverbio puede indicar cómo se realiza una acción. Muchos acaban en -ly, pero fast, hard y late no lo necesitan.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/adverbials-manner"
+        }
+      ],
+      "tip": "Pregunta cómo ocurre la acción: carefully, well, fast.",
+      "example": "The nurse spoke calmly and clearly.",
+      "topic": "comparison-adverbs"
+    },
+    {
+      "id": "en-emotion",
+      "title": "Adjetivos en -ed y -ing",
+      "plain": "Los adjetivos en -ing suelen describir lo que produce una emoción; los de -ed describen a quien la experimenta.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/adjectives-ending-ed-ing"
+        }
+      ],
+      "tip": "Un espectáculo puede ser exciting; su público, excited.",
+      "example": "The lecture was fascinating, and the students were fascinated.",
+      "topic": "comparison-adverbs"
+    },
+    {
+      "id": "en-exclamation",
+      "title": "Exclamaciones con what y how",
+      "plain": "How intensifica un adjetivo o adverbio; what introduce un grupo nominal. Con nombre contable singular aparece a/an; con plural o incontable no.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/exclamations"
+        }
+      ],
+      "tip": "How + cualidad; what + cosa.",
+      "example": "What an unusual painting! How colourful it is!",
+      "topic": "comparison-adverbs"
+    },
+    {
+      "id": "en-frequency",
+      "title": "Adverbios de frecuencia",
+      "plain": "Los adverbios como usually y hardly ever suelen preceder al verbo léxico y seguir a be. La colocación enfática puede variar.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs-and-adverb-phrases-position"
+        }
+      ],
+      "tip": "Hardly ever significa casi nunca; no equivale a hard.",
+      "example": "Rosa hardly ever misses a lesson.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-time",
+      "title": "Since, for, during, already y yet",
+      "plain": "Since introduce un punto inicial; for una duración; during un periodo identificado. Yet suele ir al final de negativas y preguntas; already expresa que algo ha sucedido.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/for-or-since"
+        }
+      ],
+      "tip": "Since responde desde cuándo; for responde cuánto tiempo.",
+      "example": "I have lived here since April, and I have already met my neighbours.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-preposition",
+      "title": "Preposiciones de lugar, tiempo y régimen",
+      "plain": "La preposición depende del complemento: on Monday, in winter, at noon; on a floor, next to y in front of forman expresiones completas.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/prepositions-place"
+        }
+      ],
+      "tip": "Aprende la combinación entera, incluyendo of o to cuando pertenecen a ella.",
+      "example": "The office is on the second floor, next to the stairs.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-transport",
+      "title": "Preposiciones con transporte",
+      "plain": "El medio sin artículo suele usar by: by train, by bicycle. A pie se expresa on foot. Con un vehículo concreto cambian el artículo y la preposición.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/by"
+        }
+      ],
+      "tip": "By + medio; on foot es la excepción frecuente.",
+      "example": "They travelled by bus and returned on foot.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-gerund",
+      "title": "Complementos en -ing y con to",
+      "plain": "La forma depende de la palabra anterior: enjoy/avoid/finish admiten -ing; want/refuse/promise, to + base. Una preposición suele ir seguida de -ing.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verbs-followed-infinitive-ing-form"
+        }
+      ],
+      "tip": "Aprende parejas: enjoy reading, refuse to answer.",
+      "example": "Sofia avoided arguing and promised to listen.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-bare",
+      "title": "Let/make + objeto + infinitivo",
+      "plain": "Let y make en activa llevan un objeto seguido del infinitivo sin to. El objeto usa me/him/her/us/them, no el pronombre sujeto.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/let"
+        }
+      ],
+      "tip": "Let me go: persona en forma de objeto y verbo sin to.",
+      "example": "The coach let us rest after practice.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-used",
+      "title": "Used to y be used to",
+      "plain": "Used to + base expresa hábito pasado; con did se usa use to. Be used to significa estar acostumbrado y lleva nombre o -ing.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-habits-used-would-past-simple"
+        }
+      ],
+      "tip": "Did you use to swim? no equivale a Are you used to swimming?",
+      "example": "I used to cycle to work, but now I walk.",
+      "topic": "verb-tenses"
+    },
+    {
+      "id": "en-do-make",
+      "title": "Combinaciones con do y make",
+      "plain": "Do aparece en actividades como homework, shopping y housework; make en expresiones como make an effort, make money o make a noise.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/do-or-make"
+        }
+      ],
+      "tip": "Aprende cada combinación completa; no traduzcas hacer con un solo verbo.",
+      "example": "We did the shopping and made a cake.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-say-tell",
+      "title": "Say y tell",
+      "plain": "Tell normalmente lleva destinatario sin to; say introduce palabras y usa to si se añade destinatario. Se dice tell the truth, tell lies y tell a story.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/say-or-tell"
+        }
+      ],
+      "tip": "Tell me; say it to me.",
+      "example": "Elena told us the truth and said she was sorry.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-reported",
+      "title": "Estilo indirecto: referencia y estructura",
+      "plain": "Al transmitir palabras se ajustan pronombres y referencias temporales. En narración pasada es frecuente retroceder el tiempo; las preguntas indirectas usan orden enunciativo.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements"
+        }
+      ],
+      "tip": "Conserva quién habla, de quién habla y cuándo ocurrió antes de cambiar tiempos.",
+      "example": "Paula said that she would call me the following morning.",
+      "topic": null
+    },
+    {
+      "id": "en-purpose",
+      "title": "Finalidad con infinitivo",
+      "plain": "To, in order to y so as to introducen finalidad con verbo en forma base. For no se une directamente a una forma base con este sentido.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/infinitives-with-and-without-to"
+        }
+      ],
+      "tip": "Para responder para qué con un verbo: to + verbo.",
+      "example": "We stopped in order to check the map.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-connector",
+      "title": "Conectores y tipo de complemento",
+      "plain": "Although/though enlazan cláusulas; despite/in spite of admiten nombre o -ing. Because introduce cláusula y because of un grupo nominal.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/although-or-though"
+        }
+      ],
+      "tip": "Mira lo que sigue: verbo con sujeto o grupo nominal.",
+      "example": "Although it was windy, we walked outside.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-imperative",
+      "title": "Imperativos y propuestas con let’s",
+      "plain": "El imperativo usa forma base; la negación habitual es don’t + base. Let’s + base propone una acción conjunta y let’s not la niega.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/imperatives"
+        }
+      ],
+      "tip": "Una orden no necesita un sujeto expreso; let’s incluye al hablante.",
+      "example": "Please close the window. Let’s not wake the baby.",
+      "topic": "modals-obligation"
+    },
+    {
+      "id": "en-so",
+      "title": "Sustitución con so y respuestas concordantes",
+      "plain": "Think/hope so sustituyen una idea afirmativa. So + auxiliar + sujeto expresa coincidencia afirmativa; nor/neither se usan para una negativa.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/so"
+        }
+      ],
+      "tip": "I think so resume una idea; nor do I coincide con una negación.",
+      "example": "Is the shop open? I think so.",
+      "topic": "prepositions-patterns"
+    },
+    {
+      "id": "en-vocabulary",
+      "title": "Vocabulario y categoría de palabra",
+      "plain": "La palabra debe tener el significado y la categoría que requiere su función. Un sustantivo no sustituye automáticamente a un adjetivo o a un verbo.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/word-formation"
+        }
+      ],
+      "tip": "Comprueba qué significa la palabra y qué trabajo hace en la frase.",
+      "example": "The eager student asked another question.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-anomaly",
+      "title": "Ambigüedad y límites del enunciado",
+      "plain": "Una forma gramatical puede tener varias lecturas. Sin contexto suficiente o con una importación incompleta, una clave histórica no demuestra una solución única.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/modal-verbs"
+        }
+      ],
+      "tip": "No confundas una respuesta guardada con una prueba de que las demás sean imposibles.",
+      "example": "She may arrive today, or she might arrive tomorrow.",
+      "topic": null
+    },
+    {
+      "id": "en-have",
+      "title": "Have / has / had: posesión y auxiliar",
+      "plain": "Have cambia a has con tercera persona singular y a had en pasado. Como auxiliar de los tiempos perfectos, va seguido de participio.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/have-got-and-have"
+        }
+      ],
+      "tip": "Primero decide si have expresa posesión o forma un tiempo perfecto.",
+      "example": "My neighbour has two bicycles.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-article",
+      "title": "A, an y artículo cero",
+      "plain": "A/an acompañan un nombre contable singular; an se usa ante sonido vocálico. Los plurales e incontables pueden aparecer sin artículo según el sentido.",
+      "sourceRefs": [
+        {
+          "name": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/articles-a-an-the"
+        }
+      ],
+      "tip": "Escucha el sonido inicial y comprueba si el nombre es singular contable.",
+      "example": "She bought an umbrella and a map.",
+      "topic": "quantifiers-nouns"
+    },
+    {
+      "id": "en-greeting",
+      "title": "Saludos y fórmulas según el momento",
+      "plain": "Las fórmulas de saludo dependen de la situación y la hora: good morning, good afternoon, good evening; good night suele usarse al despedirse o antes de dormir.",
+      "sourceRefs": [
+        {
+          "name": "Cambridge English Grammar Today",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/good-evening"
+        }
+      ],
+      "tip": "No traduzcas palabra por palabra: identifica primero el momento y si se saluda o se despide.",
+      "example": "Good evening, everyone. See you tomorrow; good night.",
+      "topic": "quantifiers-nouns"
+    }
+  ]
+}

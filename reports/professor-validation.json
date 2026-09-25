@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "structuralValidation": {
+    "passed": true,
+    "errors": []
+  },
+  "coverage": {
+    "english": {
+      "expected": 1261,
+      "records": 1261,
+      "byStatus": {
+        "editorial": 1247,
+        "anomaly": 14
+      },
+      "bySource": {
+        "official": {
+          "total": 401,
+          "byStatus": {
+            "editorial": 387,
+            "anomaly": 14
+          }
+        },
+        "generated": {
+          "total": 500,
+          "byStatus": {
+            "editorial": 500
+          }
+        },
+        "stanley": {
+          "total": 360,
+          "byStatus": {
+            "editorial": 360
+          }
+        }
+      },
+      "sourceVerified": 0
+    },
+    "ortografia": {
+      "expected": 2480,
+      "records": 2480,
+      "byStatus": {
+        "editorial": 2471,
+        "anomaly": 9
+      },
+      "bySource": {
+        "official": {
+          "total": 480,
+          "byStatus": {
+            "editorial": 471,
+            "anomaly": 9
+          }
+        },
+        "training": {
+          "total": 2000,
+          "byStatus": {
+            "editorial": 2000
+          }
+        }
+      },
+      "sourceVerified": 0
+    },
+    "gramatica": {
+      "expected": 640,
+      "records": 640,
+      "byStatus": {
+        "editorial": 559,
+        "anomaly": 81
+      },
+      "bySource": {
+        "official": {
+          "total": 140,
+          "byStatus": {
+            "editorial": 139,
+            "anomaly": 1
+          }
+        },
+        "training": {
+          "total": 500,
+          "byStatus": {
+            "editorial": 420,
+            "anomaly": 80
+          }
+        }
+      },
+      "sourceVerified": 0
+    }
+  },
+  "anomalies": [
+    {
+      "module": "english",
+      "id": "oficial-2-8",
+      "source": "official",
+      "reason": "Hay dos huecos y falta el verbo aumentado (p. ej. boosted) antes de their chances; las opciones solo resuelven el segundo segmento.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-2-17",
+      "source": "official",
+      "reason": "Ninguna opción es correcta: debería ser should sleep u ought to sleep. Se conserva el texto original y se neutraliza la puntuación.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-6-15",
+      "source": "official",
+      "reason": "Become carece de complemento; no se puede completar la frase con las opciones tal como está importada.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-10-5",
+      "source": "official",
+      "reason": "El orden de always/usually/never antes de be puede ser enfático. Revisar la instrucción original y el criterio de mejor respuesta.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-10-9",
+      "source": "official",
+      "reason": "Ambigüedad validada en revisión humana: b) who y d) that son sujetos válidos de la relativa especificativa. Se conserva en el modelo histórico, pero queda anulada para todos: no suma ni resta y no entra en el denominador. Dictamen lingüístico, no plantilla oficial verificada.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-10-10",
+      "source": "official",
+      "reason": "El segundo hueco exige un sustantivo (p. ej. one), pero las opciones contienen preposiciones. Importación incompatible.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-10-11",
+      "source": "official",
+      "reason": "Ambigüedad validada en revisión humana: a) is more friendly than y b) is not as friendly as son gramaticales con significados distintos. Sin contexto no hay clave única. Se conserva en el modelo histórico, anulada sin efecto sobre la nota. Dictamen lingüístico, no plantilla oficial verificada.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-11-5",
+      "source": "official",
+      "reason": "Falta el segundo hueco después de and; las respuestas traen dos segmentos. No se reescribe el original.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-11-14",
+      "source": "official",
+      "reason": "Falta el sujeto interrogativo What; ninguna opción forma una pregunta completa.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-13-5",
+      "source": "official",
+      "reason": "El enunciado ya contiene la respuesta the highest building in y no tiene hueco.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-13-13",
+      "source": "official",
+      "reason": "Working no tiene contexto suficiente: because of working resulta poco natural; requiere cotejo con original.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-13-15",
+      "source": "official",
+      "reason": "Anomalía validada en revisión humana: ninguna opción es inequívocamente correcta en el texto conservado. Worked hardly no justifica aceptar c como solución definitiva; la combinación esperable well / hard no figura entre las opciones. Se retira la corrección propuesta c y se conserva b únicamente como clave histórica importada, no como solución válida. Pregunta anulada sin efecto sobre la nota; requiere cotejo con la fuente.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-15-10",
+      "source": "official",
+      "reason": "Falta I en el enunciado y todas las opciones: ninguna forma una oración completa.",
+      "neutralized": true
+    },
+    {
+      "module": "english",
+      "id": "oficial-16-14",
+      "source": "official",
+      "reason": "And, but, because y so pueden formar estructuras gramaticales con relaciones discursivas distintas; contexto insuficiente.",
+      "neutralized": true
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-5-6:3",
+      "source": "official",
+      "reason": "Estranaba parece una transcripción dañada. Extrañaba encaja con las comidas en el extranjero, pero no acredita el texto original.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-5-8:4",
+      "source": "official",
+      "reason": "Estravagantante tiene una secuencia duplicada o corrupta; extravagante es una reconstrucción editorial probable.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-6-7:1",
+      "source": "official",
+      "reason": "Llantaba no identifica de forma segura el verbo original. Yantaba (comía) es una lectura posible para la yegua; no está acreditada por una plantilla.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-8-1:2",
+      "source": "official",
+      "reason": "El banco marca B, pero la palabra conservada opíaceos desplaza la tilde; la forma normativa es opiáceos.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-11-4:2",
+      "source": "official",
+      "reason": "El banco marca B para refujio, pero el sustantivo se escribe refugio.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-19-7:3",
+      "source": "official",
+      "reason": "El elemento hatazada no coincide con hatezada en la frase: hay corrupción de transcripción. Atezada es una lectura editorial posible, no una reconstrucción acreditada.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-20-8:3",
+      "source": "official",
+      "reason": "El banco marca B para acerbo, pero un conjunto de normas es un acervo; acerbo significa áspero o cruel.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-21-4:3",
+      "source": "official",
+      "reason": "Estrafios parece una lectura OCR de extraños; el sentido lo permite, pero no garantiza la grafía original.",
+      "neutralized": false
+    },
+    {
+      "module": "ortografia",
+      "id": "oficial-22-7:1",
+      "source": "official",
+      "reason": "Cojá no permite recuperar con certeza el tiempo ni la persona originales; cogió encaja con se marchó, pero es una hipótesis editorial.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "oficial-2-8",
+      "source": "official",
+      "reason": "El banco conserva M, pero detrás de mí está bien formado; la explicación anterior también lo reconocía. No hay una corrección normativa que justifique esa clave.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-041",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-043",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-045",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-047",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-049",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-051",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-053",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-055",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-057",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-059",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-081",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-083",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-085",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-087",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-089",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-091",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-093",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-095",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-097",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-099",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-121",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-123",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-125",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-127",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-129",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-131",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-133",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-135",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-137",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-139",
+      "source": "training",
+      "reason": "La clave M contradice una concordancia admitida: la mayoría de los aspirantes puede llevar aprobaron o aprobó. La versión singular no invalida la plural.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-281",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-283",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-285",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-287",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-289",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-291",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-293",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-295",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-297",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-299",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-361",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-363",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-365",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-367",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-369",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-371",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-373",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-375",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-377",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-379",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-401",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-403",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-405",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-407",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-409",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-411",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-413",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-415",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-417",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-419",
+      "source": "training",
+      "reason": "Salir cerrando admite una lectura simultánea o de modo. El enunciado no obliga a interpretar una segunda acción posterior, por lo que la clave M no es inequívoca.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-441",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-443",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-445",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-447",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-449",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-451",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-453",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-455",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-457",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-459",
+      "source": "training",
+      "reason": "La plantilla conserva una preposición seguida del artículo el sin la contracción del/al. La explicación heredada no cubre ese defecto adicional.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-461",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-463",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-465",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-467",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-469",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-471",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-473",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-475",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-477",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    },
+    {
+      "module": "gramatica",
+      "id": "nueva-gramatica-479",
+      "source": "training",
+      "reason": "Debe de revisar puede expresar suposición y también obligación en el uso culto. El contexto no impone la lectura exclusiva que justificaría M.",
+      "neutralized": false
+    }
+  ],
+  "linguisticReview": "Dictámenes y anomalías documentados en los informes pedagógicos. Pasar el esquema no demuestra que una clave sea lingüísticamente inequívoca.",
+  "officialTemplateVerification": "Solo sourceVerified:true constituye cotejo de plantilla. Las referencias gramaticales no verifican por sí mismas la clave histórica.",
+  "unavailablePolicy": "Únicamente snapshots incompatibles/antiguos o entradas excluidas sin ficha; ninguna entrada cubierta puede carecer de ficha completa.",
+  "runtime": "Determinista y local; sin IA remota ni peticiones a las fuentes durante ejecución o tests."
+}

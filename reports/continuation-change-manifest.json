@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-23",
+  "sourceArchive": "guardia-civil-transfer(1).zip",
+  "sourceArchiveSha256": "9ff978938a3e46157d34b8606296c25db19884d76d0e073963bf6d818b66cf16",
+  "added": [
+    {
+      "path": "data/professor/english-rules.json",
+      "sha256": "3de633929cfe43c02e4954e823775e7e35903db4c2503ee0ce0fcb5538733d54"
+    },
+    {
+      "path": "data/professor/english.json",
+      "sha256": "e046c71c9c6eeb8f9a9b5e1c5c3b1643033bad2fd6a69c646e1c60aef6bf0ba9"
+    },
+    {
+      "path": "data/professor/rules.json",
+      "sha256": "d219db24e55c196e8c2d42d3b5b9a9a8faa8366e5d0ee53f3862c61cc96a2c4f"
+    },
+    {
+      "path": "reports/continuation-2026-09-23.md",
+      "sha256": "456a265f4f7b8a04bf27783eaa6f11cd28406f546e20941ae14a9bff4223470e"
+    },
+    {
+      "path": "reports/continuation-hashes.txt",
+      "sha256": "35f113920227c2b34f2fa6c608e687e2136728c31b69cd23780478a4dffdb54b"
+    },
+    {
+      "path": "reports/continuation-tests.txt",
+      "sha256": "75de689fc10b51251ec187b4d9447368b5695c5f4bcf699425fcffe7bcc1b8cb"
+    },
+    {
+      "path": "reports/professor-english-audit.md",
+      "sha256": "0c13d4c16743e2988d9ac594f9c573e9c7b614426a5bbefc3e2263bacba26d49"
+    },
+    {
+      "path": "reports/professor-validation.json",
+      "sha256": "a9e3ec2d9247c1ed945bb63767999d9abbf107b0ad1cdaf2da13e549750f0bbd"
+    }
+  ],
+  "changed": [
+    {
+      "path": "README.md",
+      "beforeSha256": "4d2e1a337fdbd5488730deec4b8c02898df0f917dfa7153a6e989eac15861e3a",
+      "afterSha256": "52e807b51b507f1bdd6691286e9a7cc883da3ef89494ffe804af5e5641149980"
+    },
+    {
+      "path": "assets/js/modules/professor/render.js",
+      "beforeSha256": "bbffa485ca1570942b50403cbb72720e5a15759a01b464e95f2e420e32ce171e",
+      "afterSha256": "4de4db773a9c4dae9c8118d7040c05e8e4fd982d21b20cf863bd10273d172f19"
+    },
+    {
+      "path": "assets/js/services/professor.js",
+      "beforeSha256": "32a95c6b45096eec79014e845a89494dda6d52b89a56e10e248c0ad801a6ca27",
+      "afterSha256": "8ebfd663ff31090554da1b7e525eff72bfeec5b36edc2eb6b6fd646f99aae34c"
+    },
+    {
+      "path": "data/professor/grammar.json",
+      "beforeSha256": "785c99916f186ed3334e771a4595d65ab2a691380e2e8a5070c069d906adf441",
+      "afterSha256": "687a04a7ecc956b06862393aab7be2e604072af9cb570b4d46511b9f7932fdbe"
+    },
+    {
+      "path": "data/professor/orthography.json",
+      "beforeSha256": "ab00fe77f869e258bca49e067b61e7c352bbb9087ae1ef59db9fd9c1f62ee14d",
+      "afterSha256": "606055027ebc0f00532c4ed8780e19e9a35970f8a9cda4161209b74e65921deb"
+    },
+    {
+      "path": "scripts/build-professor-english.mjs",
+      "beforeSha256": "527fa5b4e7c2be7c6fee8fa2a1cbf26a97d789eeefb50bd3686ebb469fe027b8",
+      "afterSha256": "09a746891e6f91b205414448b053111fab873c98d15363d25606ec3d328b8bb8"
+    },
+    {
+      "path": "scripts/build-professor-spanish.mjs",
+      "beforeSha256": "a04c4ad903bc55b94a1160809ae369f11a1074e2386ae72096fb233f8ba4f29c",
+      "afterSha256": "920531dbe2745da1636981b6397b86bd6cd055fb1518df2b98873e759096c6bb"
+    },
+    {
+      "path": "tests/professor.test.mjs",
+      "beforeSha256": "e43995e78b4622756fd69f654adef0292b6c04ecc59d0b4c436be79e787a8173",
+      "afterSha256": "f50f46af6a0066a2f70ffc89062a3c7f9f5ff862b1692c9532540858a5dc7325"
+    }
+  ],
+  "removed": [],
+  "protectedFiles": [
+    {
+      "path": "data/english/official.json",
+      "unchanged": true,
+      "sha256": "799499eca4fca86044ffc474519e03763fdf17ec81b65d2a3483af586ae4fc6b"
+    },
+    {
+      "path": "data/english/training.json",
+      "unchanged": true,
+      "sha256": "fc8196516e1b0fd2968875e2a2c465f90f22bfb4bae8cb1787bdbd2c070b4107"
+    },
+    {
+      "path": "data/orthography/official.json",
+      "unchanged": true,
+      "sha256": "fa919a34e04716d0a2f3bb9310e4856ea706e581d409c9503a54ed48d1d792f9"
+    },
+    {
+      "path": "data/orthography/training.json",
+      "unchanged": true,
+      "sha256": "d0082d823fa5ac67405924702c42e24bc3c05ebb632871cad6b61d8a976925ee"
+    },
+    {
+      "path": "data/grammar/official.json",
+      "unchanged": true,
+      "sha256": "cc046f397d1f84524fe22eaeefb356c56819bd2f8e41fe00badedc535dd18e7e"
+    },
+    {
+      "path": "data/grammar/training.json",
+      "unchanged": true,
+      "sha256": "0aff3d235465390149d4e0a58cdcdf8e9ad7a83d8a4c2ec3a1588e860ab4c891"
+    },
+    {
+      "path": "reports/baseline.json",
+      "unchanged": true,
+      "sha256": "c35e032cae7ebecb7fd4f2a32dd7a3703c6488b9a87a16a0536c1e1fb664bf3a"
+    }
+  ]
+}

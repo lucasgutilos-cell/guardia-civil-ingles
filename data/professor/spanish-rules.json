@@ -1,0 +1,1339 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "es-haber",
+      "title": "Haber existencial impersonal",
+      "plain": "Haber existencial no tiene sujeto y se usa en singular.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · haber",
+          "url": "https://www.rae.es/dpd/haber"
+        }
+      ],
+      "exampleGood": "Hubo tres llamadas esta tarde.",
+      "memoryTip": "Existencia: hay, había, hubo, habrá.",
+      "examTrap": "El nombre plural pospuesto no es el sujeto de haber.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-haber-nosotros",
+      "title": "Haber existencial y primera persona",
+      "plain": "Para incluir al hablante en un grupo se prefiere éramos o estábamos; haber existencial sigue en singular.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · haber",
+          "url": "https://www.rae.es/dpd/haber"
+        }
+      ],
+      "exampleGood": "Éramos seis esperando el autobús.",
+      "memoryTip": "Si te incluyes en el grupo, elige estar o ser.",
+      "examTrap": "Habíamos como equivalente de estábamos no es el uso formal recomendado.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-dequeismo",
+      "title": "Subordinada sin de con opinar y afirmar",
+      "plain": "Opinar y afirmar introducen el contenido mediante que, sin de.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · dequeísmo",
+          "url": "https://www.rae.es/dpd/deque%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "Opino que el puente es seguro.",
+      "memoryTip": "Prueba con opino eso, no opino de eso.",
+      "examTrap": "No añadas una preposición solo porque después aparezca que.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-queismo",
+      "title": "Complementos que conservan de ante que",
+      "plain": "Convencido, certeza, condición y espera conservan de ante una oración con que.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · queísmo",
+          "url": "https://www.rae.es/dpd/que%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "Tengo la certeza de que llegará.",
+      "memoryTip": "Sustituye la oración por eso: convencido de eso.",
+      "examTrap": "La subordinada no elimina la preposición que exige el nombre o adjetivo.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-acordarse",
+      "title": "Régimen de acordarse de",
+      "plain": "Acordarse se construye con de; ante el artículo el se escribe del.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · acordar",
+          "url": "https://www.rae.es/dpd/acordar"
+        }
+      ],
+      "exampleGood": "Me acordé del cumpleaños de Rosa.",
+      "memoryTip": "Recordar algo, pero acordarse de algo.",
+      "examTrap": "No confundas el régimen de dos verbos de significado parecido.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-insistir",
+      "title": "Régimen de insistir en",
+      "plain": "El asunto en que se insiste se introduce con en, también delante de que.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · insistir",
+          "url": "https://www.rae.es/dpd/insistir"
+        }
+      ],
+      "exampleGood": "Insistió en llamar a Marta.",
+      "memoryTip": "Insiste en algo: conserva en.",
+      "examTrap": "Cambiar en por de o suprimirlo altera el régimen.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-leismo",
+      "title": "Complemento directo femenino: la",
+      "plain": "Una mujer como complemento directo de ver se representa con la.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · leísmo",
+          "url": "https://www.rae.es/dpd/le%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "A mi vecina la vi ayer.",
+      "memoryTip": "Ver a una mujer: la veo.",
+      "examTrap": "La a personal no convierte el complemento directo en indirecto.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-laismo",
+      "title": "Complemento indirecto: le",
+      "plain": "La persona destinataria de dar algo es complemento indirecto y se expresa con le, sea hombre o mujer.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · laísmo",
+          "url": "https://www.rae.es/dpd/la%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "A mi hermana le di un regalo.",
+      "memoryTip": "Algo es lo dado; le señala a quién se da.",
+      "examTrap": "El género femenino no justifica la como indirecto.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-leismo-cosa",
+      "title": "Complemento directo de cosa: lo",
+      "plain": "El referente masculino inanimado de un complemento directo se representa con lo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · leísmo",
+          "url": "https://www.rae.es/dpd/le%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "Ese abrigo no pienso usarlo.",
+      "memoryTip": "Para una cosa masculina: lo uso.",
+      "examTrap": "La admisión de le para personas masculinas no se extiende a objetos.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-indirecto",
+      "title": "Pronombres de complemento indirecto",
+      "plain": "Le y les señalan destinatarios; delante de lo, la, los o las se convierten en se.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · pronombres personales átonos",
+          "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos"
+        }
+      ],
+      "exampleGood": "Se las envié a mis primos.",
+      "memoryTip": "Le más lo se convierte en se lo.",
+      "examTrap": "Se no cambia de forma aunque haya varios destinatarios.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-clitic-order",
+      "title": "Orden de se y otros pronombres",
+      "plain": "Se precede a me, te, nos y os en un grupo de pronombres átonos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · pronombres personales átonos",
+          "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos"
+        }
+      ],
+      "exampleGood": "Se me cayó el cuaderno.",
+      "memoryTip": "El grupo comienza por se.",
+      "examTrap": "El orden me se no es el estándar.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-delante",
+      "title": "Delante y detrás con pronombre personal",
+      "plain": "En el registro formal general se recomienda delante de mí o de él, sin posesivo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · delante",
+          "url": "https://www.rae.es/dpd/delante"
+        }
+      ],
+      "exampleGood": "La mochila está delante de ti.",
+      "memoryTip": "Después de de, usa mí, ti, él o ella.",
+      "examTrap": "Delante mío está extendido regionalmente, pero no es la recomendación formal general.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-lado",
+      "title": "Concordancia del posesivo con lado",
+      "plain": "Lado es masculino: a mi lado o al lado mío; también al lado de mí.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · lado",
+          "url": "https://www.rae.es/dpd/lado"
+        }
+      ],
+      "exampleGood": "Siéntate al lado mío.",
+      "memoryTip": "El posesivo concuerda con lado, no con la persona.",
+      "examTrap": "Al lado mía mezcla un sustantivo masculino y un posesivo femenino.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-relativo",
+      "title": "Relativo que para antecedente de cosa",
+      "plain": "Que puede retomar una cosa; quien se reserva para personas o entidades personificadas.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · quien",
+          "url": "https://www.rae.es/dpd/quien"
+        }
+      ],
+      "exampleGood": "El museo al que fuimos estaba cerrado.",
+      "memoryTip": "Para un edificio: al que.",
+      "examTrap": "No elijas quien solo porque la construcción lleve a.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-relativo-simple",
+      "title": "Relativo que sin artículo innecesario",
+      "plain": "En una relativa especificativa con antecedente expreso, que puede funcionar directamente como complemento.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · que",
+          "url": "https://www.rae.es/dpd/que"
+        }
+      ],
+      "exampleGood": "La carta que escribiste ya llegó.",
+      "memoryTip": "Antecedente seguido de que: la carta que escribí.",
+      "examTrap": "No añadas el entre el antecedente y que cuando no lo exige la construcción.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-cuyo",
+      "title": "Cuyo concuerda con lo poseído",
+      "plain": "Cuyo expresa relación posesiva y concuerda con el nombre que le sigue.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · cuyo",
+          "url": "https://www.rae.es/dpd/cuyo"
+        }
+      ],
+      "exampleGood": "Vino la autora cuya novela leí.",
+      "memoryTip": "Mira el nombre posterior: cuya novela.",
+      "examTrap": "No hagas concordar cuyo con el poseedor.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-a-personal",
+      "title": "A ante complemento directo personal",
+      "plain": "El complemento directo que designa una persona concreta suele introducirse con a.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · a",
+          "url": "https://www.rae.es/dpd/a"
+        }
+      ],
+      "exampleGood": "Ayudamos a la nueva profesora.",
+      "memoryTip": "Persona identificada: ayudar a alguien.",
+      "examTrap": "Ayudar y la presencia de un nombre personal no permiten omitir automáticamente a.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-subjuntivo",
+      "title": "Subjuntivo con negación, deseo o probabilidad",
+      "plain": "Deseos, negaciones de creencia y valoraciones de probabilidad suelen introducir una subordinada en subjuntivo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · subjuntivo",
+          "url": "https://dle.rae.es/subjuntivo"
+        }
+      ],
+      "exampleGood": "Espero que encuentres las llaves.",
+      "memoryTip": "Quiero que suceda: subjuntivo.",
+      "examTrap": "El indicativo afirma un hecho; aquí se expresa deseo, duda o valoración.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-sin-que",
+      "title": "Sin que con subjuntivo",
+      "plain": "Sin que presenta una circunstancia que no se realiza y selecciona subjuntivo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · sin",
+          "url": "https://www.rae.es/dpd/sin"
+        }
+      ],
+      "exampleGood": "Salió sin que nadie lo viera.",
+      "memoryTip": "Sin que ocurra, no sin que ocurre.",
+      "examTrap": "La afirmación en indicativo choca con la subordinada negativa.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-condicion",
+      "title": "Si hipotético con subjuntivo",
+      "plain": "Una condición hipotética usa si tuviera o tuviese, seguida normalmente de un condicional.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · si",
+          "url": "https://www.rae.es/dpd/si"
+        }
+      ],
+      "exampleGood": "Si lloviera, llevaría paraguas.",
+      "memoryTip": "Si pudiera, lo haría.",
+      "examTrap": "El condicional no sustituye al subjuntivo detrás de si en esta lectura.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-condicion-pasada",
+      "title": "Condición irreal del pasado",
+      "plain": "Si hubiera sucedido plantea la condición pasada; habría sucedido expresa su consecuencia.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · si",
+          "url": "https://www.rae.es/dpd/si"
+        }
+      ],
+      "exampleGood": "Si me hubieras avisado, habría ido.",
+      "memoryTip": "Primero hubiera; después habría.",
+      "examTrap": "Hubiera también puede aparecer en la consecuencia: no es ese el error de si habría.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-andar",
+      "title": "Pretérito irregular de andar",
+      "plain": "El pasado simple de andar usa la raíz anduv-: anduvo, anduvieron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · andar",
+          "url": "https://www.rae.es/dpd/andar"
+        }
+      ],
+      "exampleGood": "Anduvimos hasta el refugio.",
+      "memoryTip": "Andar se apoya en anduv-.",
+      "examTrap": "No regularices el pretérito como andó.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-satisfacer",
+      "title": "Conjugación de satisfacer",
+      "plain": "Satisfacer sigue la irregularidad de hacer: satisfizo, satisficiera.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · satisfacer",
+          "url": "https://www.rae.es/dpd/satisfacer"
+        }
+      ],
+      "exampleGood": "La explicación satisfizo a Inés.",
+      "memoryTip": "Hizo ayuda a recordar satisfizo.",
+      "examTrap": "Satisfació es una regularización ajena a la norma.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-prever",
+      "title": "Prever sigue a ver",
+      "plain": "Prever se conjuga como ver: previó, prevén, previeron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · prever",
+          "url": "https://www.rae.es/dpd/prever"
+        }
+      ],
+      "exampleGood": "No previeron aquella tormenta.",
+      "memoryTip": "Pre más ver conserva la conjugación de ver.",
+      "examTrap": "No mezcles prever con proveer.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-poner",
+      "title": "Pretérito irregular de poner",
+      "plain": "El pretérito de poner tiene la raíz pus-: puso, pusieron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · poner",
+          "url": "https://www.rae.es/dpd/poner"
+        }
+      ],
+      "exampleGood": "Pusieron una señal nueva.",
+      "memoryTip": "Poner en pasado: puso.",
+      "examTrap": "Ponieron copia una terminación regular que no corresponde.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-conducir",
+      "title": "Pretérito de verbos en -ducir",
+      "plain": "Conducir y producir tienen pretéritos en -dujo y -dujeron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · conducir",
+          "url": "https://www.rae.es/dpd/conducir"
+        }
+      ],
+      "exampleGood": "El guía condujo al grupo al teatro.",
+      "memoryTip": "Condujo en singular, condujeron en plural.",
+      "examTrap": "La raíz del infinitivo no se conserva como conducieron.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-otros-irregulares",
+      "title": "Raíz irregular del pretérito",
+      "plain": "Los derivados conservan las irregularidades del verbo base: contuvieron, predijeron, atuvieron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · conjugación",
+          "url": "https://dle.rae.es/conjugaci%C3%B3n"
+        }
+      ],
+      "exampleGood": "Las alumnas mantuvieron la calma.",
+      "memoryTip": "Relaciona contener con tener y predecir con decir.",
+      "examTrap": "No formes estos pasados como verbos regulares.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-llegar",
+      "title": "Llegamos en pasado indicativo",
+      "plain": "Anoche sitúa un hecho pasado afirmado y corresponde llegamos, no lleguemos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · llegar",
+          "url": "https://dle.rae.es/llegar"
+        }
+      ],
+      "exampleGood": "El sábado llegamos al amanecer.",
+      "memoryTip": "Llegamos cuenta; lleguemos propone.",
+      "examTrap": "Lleguemos es subjuntivo, no el pasado simple de llegar.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-imperativo",
+      "title": "Imperativo dirigido a vosotros",
+      "plain": "Las órdenes directas afirmativas a vosotros usan formas como callad, escuchad y coged.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · infinitivo",
+          "url": "https://www.rae.es/dpd/infinitivo"
+        }
+      ],
+      "exampleGood": "Abrid el paquete con cuidado.",
+      "memoryTip": "Para vosotros, buscad la d final.",
+      "examTrap": "El infinitivo es válido en avisos impersonales, pero no sustituye sin más a la orden personal.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-encliticos",
+      "title": "Pronombres unidos al imperativo",
+      "plain": "Los pronombres pospuestos se escriben unidos al verbo y el conjunto sigue las reglas de tilde.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · pronombres personales átonos",
+          "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos"
+        }
+      ],
+      "exampleGood": "Explícamelo con calma.",
+      "memoryTip": "En un imperativo afirmativo, une el verbo y los pronombres y vuelve a comprobar la tilde.",
+      "examTrap": "No separes los pronombres pospuestos del imperativo: di + me = dime; diga + me + lo = dígamelo.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-nos-imperativo",
+      "title": "Pérdida de s ante nos",
+      "plain": "El exhortativo de primera persona plural pierde la s final al añadirse nos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · pronombres personales átonos",
+          "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos"
+        }
+      ],
+      "exampleGood": "Sentémonos cerca de la ventana.",
+      "memoryTip": "Sentemos más nos da sentémonos.",
+      "examTrap": "No se acumulan s y n en sentémosnos.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-concordancia",
+      "title": "Concordancia de sujeto y verbo",
+      "plain": "El verbo concuerda en número con el sujeto.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · concordancia",
+          "url": "https://www.rae.es/dpd/concordancia"
+        }
+      ],
+      "exampleGood": "Las ventanas permanecieron abiertas.",
+      "memoryTip": "Localiza quién realiza la acción.",
+      "examTrap": "Un nombre cercano no siempre es el núcleo del sujeto.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-participio",
+      "title": "Concordancia de adjetivo y participio",
+      "plain": "El participio adjetival concuerda en género y número con el nombre al que se refiere.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · concordancia",
+          "url": "https://www.rae.es/dpd/concordancia"
+        }
+      ],
+      "exampleGood": "Las puertas quedaron cerradas.",
+      "memoryTip": "Puertas: femenino plural, cerradas.",
+      "examTrap": "El participio con haber es invariable; con quedar o tener puede concordar.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-mayoria",
+      "title": "Concordancia con mayoría y complemento plural",
+      "plain": "La mayoría de más un plural permite verbo singular o plural.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · concordancia",
+          "url": "https://www.rae.es/dpd/concordancia"
+        }
+      ],
+      "exampleGood": "La mayoría de las vecinas llegaron temprano.",
+      "memoryTip": "Mayoría no impone siempre singular.",
+      "examTrap": "No condenes aprobaron si el sujeto es la mayoría de los aspirantes.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-colectivo",
+      "title": "Sujeto colectivo singular",
+      "plain": "Un colectivo singular como equipo suele concordar en singular cuando se presenta como unidad.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · concordancia",
+          "url": "https://www.rae.es/dpd/concordancia"
+        }
+      ],
+      "exampleGood": "El equipo entregó el proyecto.",
+      "memoryTip": "El equipo actúa como una unidad.",
+      "examTrap": "No conviertas automáticamente en sujeto el plural de investigadores.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-epiceno",
+      "title": "Género de sustantivos de animales",
+      "plain": "La concordancia sigue al género del sustantivo; macho y hembra no lo cambian.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · género",
+          "url": "https://www.rae.es/dpd/g%C3%A9nero"
+        }
+      ],
+      "exampleGood": "La jirafa macho es alta.",
+      "memoryTip": "Macho indica sexo, no género gramatical.",
+      "examTrap": "Una orca sigue siendo femenina aunque sea macho.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-elefanta",
+      "title": "Femenino de elefante",
+      "plain": "La forma específica para la hembra es elefanta.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · elefante",
+          "url": "https://www.rae.es/dpd/elefante"
+        }
+      ],
+      "exampleGood": "La elefanta protegió a su cría.",
+      "memoryTip": "Elefante forma el femenino elefanta.",
+      "examTrap": "No trates todos los nombres de animales como comunes en cuanto al género.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-abadesa",
+      "title": "Femenino de abad",
+      "plain": "El femenino de abad es abadesa.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · abad",
+          "url": "https://dle.rae.es/abad"
+        }
+      ],
+      "exampleGood": "La abadesa abrió el archivo.",
+      "memoryTip": "Abad y abadesa forman pareja.",
+      "examTrap": "Cambiar solo el artículo no forma el femenino normativo.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-partitiva",
+      "title": "Concordancia tras soy de los que",
+      "plain": "Tras soy de los que se prefiere verbo en tercera persona plural.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · concordancia",
+          "url": "https://www.rae.es/dpd/concordancia"
+        }
+      ],
+      "exampleGood": "Soy de los que escuchan primero.",
+      "memoryTip": "Los que apoyan, aunque empiece por yo.",
+      "examTrap": "No atraigas el verbo de la relativa hacia la primera persona.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-impersonal-se",
+      "title": "Impersonal con se y persona precedida de a",
+      "plain": "Con se impersonal y complemento personal precedido de a, el verbo permanece singular.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · se",
+          "url": "https://www.rae.es/dpd/se"
+        }
+      ],
+      "exampleGood": "Se entrevistó a las testigos.",
+      "memoryTip": "Se busca a alguien: singular.",
+      "examTrap": "No combines el plural de una pasiva refleja con a personal.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-tratarse",
+      "title": "Tratarse de impersonal",
+      "plain": "Tratarse de es impersonal y se mantiene singular.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · tratar",
+          "url": "https://www.rae.es/dpd/tratar"
+        }
+      ],
+      "exampleGood": "Se trata de documentos antiguos.",
+      "memoryTip": "Se trata de uno o de varios.",
+      "examTrap": "El plural detrás de de no es sujeto.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-cuantas",
+      "title": "Cuanto determinante concuerda con el nombre",
+      "plain": "Cuanto lleva género y número cuando determina un sustantivo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · cuanto",
+          "url": "https://www.rae.es/dpd/cuanto"
+        }
+      ],
+      "exampleGood": "Cuantas más páginas leas, mejor.",
+      "memoryTip": "Mira el nombre: cuantas pruebas.",
+      "examTrap": "No uses cuanto invariable ante un sustantivo femenino plural.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-cuanto",
+      "title": "Cuanto adverbial y correlación proporcional",
+      "plain": "Cuanto más modifica un verbo o una cantidad; contra más no forma esta correlación.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · cuanto",
+          "url": "https://www.rae.es/dpd/cuanto"
+        }
+      ],
+      "exampleGood": "Cuanto más practiques, mejor saldrá.",
+      "memoryTip": "Con un verbo: cuanto más.",
+      "examTrap": "Contra es preposición, no el correlativo de más.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-correlativa-coma",
+      "title": "Coma en construcciones correlativas",
+      "plain": "La coma separa los dos miembros de la correlación cuanto más, mejor.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · coma",
+          "url": "https://www.rae.es/dpd/coma"
+        }
+      ],
+      "exampleGood": "Cuanto antes llegues, mejor.",
+      "memoryTip": "Separa la condición proporcional y su resultado.",
+      "examTrap": "La concordancia puede ser correcta y faltar la coma.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-mejor",
+      "title": "Mejor ya expresa comparación",
+      "plain": "Mejor es comparativo de bueno y no lleva más antepuesto en la misma comparación.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · mejor",
+          "url": "https://www.rae.es/dpd/mejor"
+        }
+      ],
+      "exampleGood": "Esta solución es la mejor.",
+      "memoryTip": "Mejor ya incluye más bueno.",
+      "examTrap": "Más mejor duplica el grado comparativo.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-durante",
+      "title": "Durante introduce directamente su término",
+      "plain": "Durante funciona como preposición temporal sin añadir en detrás.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · durante",
+          "url": "https://dle.rae.es/durante"
+        }
+      ],
+      "exampleGood": "Durante la reunión tomé notas.",
+      "memoryTip": "Durante más nombre: durante la clase.",
+      "examTrap": "Durante en acumula dos preposiciones sin función en este contexto.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-necesario",
+      "title": "Es necesario más infinitivo",
+      "plain": "El infinitivo que expresa lo necesario se une directamente a es necesario.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · necesario",
+          "url": "https://dle.rae.es/necesario"
+        }
+      ],
+      "exampleGood": "Es necesario descansar un poco.",
+      "memoryTip": "Es necesario hacerlo.",
+      "examTrap": "La preposición de no introduce aquí el infinitivo.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-deber",
+      "title": "Deber y deber de",
+      "plain": "Deber suele expresar obligación y deber de suele expresar suposición, con usos cultos compartidos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · deber",
+          "url": "https://www.rae.es/dpd/deber"
+        }
+      ],
+      "exampleGood": "Debemos revisar las fechas.",
+      "memoryTip": "Para ordenar, prefiere deber sin de.",
+      "examTrap": "La preferencia no permite declarar siempre incorrecto deber de.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-hay-que",
+      "title": "Obligación impersonal con hay que",
+      "plain": "Hay que más infinitivo expresa necesidad general.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · haber",
+          "url": "https://www.rae.es/dpd/haber"
+        }
+      ],
+      "exampleGood": "Hay que apagar las luces.",
+      "memoryTip": "La fórmula es hay que hacer.",
+      "examTrap": "No sustituyas que por de en esta perífrasis.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-gerundio",
+      "title": "Gerundio de modo o simultaneidad",
+      "plain": "El gerundio puede describir cómo ocurre una acción o una acción simultánea.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · gerundio",
+          "url": "https://www.rae.es/dpd/gerundio"
+        }
+      ],
+      "exampleGood": "Cruzó la plaza silbando.",
+      "memoryTip": "Pregunta si ambas acciones pueden coincidir.",
+      "examTrap": "No presupongas posterioridad cuando la frase admite simultaneidad.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-contraccion",
+      "title": "Contracciones al y del",
+      "plain": "Las preposiciones a y de se unen al artículo el: al, del; no se contraen ante El de un nombre propio.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · contracción",
+          "url": "https://www.rae.es/dpd/contracci%C3%B3n"
+        }
+      ],
+      "exampleGood": "Volvió del mercado al hotel.",
+      "memoryTip": "A más el da al; de más el da del.",
+      "examTrap": "El Escorial mantiene su artículo como parte del nombre propio.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-ordinales",
+      "title": "Ordinal frente a fraccionario",
+      "plain": "Duodécimo y decimosegundo expresan posición; doceavo expresa una parte.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · duodécimo",
+          "url": "https://www.rae.es/dpd/duod%C3%A9cimo"
+        }
+      ],
+      "exampleGood": "Mi habitación está en el duodécimo piso.",
+      "memoryTip": "Orden: duodécimo; fracción: doceavo.",
+      "examTrap": "Numerar pisos no equivale a dividirlos en doce partes.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-tilde",
+      "title": "Acentuación y tilde diacrítica",
+      "plain": "La tilde depende de la pronunciación y función; los interrogativos tónicos la llevan.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · tilde",
+          "url": "https://www.rae.es/dpd/tilde"
+        }
+      ],
+      "exampleGood": "No sé cuántos vendrán mañana.",
+      "memoryTip": "Interrogación indirecta también puede llevar tilde.",
+      "examTrap": "No pongas tildes por énfasis ni las suprimas porque no haya signos.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-aun",
+      "title": "Aún temporal y aun concesivo",
+      "plain": "Aún lleva tilde si equivale a todavía; aun suele equivaler a incluso o aunque.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · aun",
+          "url": "https://www.rae.es/dpd/aun"
+        }
+      ],
+      "exampleGood": "Aún no ha vuelto del trabajo.",
+      "memoryTip": "Sustituye por todavía.",
+      "examTrap": "Aun cuando puede ser concesivo y escribirse sin tilde.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-aunque",
+      "title": "Aunque como conjunción",
+      "plain": "Aunque se escribe en una palabra cuando introduce una concesión.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · aunque",
+          "url": "https://www.rae.es/dpd/aunque"
+        }
+      ],
+      "exampleGood": "Aunque haga frío, saldré.",
+      "memoryTip": "La concesión se une en aunque.",
+      "examTrap": "Separar aun que cambia la estructura.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-consigo",
+      "title": "Pronombre consigo en una palabra",
+      "plain": "Consigo es la forma reflexiva de tercera persona tras con.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · consigo",
+          "url": "https://www.rae.es/dpd/consigo"
+        }
+      ],
+      "exampleGood": "Estaba contenta consigo misma.",
+      "memoryTip": "Con él mismo: consigo mismo.",
+      "examTrap": "No separes con sigo.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-sin-embargo",
+      "title": "Locución adversativa sin embargo",
+      "plain": "La locución sin embargo se escribe con embargo, sin en intercalado.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · embargo",
+          "url": "https://dle.rae.es/embargo"
+        }
+      ],
+      "exampleGood": "Llovía; sin embargo, salimos.",
+      "memoryTip": "Dos palabras: sin embargo.",
+      "examTrap": "No mezcles sin embargo y en cambio.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-locuciones",
+      "title": "Separación de palabras en locuciones",
+      "plain": "A gusto, así que, cuesta arriba y a cambio mantienen sus palabras separadas.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · locución",
+          "url": "https://dle.rae.es/locuci%C3%B3n"
+        }
+      ],
+      "exampleGood": "Subimos cuesta arriba sin prisa.",
+      "memoryTip": "Aprende la locución como unidad de sentido, no como una palabra.",
+      "examTrap": "La unidad de significado no obliga a unir sus grafías.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-con-que",
+      "title": "Preposición con más conjunción que",
+      "plain": "Basta con que mantiene separadas la preposición exigida por bastar y la conjunción.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · conque",
+          "url": "https://www.rae.es/dpd/conque"
+        }
+      ],
+      "exampleGood": "Basta con que firmes aquí.",
+      "memoryTip": "Basta con eso: conserva con.",
+      "examTrap": "Conque unido expresa una consecuencia, no el requisito de bastar.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-prefijo",
+      "title": "Prefijos unidos a base de una palabra",
+      "plain": "Los prefijos se unen a una base de una palabra: semitransparente, sobreesfuerzo, cuasidelito.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · prefijos",
+          "url": "https://www.rae.es/dpd/prefijos"
+        }
+      ],
+      "exampleGood": "El cristal es semitransparente.",
+      "memoryTip": "Una base, una palabra prefijada.",
+      "examTrap": "No insertes un espacio después de semi cuando la base es simple.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-siquiera",
+      "title": "Siquiera en una palabra",
+      "plain": "Siquiera equivale aquí a al menos y forma una palabra.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · siquiera",
+          "url": "https://www.rae.es/dpd/siquiera"
+        }
+      ],
+      "exampleGood": "No quiso siquiera escucharme.",
+      "memoryTip": "Ni siquiera: una sola palabra final.",
+      "examTrap": "Si quiera separado contiene si y un verbo y cambia el análisis.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-a-ver",
+      "title": "A ver frente a haber",
+      "plain": "A ver contiene el infinitivo ver; haber es otro verbo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · haber",
+          "url": "https://www.rae.es/dpd/haber"
+        }
+      ],
+      "exampleGood": "Vamos a ver qué ocurre.",
+      "memoryTip": "Si significa mirar o comprobar: a ver.",
+      "examTrap": "La coincidencia de sonido no hace intercambiables ambas grafías.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-adicto",
+      "title": "Régimen de adicto a",
+      "plain": "Adicto introduce su complemento mediante a.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · adicto",
+          "url": "https://www.rae.es/dpd/adicto"
+        }
+      ],
+      "exampleGood": "Es adicta al café.",
+      "memoryTip": "Adicto a algo.",
+      "examTrap": "El régimen no se forma con de.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-antinieblas",
+      "title": "Adjetivo antiniebla",
+      "plain": "Antiniebla es el adjetivo usado para los dispositivos que ayudan a ver con niebla.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · antiniebla",
+          "url": "https://dle.rae.es/antiniebla"
+        }
+      ],
+      "exampleGood": "Encendió las luces antiniebla.",
+      "memoryTip": "Luces antiniebla: el compuesto conserva su forma.",
+      "examTrap": "No copies la s del plural luces dentro del compuesto.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-régimen-correcto",
+      "title": "Preposición exigida por el verbo",
+      "plain": "Apropiarse de, atenerse a e incautarse de conservan la preposición propia de cada verbo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · incautar",
+          "url": "https://www.rae.es/dpd/incautar"
+        }
+      ],
+      "exampleGood": "Se incautaron de la mercancía.",
+      "memoryTip": "Aprende el verbo junto con su preposición.",
+      "examTrap": "No suprimas la preposición por analogía con un verbo transitivo.",
+      "topicId": "que-regime"
+    },
+    {
+      "id": "es-adverbio",
+      "title": "Adverbio y complemento de modo o lugar",
+      "plain": "Los adverbios pueden modificar al verbo y expresar modo, lugar o grado sin concordar como adjetivos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · adverbio",
+          "url": "https://dle.rae.es/adverbio"
+        }
+      ],
+      "exampleGood": "Aprieta fuerte y mira arriba.",
+      "memoryTip": "Pregunta cómo o dónde ocurre.",
+      "examTrap": "Fuerte puede ser adverbio; no tiene por qué cambiar de género.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-declarativa",
+      "title": "Oración declarativa y concordancia",
+      "plain": "Una oración declarativa puede ser gramatical aunque exprese una negación o un hecho discutible.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · oración",
+          "url": "https://dle.rae.es/oraci%C3%B3n"
+        }
+      ],
+      "exampleGood": "Febrero no tiene treinta y un días.",
+      "memoryTip": "Valora la forma, no solo si el hecho te sorprende.",
+      "examTrap": "Corrección gramatical y verdad del contenido son criterios distintos.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-le-persona",
+      "title": "Leísmo admitido de persona masculina",
+      "plain": "Le puede representar un complemento directo de persona masculina en el uso admitido.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · leísmo",
+          "url": "https://www.rae.es/dpd/le%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "A mi hermano le vi en la estación.",
+      "memoryTip": "La admisión depende del referente, no solo del verbo.",
+      "examTrap": "No extiendas esta posibilidad automáticamente a mujeres o cosas.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-afeccion",
+      "title": "Verbos de afección con experimentante",
+      "plain": "El pronombre señala a quien experimenta el sentimiento y la causa funciona como sujeto.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · leísmo",
+          "url": "https://www.rae.es/dpd/le%C3%ADsmo"
+        }
+      ],
+      "exampleGood": "Me alegra tu visita.",
+      "memoryTip": "Qué produce el sentimiento es el sujeto.",
+      "examTrap": "El pronombre me no obliga al verbo a ir en primera persona.",
+      "topicId": "pronouns-relatives"
+    },
+    {
+      "id": "es-a-tonica",
+      "title": "Nombres femeninos con a tónica inicial",
+      "plain": "Ante un nombre femenino singular que empieza por a tónica se usa el, pero los adjetivos y demostrativos siguen en femenino.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · el",
+          "url": "https://www.rae.es/dpd/el"
+        }
+      ],
+      "exampleGood": "Esta águila tiene el ala herida.",
+      "memoryTip": "El arma, pero esta arma cargada.",
+      "examTrap": "El artículo el no convierte el sustantivo en masculino.",
+      "topicId": "agreement-impersonal"
+    },
+    {
+      "id": "es-antes-que",
+      "title": "Antes de que con subjuntivo",
+      "plain": "Antes de que introduce un hecho todavía no realizado desde la referencia temporal y admite subjuntivo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · antes",
+          "url": "https://www.rae.es/dpd/antes"
+        }
+      ],
+      "exampleGood": "Volveremos antes de que amanezca.",
+      "memoryTip": "Antes de que ocurra: subjuntivo.",
+      "examTrap": "La referencia futura no exige futuro de indicativo en la subordinada.",
+      "topicId": "verb-mood"
+    },
+    {
+      "id": "es-exclamativo-que",
+      "title": "Que exclamativo átono",
+      "plain": "Que puede introducir una exclamación intensificadora sin tilde cuando no es el interrogativo o exclamativo tónico qué.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · que",
+          "url": "https://www.rae.es/dpd/que"
+        }
+      ],
+      "exampleGood": "¡Que te caes!",
+      "memoryTip": "Distingue que introductor de qué intenso.",
+      "examTrap": "Los signos de exclamación no ponen tilde a todas las apariciones de que.",
+      "topicId": "normative-constructions"
+    },
+    {
+      "id": "es-ortho-b-v",
+      "title": "B y v en el léxico",
+      "plain": "B y v representan el mismo sonido en el español general; su elección se aprende con la forma y familia de cada palabra.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · b",
+          "url": "https://www.rae.es/dpd/b"
+        }
+      ],
+      "exampleGood": "La biblioteca conserva varios volúmenes.",
+      "memoryTip": "Asocia cada palabra con su familia escrita.",
+      "examTrap": "El oído no permite decidir por sí solo entre b y v.",
+      "topicId": "bv"
+    },
+    {
+      "id": "es-ortho-g-j",
+      "title": "G y j ante e, i",
+      "plain": "Ante e o i, g y j pueden representar el mismo sonido; cada palabra y su familia determinan la grafía.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · g",
+          "url": "https://www.rae.es/dpd/g"
+        }
+      ],
+      "exampleGood": "El general corrigió la agenda.",
+      "memoryTip": "Relaciona corregir con corregido.",
+      "examTrap": "La coincidencia de sonido no autoriza a intercambiar g y j.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-h",
+      "title": "H y palabras homófonas",
+      "plain": "La h normalmente no representa sonido; su presencia pertenece a la grafía de la palabra y puede distinguir significados.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · h",
+          "url": "https://www.rae.es/dpd/h"
+        }
+      ],
+      "exampleGood": "El huerto estaba húmedo.",
+      "memoryTip": "Comprueba la familia y el significado, no solo el sonido.",
+      "examTrap": "No borres una h porque no se pronuncie.",
+      "topicId": "h-accent"
+    },
+    {
+      "id": "es-ortho-acentuación",
+      "title": "Tildes, hiatos y palabras compuestas",
+      "plain": "La tilde marca la sílaba tónica según las reglas de acentuación o distingue determinadas funciones.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · tilde",
+          "url": "https://www.rae.es/dpd/tilde"
+        }
+      ],
+      "exampleGood": "El árbol crecía junto al río.",
+      "memoryTip": "Localiza primero dónde recae la voz.",
+      "examTrap": "Una tilde añadida por intuición puede crear otra pronunciación.",
+      "topicId": "h-accent"
+    },
+    {
+      "id": "es-ortho-diéresis",
+      "title": "Diéresis en güe y güi",
+      "plain": "La diéresis hace que se pronuncie la u en güe y güi; no se usa con gua o guo.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · diéresis",
+          "url": "https://www.rae.es/dpd/di%C3%A9resis"
+        }
+      ],
+      "exampleGood": "La cigüeña extendió las alas.",
+      "memoryTip": "Güe y güi necesitan dos puntos para que suene la u.",
+      "examTrap": "No añadas diéresis a paraguas.",
+      "topicId": "h-accent"
+    },
+    {
+      "id": "es-ortho-ll-y",
+      "title": "Distinción escrita de ll e y",
+      "plain": "Ll e y siguen grafías distintas aunque muchos hablantes las pronuncien igual.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · y",
+          "url": "https://www.rae.es/dpd/y"
+        }
+      ],
+      "exampleGood": "Hallaron huellas junto a la valla.",
+      "memoryTip": "El diminutivo -illo se escribe con ll.",
+      "examTrap": "El yeísmo no permite sustituir ll por y al escribir.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-x-s",
+      "title": "X y s en la escritura",
+      "plain": "X y s pertenecen a grafías distintas; la pronunciación simplificada de x no cambia la escritura.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · x",
+          "url": "https://www.rae.es/dpd/x"
+        }
+      ],
+      "exampleGood": "La excursión cruzó una explanada.",
+      "memoryTip": "Conserva ex- en explanada y experiencia.",
+      "examTrap": "Pronunciar una x como s no convierte la palabra en una grafía con s.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-c-s-z",
+      "title": "C, s y z en las familias léxicas",
+      "plain": "C, s y z no son intercambiables; el seseo no cambia su distribución escrita.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · c",
+          "url": "https://www.rae.es/dpd/c"
+        }
+      ],
+      "exampleGood": "El cocinero cerró la cocina.",
+      "memoryTip": "Relaciona cocinero con cocina.",
+      "examTrap": "La variedad de pronunciación no modifica la grafía normativa.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-grafía",
+      "title": "Secuencias de letras y familias léxicas",
+      "plain": "Los grupos de letras y las formas verbales deben conservar la escritura de la palabra y su conjugación.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · ortografía",
+          "url": "https://dle.rae.es/ortograf%C3%ADa"
+        }
+      ],
+      "exampleGood": "El hombre recibió un mensaje.",
+      "memoryTip": "Compara la raíz y la terminación por separado.",
+      "examTrap": "Una forma familiar al oído puede contener letras omitidas o duplicadas.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-lexical",
+      "title": "Grafía léxica conservada",
+      "plain": "Una palabra correctamente escrita conserva las letras y los signos propios de su forma; los errores de otra palabra no la alteran.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario de la lengua española · ortografía",
+          "url": "https://dle.rae.es/ortograf%C3%ADa"
+        }
+      ],
+      "exampleGood": "El informe llegó esta mañana.",
+      "memoryTip": "Revisa cada elemento por separado.",
+      "examTrap": "No marques una palabra correcta solo porque la frase contenga otros errores."
+    },
+    {
+      "id": "es-ortho-verb-decir",
+      "title": "Grafía de las formas de decir",
+      "plain": "Decir tiene pasado irregular con j: dije, dijimos.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · decir",
+          "url": "https://www.rae.es/dpd/decir"
+        }
+      ],
+      "exampleGood": "Ayer dije la verdad.",
+      "memoryTip": "Dijo se escribe con j; dijimos conserva esa raíz.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-traer",
+      "title": "Grafía de las formas de traer",
+      "plain": "Traer y sus derivados forman el pasado con traj-; sustraer tiene sustraj-.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · traer",
+          "url": "https://www.rae.es/dpd/traer"
+        }
+      ],
+      "exampleGood": "Trajeron dos mantas.",
+      "memoryTip": "Trajo ayuda a recordar trajeron y sustrajeron.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-conducir",
+      "title": "Grafía de las formas de conducir",
+      "plain": "Los verbos en -ducir forman el pasado con -duj- y el plural en -dujeron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · conducir",
+          "url": "https://www.rae.es/dpd/conducir"
+        }
+      ],
+      "exampleGood": "Produjeron suficientes alimentos.",
+      "memoryTip": "Condujo conserva la j en condujeron.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-satisfacer",
+      "title": "Grafía de las formas de satisfacer",
+      "plain": "Satisfacer sigue a hacer; el imperfecto de subjuntivo es satisficiera o satisficiese.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · satisfacer",
+          "url": "https://www.rae.es/dpd/satisfacer"
+        }
+      ],
+      "exampleGood": "Buscaba algo que lo satisficiera.",
+      "memoryTip": "Hiciera se reconoce dentro de satisficiera.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-b",
+      "title": "Grafía de las formas de imperfecto en -aba",
+      "plain": "Las terminaciones -aba, -abas, -ábamos, -abais y -aban se escriben con b.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · b",
+          "url": "https://www.rae.es/dpd/b"
+        }
+      ],
+      "exampleGood": "Cantaban mientras trabajaban.",
+      "memoryTip": "El imperfecto de los verbos en -ar conserva -aba.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-atribuir",
+      "title": "Grafía de las formas de atribuir",
+      "plain": "Atribuir forma la tercera persona del pretérito con y: atribuyó, atribuyeron.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · atribuir",
+          "url": "https://www.rae.es/dpd/atribuir"
+        }
+      ],
+      "exampleGood": "Atribuyeron el dibujo a otra autora.",
+      "memoryTip": "Atribuyó conserva la y en atribuyeron.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    },
+    {
+      "id": "es-ortho-verb-coger",
+      "title": "Grafía de las formas de coger",
+      "plain": "Coger y sus derivados conservan g delante de e e i; se usa j delante de a y o cuando se mantiene el mismo sonido.",
+      "sourceRefs": [
+        {
+          "name": "RAE/ASALE · Diccionario panhispánico de dudas · coger",
+          "url": "https://www.rae.es/dpd/coger"
+        }
+      ],
+      "exampleGood": "Cogieron la cuerda.",
+      "memoryTip": "Coger y cogido comparten g; coja cambia ante a.",
+      "examTrap": "Una conjugación irregular no se obtiene cambiando solo la terminación.",
+      "topicId": "consonant-spellings"
+    }
+  ]
+}

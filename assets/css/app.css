@@ -622,3 +622,29 @@ body[data-module-theme="gramatica"] .academic-training-note{color:var(--module-d
 body[data-module-theme="english"] .item,
 body[data-module-theme="ortografia"] .academic-review-item,
 body[data-module-theme="gramatica"] .academic-review-item{border-color:rgba(var(--module-accent-rgb),.16)}
+/* V26 - Estados de navegacion de preguntas claramente diferenciados. */
+body[data-module-theme] .nav-grid button,
+body[data-module-theme] .academic-nav button{
+  background:#fff!important;
+  color:var(--module-deep)!important;
+  border-color:rgba(var(--module-accent-rgb),.24)!important;
+  box-shadow:none!important;
+  filter:none!important;
+}
+body[data-module-theme] .nav-grid button.answered,
+body[data-module-theme] .academic-nav button.done{
+  background:var(--module-accent)!important;
+  color:#fff!important;
+  border-color:var(--module-accent)!important;
+  box-shadow:0 3px 9px rgba(var(--module-accent-rgb),.22)!important;
+}
+body[data-module-theme] .nav-grid button.current,
+body[data-module-theme] .academic-nav button.current{
+  outline:3px solid rgba(var(--module-accent-rgb),.55)!important;
+  outline-offset:2px!important;
+}
+body[data-module-theme] .nav-grid button.current:not(.answered),
+body[data-module-theme] .academic-nav button.current:not(.done){
+  background:#fff!important;
+  color:var(--module-deep)!important;
+}
